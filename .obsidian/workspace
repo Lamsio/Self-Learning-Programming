@@ -1,0 +1,93 @@
+{
+  "main": {
+    "id": "538501f25fa36fb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d341d6a14fc9e8f",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4d198b97514f5e3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea07c32265e950ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cb392ba65f0d76c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "96e66a04e9cdfe5b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b21de08abe3a97fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "faf48a6bd1cb859a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72c66cda4d864e8a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1d341d6a14fc9e8f",
+  "lastOpenFiles": [
+    "自学/安卓开发 Java/组件/时间选择器 DatePicker.md",
+    "自学/安卓开发 Java/组件/未命名.md",
+    "自学/安卓开发 Java/入门难点/未命名.md",
+    "自学/安卓开发 Java/布局/未命名.md",
+    "自学/安卓开发 Java/未命名.md"
+  ]
+}
