@@ -62,5 +62,6 @@ public class MainActivity extends Activity {
 ```text
 1. calendarTextColor: 定义日历的列表文字颜色
 2. datePickerMode: 定义部件外观(spinner/calendar)
-3. 
+3. spinnersShown: 是否显示下拉菜单
+4. firstDayOfWeek: 设置一周的第一天是哪一天
 ```
