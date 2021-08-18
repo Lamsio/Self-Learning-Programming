@@ -62,4 +62,5 @@ public class MainActivity extends Activity {
 ```text
 1. calendarTextColor: 定义日历的列表文字颜色
 2. datePickerMode: 定义部件外观(spinner/calendar)
+3. 
 ```
