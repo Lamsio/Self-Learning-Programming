@@ -2,7 +2,7 @@
 我们在使用APP时，总能见到拖动条的存在，该组件能够便捷地帮助用户调整数值区间，在安卓开发中，他作为ProgressBar的子类，因此也能够调用父类方法。
 
 #### 案例代码
-点击日历表，并打印所选日期
+拖动按钮，打印当前数值
 
 ```java
 public class MainActivity extends Activity {
@@ -14,16 +14,17 @@ public class MainActivity extends Activity {
         SeekBar seekBar = findViewById(R.id.sk_bar);
         TextView textView = findViewById(R.id.text_id);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-            @Override
+            // 当拖拽时
+			@Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
                 textView.setText((CharSequence) Integer.toString(i));
             }
-
+			// 当点击按钮时
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
                 Log.i("TAG","动了");
             }
-
+			// 当松开按钮时
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
                 Log.i("TAG","停了");

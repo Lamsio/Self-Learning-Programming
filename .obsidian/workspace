@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/安卓开发 Java/组件/日期选择器 DatePicker.md",
+            "file": "自学/安卓开发 Java/组件/星星评分 RatingBar.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/安卓开发 Java/组件/日期选择器 DatePicker.md",
+                "file": "自学/安卓开发 Java/组件/星星评分 RatingBar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "1d341d6a14fc9e8f",
   "lastOpenFiles": [
-    "自学/安卓开发 Java/组件/日期选择器 DatePicker.md",
-    "自学/安卓开发 Java/组件/进度条 ProgressBar.md",
-    "自学/安卓开发 Java/组件/时间选择器 TimePicker.md",
-    "自学/安卓开发 Java/组件/未命名.md",
+    "自学/安卓开发 Java/组件/星星评分 RatingBar.md",
     "自学/安卓开发 Java/组件/拖动条 SeekBar.md",
     "自学/安卓开发 Java/组件/组件常见属性.md",
+    "自学/安卓开发 Java/组件/进度条 ProgressBar.md",
+    "自学/安卓开发 Java/组件/时间选择器 TimePicker.md",
+    "自学/安卓开发 Java/组件/日期选择器 DatePicker.md",
+    "自学/安卓开发 Java/组件/未命名.md",
     "自学/安卓开发 Java/组件/时间选择器 DatePicker.md",
     "自学/安卓开发 Java/项目工程相关文件.md",
-    "Pasted image 20210818133324.png",
-    "自学/安卓开发 Java/入门难点/未命名.md"
+    "Pasted image 20210818133324.png"
   ]
 }
