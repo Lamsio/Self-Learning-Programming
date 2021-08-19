@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
 </LinearLayout>
 ```
 
-#### DatePicker 组件属性
+#### ProgressBar 组件属性
 ```text
 1. style="?android:attr/progressBarStyleHorizontal" 实时进度
 2. style="?android:attr/progressBarStyleSmall" 小的衔尾蛇
