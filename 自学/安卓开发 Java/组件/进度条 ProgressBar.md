@@ -61,8 +61,8 @@ public class MainActivity extends Activity {
 
 #### DatePicker 组件属性
 ```text
-1. calendarTextColor: 定义日历的列表文字颜色
-2. datePickerMode: 定义部件外观(spinner/calendar)
-3. spinnersShown: 是否显示下拉菜单
+1. style="?android:attr/progressBarStyleHorizontal" 实时进度
+2. style="?android:attr/progressBarStyleSmall" 小的衔尾蛇
+3. style="?android:attr/progressBarStyleLarge" 大的衔尾蛇
 4. firstDayOfWeek: 设置一周的第一天是哪一天
 ```
