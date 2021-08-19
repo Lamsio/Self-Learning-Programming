@@ -2,35 +2,23 @@
 在一些网购或者外卖平台的评分系统，往往采用星级评分，这组件能够更直观地告诉用户评分机制，从而帮助他们完成评分。
 
 #### 案例代码
-点击日历表，并打印所选日期
+点击星星，打印评分
 
 ```java
 public class MainActivity extends Activity {
-
-    private int year,month,day;
-    private DatePicker datePicker;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        datePicker = findViewById(R.id.date);
-        Calendar calendar = Calendar.getInstance();
-        year = calendar.get(Calendar.YEAR);
-        month = calendar.get(Calendar.MONTH);
-        day = calendar.get(Calendar.DAY_OF_MONTH);
-        datePicker.init(year, month, day, new DatePicker.OnDateChangedListener() {
+
+        RatingBar ratingBar = findViewById(R.id.rating);
+        TextView textView = findViewById(R.id.text_id);
+        ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
             @Override
-            public void onDateChanged(DatePicker datePicker, int i, int i1, int i2) {
-                MainActivity.this.year = i;
-                MainActivity.this.month = i1;
-                MainActivity.this.day = i2;
-                show(year,month,day);
+            public void onRatingChanged(RatingBar ratingBar, float v, boolean b) {
+                textView.setText((CharSequence) Float.toString(ratingBar.getRating()));
             }
         });
-    }
-    private void show(int year,int month,int day){
-        String str = year+"年"+(month+1)+"月"+day+"日";
-        Toast.makeText(MainActivity.this,str,Toast.LENGTH_SHORT).show();
     }
 }
 ```
@@ -42,15 +30,20 @@ public class MainActivity extends Activity {
     android:padding="16dp"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
-        <DatePicker
-            android:id="@+id/date"
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="6"
+            ></RatingBar>
+        <TextView
+            android:id="@+id/text_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:calendarTextColor="@color/purple_700"
-            android:headerBackground="@color/purple_700"
+            android:text="文字"
             >
 
-        </DatePicker>
+        </TextView>
 </LinearLayout>
 ```
 #### 代码分析
