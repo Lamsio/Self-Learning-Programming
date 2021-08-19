@@ -5,35 +5,24 @@
 
 
 #### 案例代码
-点击日历表，并打印所选日期
+每次点击按钮，进度条+10
 
 ```java
 public class MainActivity extends Activity {
-
-    private int year,month,day;
-    private DatePicker datePicker;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        datePicker = findViewById(R.id.date);
-        Calendar calendar = Calendar.getInstance();
-        year = calendar.get(Calendar.YEAR);
-        month = calendar.get(Calendar.MONTH);
-        day = calendar.get(Calendar.DAY_OF_MONTH);
-        datePicker.init(year, month, day, new DatePicker.OnDateChangedListener() {
+
+        ProgressBar progressBar = findViewById(R.id.progress_test);
+        Button btn = findViewById(R.id.btn);
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onDateChanged(DatePicker datePicker, int i, int i1, int i2) {
-                MainActivity.this.year = i;
-                MainActivity.this.month = i1;
-                MainActivity.this.day = i2;
-                show(year,month,day);
+            public void onClick(View view) {
+
+                progressBar.setProgress(progressBar.getProgress()+10);
             }
         });
-    }
-    private void show(int year,int month,int day){
-        String str = year+"年"+(month+1)+"月"+day+"日";
-        Toast.makeText(MainActivity.this,str,Toast.LENGTH_SHORT).show();
     }
 }
 ```
@@ -45,15 +34,21 @@ public class MainActivity extends Activity {
     android:padding="16dp"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
-        <DatePicker
-            android:id="@+id/date"
+        <ProgressBar
+            android:id="@+id/progress_test"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:calendarTextColor="@color/purple_700"
-            android:headerBackground="@color/purple_700"
+            style="?android:attr/progressBarStyleHorizontal"
+            >
+        </ProgressBar>
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="点我"
             >
 
-        </DatePicker>
+        </Button>
 </LinearLayout>
 ```
 #### 代码分析
@@ -64,5 +59,5 @@ public class MainActivity extends Activity {
 1. style="?android:attr/progressBarStyleHorizontal" 实时进度
 2. style="?android:attr/progressBarStyleSmall" 小的衔尾蛇
 3. style="?android:attr/progressBarStyleLarge" 大的衔尾蛇
-4. firstDayOfWeek: 设置一周的第一天是哪一天
+4. max: 进度条最大值
 ```
