@@ -8,31 +8,29 @@
 
 ```java
 public class MainActivity extends Activity {
-
-    private int year,month,day;
-    private DatePicker datePicker;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        datePicker = findViewById(R.id.date);
-        Calendar calendar = Calendar.getInstance();
-        year = calendar.get(Calendar.YEAR);
-        month = calendar.get(Calendar.MONTH);
-        day = calendar.get(Calendar.DAY_OF_MONTH);
-        datePicker.init(year, month, day, new DatePicker.OnDateChangedListener() {
+
+        SeekBar seekBar = findViewById(R.id.sk_bar);
+        TextView textView = findViewById(R.id.text_id);
+        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
-            public void onDateChanged(DatePicker datePicker, int i, int i1, int i2) {
-                MainActivity.this.year = i;
-                MainActivity.this.month = i1;
-                MainActivity.this.day = i2;
-                show(year,month,day);
+            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+                textView.setText((CharSequence) Integer.toString(i));
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+                Log.i("TAG","动了");
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                Log.i("TAG","停了");
             }
         });
-    }
-    private void show(int year,int month,int day){
-        String str = year+"年"+(month+1)+"月"+day+"日";
-        Toast.makeText(MainActivity.this,str,Toast.LENGTH_SHORT).show();
     }
 }
 ```
