@@ -1,11 +1,8 @@
 #### 介绍
 有时，我们想为程序添加一个进度条，进度条分为两种，一种是实时进度条(横条)，另一种是等待进度条(衔尾蛇)。
 
-在这份笔记中将会举例以上两种情况的使用。
-
-
 #### 案例代码
-每次点击按钮，进度条+10
+每次点击按钮，横向进度条+10
 
 ```java
 public class MainActivity extends Activity {
@@ -51,8 +48,6 @@ public class MainActivity extends Activity {
         </Button>
 </LinearLayout>
 ```
-#### 代码分析
-首先，我们要初始化datePicker，需要调用`datePicker.init()`方法，这个方法中有四个参数需要填写，分别是`year`、`month`、`day`和`onDateChangedListener()`，datePicker会根据我们所填写的`year`、`month`、`day`显示日期，而最后的监听器则是用来监听日期的点击事件的。当用户点击日历表上的日期时，会执行该监听函数的行为
 
 #### DatePicker 组件属性
 ```text
