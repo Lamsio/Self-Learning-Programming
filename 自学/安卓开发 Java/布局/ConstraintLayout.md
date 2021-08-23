@@ -17,4 +17,4 @@ X和Y: Start,End,Left,Right,Top,End
 ```
 
 #### 水平/垂直偏移
-我们可以通过为组件添加`
+我们可以通过为组件添加`app:layout_constraintHorizontal_bias=""`属性，设置组件的偏移量，一般情况下，如果设置为0
