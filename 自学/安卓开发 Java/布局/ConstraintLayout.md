@@ -6,3 +6,8 @@
 在约束布局下的所有组件必须设置约束，否则在执行程序时组件将处于坐标轴0,0的位置
 
 #### 基本方向约束
+```text
+app:layout_constraint[X]_to[Y]Of
+
+X和Y: Start,End,Left,Right,Top,End
+```
