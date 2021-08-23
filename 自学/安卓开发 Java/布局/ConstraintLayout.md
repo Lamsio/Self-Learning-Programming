@@ -39,6 +39,8 @@ app:layout_constraintEnd_toStartOf=""
 ```text
 常用属性：
 orientation: 排列方式 
-app:layo
+app:layout_constraintGuide_end: 位于参考线末尾
+app:layout_constraintGuide_percent: 位于参考线的百分比位置
+
 ```
 ###### 
