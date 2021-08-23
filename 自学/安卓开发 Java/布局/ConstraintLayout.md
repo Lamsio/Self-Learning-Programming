@@ -27,6 +27,13 @@ app:layout_constraintHorizontal_chainStyle=""
 该属性产生的效果类似于css中的`justify-content`，因此不多做解释。
 
 值得注意的一点是，只有在组件与组件相互依赖时才能够使用该布局，否则将无效。
+
+组件间头尾链接需要用到
+```
+app:layout_constraintStart_toEndOf=""
+app:layout_constraintEnd_toStartOf=""
+```
 #### 附属组件
 ###### Guideline 参考线
+
 ###### 
