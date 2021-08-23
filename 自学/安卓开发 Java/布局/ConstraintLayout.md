@@ -26,13 +26,15 @@ app:layout_constraintHorizontal_chainStyle=""
 ```
 该属性产生的效果类似于css中的`justify-content`，因此不多做解释。
 
-值得注意的一点是，只有在组件与组件相互依赖时才能够使用该布局，否则将无效。而且组件的`width`属性设置为0dp才能实现效果
+值得注意的一点是，只有在组件与组件相互依赖时才能够使用该布局，否则将无效。如果组件的`width`属性设置为0dp，那么能保证所有控件dou'neng
 
 组件间头尾链接需要用到
 ```
 app:layout_constraintStart_toEndOf=""
 app:layout_constraintEnd_toStartOf=""
 ```
+
+
 #### 附属组件
 ###### Guideline 参考线
 这挺好理解的，我们可以设置参考线，并将组件的某些点绑定至参考线上，方便我们设计页面，在实际运行时，参考线会被隐藏。
