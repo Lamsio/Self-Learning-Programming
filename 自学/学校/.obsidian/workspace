@@ -1,32 +1,29 @@
 {
   "main": {
-    "id": "95af6ecc3a15f0b3",
+    "id": "89653de93a811817",
     "type": "split",
     "children": [
       {
-        "id": "c976243cc8b9268d",
+        "id": "03358a39c57a159a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "学校/Gaming Technology II/CH1 - XML.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5a87b8731f184835",
+    "id": "c0f49bdbd2c721dd",
     "type": "split",
     "children": [
       {
-        "id": "05eb57a1803e654a",
+        "id": "fccf597ca8d97d16",
         "type": "tabs",
         "children": [
           {
-            "id": "1dfeda9ed811621c",
+            "id": "6ad2963f156d6a06",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,7 +31,7 @@
             }
           },
           {
-            "id": "7a75df4e3d2f6c6c",
+            "id": "9769b32cbfc20580",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -55,20 +52,19 @@
     "width": 300
   },
   "right": {
-    "id": "b9def31ce2bb1e2a",
+    "id": "776631cee8eadd93",
     "type": "split",
     "children": [
       {
-        "id": "c5252ff02a262eff",
+        "id": "732a3107826580bb",
         "type": "tabs",
         "children": [
           {
-            "id": "32f5fafeaadfb0ad",
+            "id": "b92915c945c2ba16",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/Gaming Technology II/CH1 - XML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,12 +82,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c976243cc8b9268d",
-  "lastOpenFiles": [
-    "学校/Gaming Technology II/未命名.md",
-    "安卓开发 Java/布局/ConstraintLayout.md",
-    "安卓开发 Java/布局/LinearLayout.md",
-    "安卓开发 Java/布局/未命名.md",
-    "安卓开发 Java/组件/进度条 ProgressBar.md"
-  ]
+  "active": "03358a39c57a159a",
+  "lastOpenFiles": []
 }
