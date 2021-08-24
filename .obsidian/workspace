@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/安卓开发 Java/布局/ConstraintLayout.md",
+            "file": "学校/时间表.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/安卓开发 Java/布局/ConstraintLayout.md",
+                "file": "学校/时间表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "1d341d6a14fc9e8f",
   "lastOpenFiles": [
+    "学校/未命名.md",
     "自学/安卓开发 Java/布局/ConstraintLayout.md",
     "自学/安卓开发 Java/组件/下拉菜单 Spinner.md",
     "自学/安卓开发 Java/组件/拖动条 SeekBar.md",
@@ -96,7 +97,6 @@
     "自学/安卓开发 Java/组件/进度条 ProgressBar.md",
     "自学/安卓开发 Java/组件/时间选择器 TimePicker.md",
     "自学/安卓开发 Java/组件/未命名.md",
-    "自学/安卓开发 Java/组件/星星评分 RatingBar.md",
-    "自学/安卓开发 Java/组件/组件常见属性.md"
+    "自学/安卓开发 Java/组件/星星评分 RatingBar.md"
   ]
 }
