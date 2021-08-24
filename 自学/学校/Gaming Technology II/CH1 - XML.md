@@ -19,4 +19,22 @@ G2S(Game-to-System)是基于网络的协议，用于Slot machines与Slot informa
 `<book></book>`标签即是根节点。
 
 #### XML属性
-XML属性类似于HTML属性，
+XML属性类似于HTML属性 `<book total="28535"></book>`
+
+XML属性与元素其实相似，选择取决于开发人员及规范
+```xml
+<person sex="female">  
+<firstname>Anna</firstname>  
+<lastname>Smith</lastname>  
+</person>
+```
+
+```xml
+<person>  
+<sex>female</sex>  
+<firstname>Anna</firstname>  
+<lastname>Smith</lastname>  
+</person>
+```
+
+以上两种皆可
