@@ -12,4 +12,11 @@ G2S(Game-to-System)是基于网络的协议，用于Slot machines与Slot informa
 在XML中，其语法与HTML相似，必须拥有根节点，即类似于如下代码:
 ```xml
 <book>
+	<title>咸鱼是怎样练成的</title>
+	<author>TOMMY</author>
+</book>	
 ```
+`<book></book>`标签即是根节点。
+
+#### XML属性
+XML属性类似于HTML属性，
