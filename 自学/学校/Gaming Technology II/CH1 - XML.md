@@ -43,10 +43,11 @@ XML属性与元素其实相似，选择取决于开发人员及规范
 
 ```xml
 <table xmlns="http://www.w3.org/TR/html4/">  
-<tr>  
-<td>Apples</td>  
-<td>Bananas</td>  
-</tr>  
+	<tr>  
+		<td>Apples</td>  
+		<td>Bananas</td>  
+	</tr>  
 </table>
 
 ```
+我们只需要为根节点添加`xmlns`属性即可声明命名空间，上述代码将不会与HTML的`<table>`冲突。
