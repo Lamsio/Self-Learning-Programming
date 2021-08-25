@@ -249,3 +249,25 @@ final FragmentController mFragments = FragmentController.createController(new Ho
 }
  ```
  我们可以看到FragmentActivity下有个**FragmentController**，这个类定义了所有对Fragment的管理操作，包含了我们的Activity在`onCreate`,`onResume`,`onDestroy`等各种生命周期或回调对Fragment的影响，都由这个类来控制的。
+ 
+ ###### FragmentTransaction的常见方法
+ ```java
+#将一个fragment实例添加到Activity里面指定id的容器中
+add(Fragment fragment, String tag)
+add(int containerViewId, Fragment fragment)
+add(int containerViewId, Fragment fragment, String tag);
+ #将一个fragment实例从FragmentManager的FragmentList中移除
+remove(Fragment fragment);
+#只控制Fragment的隐藏
+hide(Fragment fragment)
+#只控制Fragment的显示
+show(Fragment fragment)
+#清除视图，从containerid指定的Added列表移除，FragmentList依然保留
+detach(Fragment fragment)
+#创建视图，添加到containerid指定的Added列表，FragmentList依然保留
+attach(Fragment fragment)
+#替换containerViewId中的fragment，它会把containerViewId中所有fragment删除，然后添加当前的fragment
+replace(int containerViewId, Fragment fragment)
+replace(int containerViewId, Fragment fragment, String tag)
+```
+ 
