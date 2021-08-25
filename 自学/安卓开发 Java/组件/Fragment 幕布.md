@@ -95,3 +95,44 @@ public class BlankFragment extends Fragment {
 #### 动态加载
 ###### 静态与动态区别
 上述静态案例我们可知，当该Activity加载时，就直接将Fragment加载到页面上，而动态加载则是通过触发某些事件从而展示相应的Fragment，例如点击不同的按钮展示不同的fragment
+
+```java
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        ImageButton btn,btn1,btn2,btn3;
+        btn = (ImageButton) findViewById(R.id.img1);
+        btn1 = (ImageButton) findViewById(R.id.img2);
+        btn2 = (ImageButton) findViewById(R.id.img3);
+        btn3 = (ImageButton) findViewById(R.id.img4);
+
+        btn.setOnClickListener(this);
+        btn1.setOnClickListener(this);
+        btn2.setOnClickListener(this);
+        btn3.setOnClickListener(this);
+
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.img1: replaceFragment(new BlankFragment());break;
+            case R.id.img2: replaceFragment(new BlankFragment2());break;
+            case R.id.img3: replaceFragment(new BlankFragment3());break;
+            case R.id.img4: replaceFragment(new BlankFragment4());break;
+        }
+    }
+
+    private void replaceFragment(Fragment fragment){
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        Log.i("ALL",fragmentManager.getFragments().toString());
+        fragmentTransaction.replace(R.id.main_display,fragment);
+        fragmentTransaction.addToBackStack(null);
+        fragmentTransaction.commit();
+    }
+}
+```
