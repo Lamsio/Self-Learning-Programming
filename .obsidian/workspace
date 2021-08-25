@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/安卓开发 Java/布局/ConstraintLayout.md",
-            "mode": "preview"
+            "file": "自学/安卓开发 Java/组件/Fragment 幕布.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/安卓开发 Java/布局/ConstraintLayout.md",
+                "file": "自学/安卓开发 Java/组件/Fragment 幕布.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "1d341d6a14fc9e8f",
   "lastOpenFiles": [
+    "自学/安卓开发 Java/组件/Fragment 幕布.md",
     "自学/安卓开发 Java/布局/ConstraintLayout.md",
     "自学/安卓开发 Java/组件/未命名.md",
     "自学/安卓开发 Java/组件/进度条 ProgressBar.md",
@@ -96,7 +97,6 @@
     "学校/未命名.md",
     "自学/安卓开发 Java/组件/下拉菜单 Spinner.md",
     "自学/安卓开发 Java/组件/拖动条 SeekBar.md",
-    "自学/安卓开发 Java/组件/图像切换器 ImageSwitcher.md",
-    "自学/安卓开发 Java/组件/日期选择器 DatePicker.md"
+    "自学/安卓开发 Java/组件/图像切换器 ImageSwitcher.md"
   ]
 }
