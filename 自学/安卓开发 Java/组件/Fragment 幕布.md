@@ -216,4 +216,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-以上是简略代码，以上代码实现了每当用户点击不同的按钮，都会展示不同
+以上是简略代码，以上代码实现了每当用户点击不同的按钮，都会展示不同的内容
+
+ ###### 获取Fragment的三种方式
+```cpp
+fragmentManager = getSupportFragmentManager();
+// 通过id查找对应的Fragment实例
+fragment1 = (StudyFragment) fragmentManager.findFragmentById(R.id.fragment_study1);
+// 通过tag找到对应的Fragment，在动态加载和静态加载中都可以使用
+ secondFragment = (SecondFragment) fragmentManager.findFragmentByTag("fragment_second");
+// 获取添加到FragmentManager的所有Fragment，通过index访问，0代表最早添加的Fragment
+fragmentManager.getFragments()
+```
+ 
