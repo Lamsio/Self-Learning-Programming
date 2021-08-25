@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 以上是简略代码，以上代码实现了每当用户点击不同的按钮，都会展示不同的内容
 
  ###### 获取Fragment的三种方式
-```cpp
+```java
 fragmentManager = getSupportFragmentManager();
 // 通过id查找对应的Fragment实例
 fragment1 = (StudyFragment) fragmentManager.findFragmentById(R.id.fragment_study1);
@@ -228,4 +228,8 @@ fragment1 = (StudyFragment) fragmentManager.findFragmentById(R.id.fragment_study
 // 获取添加到FragmentManager的所有Fragment，通过index访问，0代表最早添加的Fragment
 fragmentManager.getFragments()
 ```
+ 
+ ###### FragmentManager如何管理Fragment
+ 每次我们对Fragment的操作都需要通过FragmentTransaction，我们知道，Fragment继承自FragmentActivity，开发者希望我们在使用Fragment的时候只需要关注对Fragment的操作，而Fragment的管理则交由FragmentActivity的FragmentManager来实现。
+ 
  
