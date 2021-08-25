@@ -94,4 +94,4 @@ public class BlankFragment extends Fragment {
 
 #### 动态加载
 ###### 静态与动态区别
-上述静态案例我们可知，当该Activity加载时，就直接将Fragment加载到页面上，而动态加载则是通过触发某些事件从而
+上述静态案例我们可知，当该Activity加载时，就直接将Fragment加载到页面上，而动态加载则是通过触发某些事件从而展示相应的Fragment，例如点击不同的按钮展示不同的fragment
