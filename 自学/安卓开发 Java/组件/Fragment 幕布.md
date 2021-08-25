@@ -97,6 +97,8 @@ public class BlankFragment extends Fragment {
 上述静态案例我们可知，当该Activity加载时，就直接将Fragment加载到页面上，而动态加载则是通过触发某些事件从而展示相应的Fragment，例如点击不同的按钮展示不同的fragment
 
 ```java
+//MainActivity.java
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
@@ -136,3 +138,82 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 }
 ```
+
+```xml
+//activity_main.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@+id/main_display"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHeight_percent="0.9"
+        ></FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/main_display"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/img2"
+            android:src="@mipmap/ic_launcher"
+            android:background="@android:color/transparent"
+            >
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@id/img1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img1"
+            app:layout_constraintEnd_toStartOf="@id/img3"
+            android:src="@mipmap/ic_launcher"
+            android:background="@android:color/transparent"
+            >
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@id/img2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img2"
+            app:layout_constraintEnd_toStartOf="@id/img4"
+            android:src="@mipmap/ic_launcher"
+            android:background="@android:color/transparent"
+            >
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@id/img3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img3"
+            android:src="@mipmap/ic_launcher"
+            android:background="@android:color/transparent"
+            >
+        </ImageButton>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+以上是简略代码，以上代码实现了每当用户点击不同的按钮，都会展示不同
