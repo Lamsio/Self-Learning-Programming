@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/安卓开发 Java/入门难点/Intent和Bundle.md",
+            "file": "自学/安卓开发 Java/入门难点/Adapter.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/安卓开发 Java/入门难点/Intent和Bundle.md",
+                "file": "自学/安卓开发 Java/入门难点/Adapter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "1d341d6a14fc9e8f",
   "lastOpenFiles": [
+    "自学/安卓开发 Java/入门难点/Adapter.md",
     "自学/安卓开发 Java/入门难点/未命名.md",
     "自学/安卓开发 Java/组件/Fragment 幕布.md",
     "自学/安卓开发 Java/布局/ConstraintLayout.md",
@@ -96,7 +97,6 @@
     "自学/学校/Gaming Technology II/CH1 - XML.md",
     "学校/时间表.md",
     "学校/未命名.md",
-    "自学/安卓开发 Java/组件/下拉菜单 Spinner.md",
-    "自学/安卓开发 Java/组件/拖动条 SeekBar.md"
+    "自学/安卓开发 Java/组件/下拉菜单 Spinner.md"
   ]
 }
