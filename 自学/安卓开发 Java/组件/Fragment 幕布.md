@@ -89,3 +89,5 @@ public class BlankFragment extends Fragment {
 ```
 
 以上的案例是直接加载Fragment进Activity中，但实际应用中，我们往往都需要动态加载而不是静态加载。
+
+**切记！布局文件中的Fragment标签必须包含id属性！！！！**
