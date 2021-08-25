@@ -232,4 +232,20 @@ fragmentManager.getFragments()
  ###### FragmentManager如何管理Fragment
  每次我们对Fragment的操作都需要通过FragmentTransaction，我们知道，Fragment继承自FragmentActivity，开发者希望我们在使用Fragment的时候只需要关注对Fragment的操作，而Fragment的管理则交由FragmentActivity的FragmentManager来实现。
  
- 
+ 在FragmentAactivity这个类下面，当我们调用getSupportManager的时候
+ ```java
+public class FragmentActivity extends BaseFragmentActivityJB implements
+        ActivityCompat.OnRequestPermissionsResultCallback,
+        ActivityCompatApi23.RequestPermissionsRequestCodeValidator {
+    ···
+final FragmentController mFragments = FragmentController.createController(new HostCallbacks());
+    
+    ···
+
+    public FragmentManager getSupportFragmentManager() {
+        return mFragments.getSupportFragmentManager();
+    }
+    ···
+}
+ ```
+ 我们可以看到FragmentActivity下有个**FragmentController**，这个类定义了所有对Fragment的管理操作，包含了我们的Activity在`onCreate`,`onResume`,`onDestroy`等各种生命周期或回调对Fragment的影响，都由这个类来控制的。
