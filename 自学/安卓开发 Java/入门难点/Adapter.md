@@ -249,4 +249,29 @@ ListView先通过`getView()`方法请求一个View，然后请求其他可见Vie
 ```
 
 ###### onCreateViewHolder
-该方法类似于ListView的`getView()`方法，但在其之上hai
+该方法类似于ListView的`getView()`方法，但在其之上还增加了`ViewHolder`的特性
+
+我们在该方法中需要返回一个ViewHolder对象
+
+```java
+        @NonNull
+        @Override
+        public MyAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.each_item,null,false);
+            MyViewHolder myViewHolder = new MyViewHolder(v);
+            Log.i("AKBCD",myViewHolder.toString()+"是OnCreate");
+            return myViewHolder;
+        }
+```
+
+###### onBindViewHolder
+每当有新项目生成/旧项目滚入时，就会调用该方法
+
+```java
+        @Override
+        public void onBindViewHolder(MyAdapter.MyViewHolder holder, int position) {
+            holder.textView.setText(mData.get(position).getIntro());
+            holder.imageView.setBackgroundResource(mData.get(position).getPic());
+        }
+
+```
