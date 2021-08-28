@@ -203,6 +203,9 @@ public class MyAdapter extends AppCompatActivity {
 }
 ```
 
+核心思想：
+1. ListView中每行Item的布局XML
+2. getView方法用于定义如何处理每行数据的渲染
 ###### LayoutInflater
 布局映射器，其作用是将XML映射为一个View对象
 

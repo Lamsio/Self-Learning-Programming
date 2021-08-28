@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学校/时间表.md",
-            "mode": "preview"
+            "file": "自学/安卓开发 Java/入门难点/Adapter.md",
+            "mode": "source"
           }
         }
       }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302,
-    "collapsed": true
+    "width": 302
   },
   "right": {
     "id": "b21de08abe3a97fe",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/时间表.md",
+                "file": "自学/安卓开发 Java/入门难点/Adapter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +88,8 @@
   },
   "active": "1d341d6a14fc9e8f",
   "lastOpenFiles": [
-    "学校/时间表.md",
     "自学/安卓开发 Java/入门难点/Adapter.md",
+    "学校/时间表.md",
     "自学/安卓开发 Java/入门难点/未命名.md",
     "自学/安卓开发 Java/组件/Fragment 幕布.md",
     "自学/安卓开发 Java/布局/ConstraintLayout.md",
