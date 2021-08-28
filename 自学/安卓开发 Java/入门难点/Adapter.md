@@ -222,3 +222,11 @@ ListView有多少项，就调用多少次`getView()`方法去创建每一项View
 
 ###### ListView的缓存原理
 ListView先通过`getView()`方法请求一个View，然后请求其他可见View。`convertView`在`getView`中是空的(null)。当列表第一项滚出屏幕，并且一个新的项从屏幕底端上来时，ListView会再请求一个View，此时，convertView已经不是空值了，他的值将是滚出屏幕的第一项，之后只需要设定新的数据，然后返回convertView即可，而不是再创建一个View
+
+#### RecycleView.Adapter
+自定义Adapter继承该类后，有以下几个方法需要重载
+1. onCreateViewHolder
+2. onBindViewHolder
+3. getItemCount
+
+此外，还需要为其自定义一个
