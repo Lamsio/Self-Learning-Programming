@@ -1,0 +1,5 @@
+#### 四大重点
+1. ACTION
+2. CATEGORY
+3. DATA
+4. EXTRAS
