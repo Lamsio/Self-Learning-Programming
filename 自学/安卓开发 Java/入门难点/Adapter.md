@@ -275,3 +275,9 @@ ListView先通过`getView()`方法请求一个View，然后请求其他可见Vie
         }
 
 ```
+
+首先，onBindeViewHolder方法的调用时机是item出现（或将要出现）在屏幕上时，这时需要向传入的viewHolder中填充数据等操作。
+
+然后，onCreateViewHolder的目的是创建viewHolder。而viewHolder作为recyclerView缓存管理的对象是可以在列表中复用的。
+
+最后，当屏幕上下滑动，子项移除屏幕viewHolder就会被回收，子项复用时会从缓存池中判断item type再次调用onBindViewHolder方法。
