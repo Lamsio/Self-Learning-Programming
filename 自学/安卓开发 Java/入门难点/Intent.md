@@ -23,6 +23,15 @@ ACTION_PACKAGE_REMOVED：卸载了Android系统已存在的Application之后发�
 ```
 #### DATA
 Data: DATA通常是URL格式定义的操作数据。列如:tel//。通过setData()方法设置。
+```text
+ tel://：号码数据格式，后跟电话号码。   
+ mailto://：邮件数据格式，后跟邮件收件人地址。  
+ smsto://：短息数据格式，后跟短信接收号码。  
+ content://：内容数据格式，后跟需要读取的内容。   
+ file://：文件数据格式，后跟文件路径。  
+ market://search?q=pname:pkgname：市场数据格式，在Google Market里搜索包名为pkgname的应用。  
+geo://latitude,longitude:经纬数据格式，在地图上显示经纬度指定的位置。
+```
 #### CATEGORY
 Category：Category属性用于指定当前动作(Action)被执行的环境。通过addCategory()方法或在清单文件 AndroidMainfest.xml中设置.默认为:CATEGORY_DEFAULT。
 ```text
@@ -36,4 +45,11 @@ Category：Category属性用于指定当前动作(Action)被执行的环境。�
 #### EXTRAS
 Extras：主要用于传递目标组件所需要的额外数据。通过putExtras()方法设置.
 ```text
-
+ EXTRA_BCC：存放邮件密送人地址的字符串数组。   
+ EXTRA_CC：存放邮件抄送人地址的字符串数组。  
+ EXTRA_EMAIL：存放邮件地址的字符串数组。   
+ EXTRA_SUBJECT：存放邮件主题字符串。   
+ EXTRA_TEXT：存放邮件内容。   
+ EXTRA_KEY_EVENT：以KeyEvent对象方式存放触发Intent的按键。   
+ EXTRA_PHONE_NUMBER：存放调用ACTION_CALL时的电话号码。
+```
