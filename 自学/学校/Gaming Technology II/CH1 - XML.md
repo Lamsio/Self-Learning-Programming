@@ -52,5 +52,22 @@ XML属性与元素其实相似，选择取决于开发人员及规范
 ```
 我们只需要为根节点添加`xmlns`属性即可声明命名空间，上述代码将不会与HTML的`<table>`冲突。
 
+#### 转义
+当我们想在XML中输入纯字符<>等特殊意义字符，可以使用
+```xml
+   
+
+<p>
+
+<![CDATA[
+
+ You can enter any characters (e.g. "<" and '>') within a CDATA section. Only the ending symbol has special meaning.
+
+ ]]>
+
+</p>
+```
+
+
 #### 笔者小想法
 看完Runoob关于XML的介绍后，感觉XML类似于标签化的json数据。。。
