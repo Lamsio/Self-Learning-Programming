@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/安卓开发 Java/组件/Fragment 幕布.md",
+            "file": "自学/安卓开发 Java/布局/ConstraintLayout.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/安卓开发 Java/组件/Fragment 幕布.md",
+                "file": "自学/安卓开发 Java/布局/ConstraintLayout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "1d341d6a14fc9e8f",
   "lastOpenFiles": [
+    "自学/安卓开发 Java/布局/ConstraintLayout.md",
     "自学/安卓开发 Java/组件/Fragment 幕布.md",
     "自学/学校/S-DES.md",
     "自学/学校/未命名 1.md",
@@ -96,7 +97,6 @@
     "学校/Computer Security/Untitled.md",
     "学校/时间表.md",
     "自学/安卓开发 Java/入门难点/未命名.md",
-    "自学/安卓开发 Java/入门难点/Intent和Bundle.md",
-    "自学/安卓开发 Java/入门难点/Adapter.md"
+    "自学/安卓开发 Java/入门难点/Intent和Bundle.md"
   ]
 }
