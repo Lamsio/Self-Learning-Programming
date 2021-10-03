@@ -55,3 +55,4 @@ Extras：主要用于传递目标组件所需要的额外数据。通过putExtra
  EXTRA_KEY_EVENT：以KeyEvent对象方式存放触发Intent的按键。   
  EXTRA_PHONE_NUMBER：存放调用ACTION_CALL时的电话号码。
 ```
+#### Component name
