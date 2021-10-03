@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/安卓开发 Java/入门难点/Intent.md",
-            "mode": "source"
+            "file": "学校/时间表.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/安卓开发 Java/入门难点/Intent.md",
+                "file": "学校/时间表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "1d341d6a14fc9e8f",
   "lastOpenFiles": [
+    "学校/时间表.md",
     "自学/安卓开发 Java/入门难点/Intent.md",
     "学校/周报告.md",
-    "学校/时间表.md",
     "学校/Untitled.md",
     "自学/学校/未命名 1.md",
     "自学/学校/S-DES.md",
