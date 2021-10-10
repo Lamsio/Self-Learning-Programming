@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学校/Digital/CDF PDF.md",
+            "file": "自学/安卓开发 Java/入门难点/Handler.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/Digital/CDF PDF.md",
+                "file": "自学/安卓开发 Java/入门难点/Handler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "1d341d6a14fc9e8f",
   "lastOpenFiles": [
+    "自学/安卓开发 Java/入门难点/Untitled.md",
+    "学校/Digital/CDF PDF.md",
     "学校/Digital/Untitled.md",
     "学校/Untitled.md",
     "学校/Computer Security/Untitled.md",
@@ -95,8 +97,6 @@
     "自学/安卓开发 Java/入门难点/Intent.md",
     "学校/周报告.md",
     "自学/学校/未命名 1.md",
-    "自学/学校/S-DES.md",
-    "自学/安卓开发 Java/布局/ConstraintLayout.md",
-    "自学/安卓开发 Java/组件/Fragment 幕布.md"
+    "自学/学校/S-DES.md"
   ]
 }
