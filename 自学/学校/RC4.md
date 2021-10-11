@@ -20,3 +20,4 @@ end
 ![[Pasted image 20211011123311.png]]
 ![[Pasted image 20211011124208.png]]
 ![[Pasted image 20211011124309.png]]
+![[Pasted image 20211011124659.png]]
