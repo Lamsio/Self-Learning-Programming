@@ -1,3 +1,7 @@
+分三步
+1. 初始化
+2. 初始化S的排序
+3. Stream生成
 K = [1 2 3 6]
 P = [1 2 2 2]
 Ciphertext=??
@@ -21,3 +25,4 @@ end
 ![[Pasted image 20211011124208.png]]
 ![[Pasted image 20211011124309.png]]
 ![[Pasted image 20211011124659.png]]
+![[Pasted image 20211015101428.png]]
