@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "03358a39c57a159a",
+        "id": "db31351e0fb06a76",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -82,6 +82,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "03358a39c57a159a",
-  "lastOpenFiles": []
+  "active": "db31351e0fb06a76",
+  "lastOpenFiles": [
+    "Pasted image 20211011123034.png.md",
+    "RC4.md"
+  ]
 }
