@@ -7,11 +7,8 @@
         "id": "c976243cc8b9268d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "学校/未命名 1.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/未命名 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
