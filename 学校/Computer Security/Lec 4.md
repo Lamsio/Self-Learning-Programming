@@ -7,4 +7,6 @@
 #### Cipher Block Chaining(CBC)
 ![[Pasted image 20211030192918.png]]
 
-在ECB基础上插入IV
+在ECB基础上插入IV,每个密码块都依赖前一个密码块
+
+其中IV必须被
