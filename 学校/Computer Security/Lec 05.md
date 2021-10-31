@@ -1,5 +1,5 @@
 
-## RandomNumbers
+## Random Numbers
 #### Type of Random number generator
 1. True RNG
 2. Pseudo RNG

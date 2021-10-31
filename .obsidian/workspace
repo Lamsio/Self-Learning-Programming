@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1d341d6a14fc9e8f",
+        "id": "f76f860881212545",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "学校/Computer Security/Lec 05.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/Computer Security/Lec 05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +82,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1d341d6a14fc9e8f",
+  "active": "f76f860881212545",
   "lastOpenFiles": [
     "学校/Computer Security/Lec 05.md",
     "学校/Computer Security/Lec 4.md",
