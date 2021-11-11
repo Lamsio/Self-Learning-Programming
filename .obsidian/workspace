@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/Java/多线程/Wait() 与 Notify().md",
-            "mode": "preview"
+            "file": "自学/Java/多线程/ReentrantLock.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/Java/多线程/Wait() 与 Notify().md",
+                "file": "自学/Java/多线程/ReentrantLock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/Java/多线程/ReentrantLock.md",
     "自学/Java/多线程/Wait() 与 Notify().md",
     "自学/Java/线程的问题/线程饥饿.md",
     "饥饿.md",
@@ -96,7 +97,6 @@
     "学校/Computer Security/Lec 05.md",
     "学校/Computer Security/Lec 4.md",
     "自学/安卓开发 Java/组件/星星评分 RatingBar.md",
-    "自学/学校/RC4.md",
-    "学校/Computer Security/Lec 1.md"
+    "自学/学校/RC4.md"
   ]
 }
