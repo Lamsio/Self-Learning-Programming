@@ -23,4 +23,26 @@ class TaskQueue {
 
 但事实并不如我们所料，当队列为空时，`getTask()`会卡在while循环，无法释放锁。这意味着其他人也无法调用`addTask()`去添加元素。
 
-那么有没有一种方法能让`getTask()`暂时释放锁，等
+那么有没有一种方法能让`getTask()`暂时释放锁，等添加元素后再重新获取锁呢？
+
+那就需要依靠`Wait()`与`Notify()`了。
+
+```java
+class TaskQueue {
+    Queue<String> queue = new LinkedList<>();
+
+    public synchronized void addTask(String s) {
+        this.queue.add(s);
+		this.notify(); //唤醒wait();
+    }
+
+    public synchronized String getTask() {
+        while (queue.isEmpty()) {
+			this.wait(); // 暂时释放锁
+        }
+        return queue.remove();
+    }
+}
+```
+
+我们为`addTask()`和`getTask()`分别调用了`Wait()`与`Notify()`，这样，当队列为空时，会暂时放弃锁，等其他人调用`addTask()`时，会唤醒他，并
