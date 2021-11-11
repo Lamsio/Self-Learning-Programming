@@ -45,4 +45,7 @@ class TaskQueue {
 }
 ```
 
-我们为`addTask()`和`getTask()`分别调用了`Wait()`与`Notify()`，这样，当队列为空时，会暂时放弃锁，等其他人调用`addTask()`时，会唤醒他，并
+我们为`addTask()`和`getTask()`分别调用了`Wait()`与`Notify()`，这样，当队列为空时，会暂时放弃锁，等其他人调用`addTask()`时，会唤醒他，并继续任务。
+
+###### 注意
+`Notify()`是随机唤醒一个`wait()`，这里更加推荐使用`notifyAll()`，该方法能够唤醒所有`wait()`，这函数更加安全，避免了饥饿()
