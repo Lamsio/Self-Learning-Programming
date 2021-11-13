@@ -20,3 +20,8 @@ File f = new File("C:\\Windows\\notepad.exe");
 2. `getAbsolutePath()` — 返回绝对路径
 3. `getCanonicalPath()` — 返回规范路径
 
+#### 文件与目录
+`File`对象可以表示文件，也能表示目录。即使传入的路径并不存在，对象也不会报错，开发者可以使用`isFile()`和`isDirectory()`，判断该`File`是否是一个存在的文件或目录。
+
+除此之外，还能调用:
+- 
