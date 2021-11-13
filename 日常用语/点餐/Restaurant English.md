@@ -25,4 +25,11 @@ Check, please~
 Here's 100 dollars, keep the change. (国外餐厅多数都有小费礼仪)
 
 #### Wrapping up
-Excuse me,
+Excuse me, I would like to take the rest. Can you wrap them up for me?
+
+OK. I will get you a doggy bag(打包袋).
+
+#### More...
+Can I get a ___?
+
+What would you recommend?
