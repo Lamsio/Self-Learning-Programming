@@ -24,4 +24,25 @@ File f = new File("C:\\Windows\\notepad.exe");
 `File`对象可以表示文件，也能表示目录。即使传入的路径并不存在，对象也不会报错，开发者可以使用`isFile()`和`isDirectory()`，判断该`File`是否是一个存在的文件或目录。
 
 除此之外，还能调用:
-- 
+- `boolean canRead()`: 是否可读
+- `boolean canWrite()`: 是否可写
+- `boolean canExecute()`: 是否可执行
+- `long length()`: 文件的字节大小
+
+#### 创建和删除
+如果`File`表示为一个文件时，可以通过`createNewFile()`创建一个新的文件，用`delete()`即可删除。
+```java
+File file = new File("/path/to/file");
+if (file.createNewFile()) {
+    // 文件创建成功:
+    // TODO:
+    if (file.delete()) {
+        // 删除文件成功:
+    }
+}
+```
+
+### 遍历文件和目录
+
+当File对象表示一个目录时，可以使用`list()`和`listFiles()`列出目录下的文件和子目录名。`listFiles()`提供了一系列重载方法，可以过滤不想要的文件和目录：
+
