@@ -16,4 +16,7 @@ File f = new File("C:\\Windows\\notepad.exe");
 
 #### 路径的表达形式
 `File`对象提供了三种路径的表达形式
-1. getPath()
+1. `getPath()` — 返回构建方法中传入的路径
+2. `getAbsolutePath()` — 返回绝对路径
+3. `getCanonicalPath()` — 返回规范路径
+
