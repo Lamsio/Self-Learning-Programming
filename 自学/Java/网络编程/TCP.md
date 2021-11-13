@@ -174,3 +174,4 @@ OutputStream out = sock.getOutputStream();
 如果不调用`flush()`，我们很可能会发现，客户端和服务器都收不到数据，这并不是Java标准库的设计问题，而是我们以流的形式写入数据的时候，并不是一写入就立刻发送到网络，而是先写入内存缓冲区，直到缓冲区满了以后，才会一次性真正发送到网络，这样设计的目的是为了提高传输效率。如果缓冲区的数据很少，而我们又想强制把这些数据发送到网络，就必须调用`flush()`强制把缓冲区数据发送出去。
 
 #### 个人小结
+Server端与Client端交流依赖于同一个Socket的InputStream和OutputStream，因此双方想互发信息必须从InputStream和OutputStream下手，为方便起见，本文章内的代码采用BufferedWriter和BufferedReader操作IO流
