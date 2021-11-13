@@ -3,4 +3,17 @@
 
 构建`File`对象时，需要在构造参数处传入文件的路径，如:
 
-`File f = new File("C:\\Windows\\notepad.exe");`
+```java
+File f = new File("C:\\Windows\\notepad.exe");
+```
+
+###### 注意
+在Windows系统中，我们采用`\`作为路径分隔符。
+
+在Linux系统中，我们采用`/`作为路径分隔符。
+
+`.`用于表示当前目录，`..`用于表示上级目录。
+
+#### 路径的表达形式
+`File`对象提供了三种路径的表达形式
+1. getPath()
