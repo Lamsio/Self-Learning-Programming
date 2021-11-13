@@ -12,3 +12,17 @@ Any recommendations?
 This set menu(套餐) is very popular, and it's half price today.
 
 That sounds great. I'll have that. I'd like my steak medium-well. And also Ranch dressing for my salad.
+
+###### Some tips for ordering your steak...
+medium-rare : 三分熟
+medium : 五分熟
+medium-well : 七分熟
+well-done : 全熟
+
+#### Paying the bill
+Check, please~
+
+Here's 100 dollars, keep the change. (国外餐厅多数都有小费礼仪)
+
+#### Wrapping up
+Excuse me,
