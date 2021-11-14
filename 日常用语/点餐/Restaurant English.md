@@ -32,4 +32,8 @@ OK. I will get you a doggy bag(打包袋).
 #### More...
 Can I get a ___?
 
+I'll have____
+What kind of dressing would you like?
+I'll go with honey mustard dressing
+
 What would you recommend?
