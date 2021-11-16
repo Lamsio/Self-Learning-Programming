@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/区块链/区块链原理.md",
+            "file": "自学/区块链/P2P交易原理.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/区块链/区块链原理.md",
+                "file": "自学/区块链/P2P交易原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/区块链/P2P交易原理.md",
     "自学/区块链/区块链原理.md",
     "学校/Computer Security/Lec 3.md",
     "学校/IP Routing/4.1 Distance Vector Routing Protocol.md",
@@ -96,7 +97,6 @@
     "自学/Java/IO流/序列化.md",
     "自学/Java/IO流/Filter 模式.md",
     "Pasted image 20211022163921.png",
-    "日常用语/点餐/Restaurant English.md",
-    "自学/Java/多线程/ReadwriteLock.md"
+    "日常用语/点餐/Restaurant English.md"
   ]
 }
