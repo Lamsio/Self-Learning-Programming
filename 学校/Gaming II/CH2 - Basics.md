@@ -122,7 +122,15 @@ Three types: `request`、`response` and `notification`
 一个`class element`有且仅有一个指令子元素
 
 ```xml
+# EGM发送keepAlive请求，从device 1到host
 <communications deviceId="1" sessionType="G2S_request" ... >
      <keepAlive /> 
+</communications>
+```
+
+```xml
+# host响应一个请求，并返回给device 1
+<communications deviceId="1" sessionType="G2S_response" ... >
+     <keepAliveAck /> 
 </communications>
 ```
