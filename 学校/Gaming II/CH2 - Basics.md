@@ -147,4 +147,4 @@ All class elements contain the same set of base attributes
 #### Events
 事件是异步处理请求，发送给订阅的主机处，通知其EGM上的某些数据发生了改变。
 
-
+每台EGM有且仅有一个Owner，Owner可以进行读写操作，而其他host则只能进行读操作。
