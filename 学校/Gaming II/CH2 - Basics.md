@@ -146,3 +146,5 @@ All class elements contain the same set of base attributes
 
 #### Events
 事件是异步处理请求，发送给订阅的主机处，通知其EGM上的某些数据发生了改变。
+
+
