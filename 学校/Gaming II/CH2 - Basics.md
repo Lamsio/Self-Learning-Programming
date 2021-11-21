@@ -19,3 +19,7 @@ Server-trigger jackpot
 相比SAS，G2S更加高效地解决各种各样的问题
 
 GSA主要分为`G2S`、`S2S`以及`Transport`
+
+#### Machine model
+machine model由许多硬件所构成，常见的有以下几种。
+![[Pasted image 20211121164822.png]]
