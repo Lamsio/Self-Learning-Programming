@@ -104,3 +104,14 @@ Player tracking
     …
 </recallLogList>
 ```
+
+#### Message
+常见的指令:
+1. Get[X]Status
+2. [X]Status
+3. Set[X]State
+4. Get[X]Profile
+5. [X]Profile
+...
+
+Similar commands to get transaction log.
