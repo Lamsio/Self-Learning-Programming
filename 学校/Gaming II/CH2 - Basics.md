@@ -134,3 +134,12 @@ Three types: `request`、`response` and `notification`
      <keepAliveAck /> 
 </communications>
 ```
+###### Attributes in class element
+All class elements contain the same set of base attributes
+1. deviceId – identifier assigned to a device within a class by the EGM
+2. commandId – unique identifier assigned by originator of a command
+3. dateTime – date and time the command was originated
+4. sessionType – request, response or notification
+5. sessionId – session identifier assigned by the requestor and returned by the responder
+6. timeToLive – number of milliseconds from the time a command was originated before it should be ignored. This is set according to the timeToLive profile attribute of the device.
+7. errorCode, errorText – report application-level errors
