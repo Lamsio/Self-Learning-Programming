@@ -13,4 +13,9 @@ cabinetStatus contains
 
 当特定事件发生时，状态会改变，例如`door open`
 
-当门打开时，会将`egmEnabled`设置为`False`
+当门打开时，会将`egmEnabled`设置为`False`，当关闭时则设置回`True`
+
+###### 四种不会影响egmEnabled的事件
+1. Service lamp on/off
+2. backup battery low
+3. EGM restart/power up
