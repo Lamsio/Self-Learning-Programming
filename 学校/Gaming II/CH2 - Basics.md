@@ -143,3 +143,6 @@ All class elements contain the same set of base attributes
 5. sessionId – session identifier assigned by the requestor and returned by the responder
 6. timeToLive – number of milliseconds from the time a command was originated before it should be ignored. This is set according to the timeToLive profile attribute of the device.
 7. errorCode, errorText – report application-level errors
+
+#### Events
+事件是异步处理请求，发送给订阅的主机处，通知其EGM上的某些数据发生了改变。
