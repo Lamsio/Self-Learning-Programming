@@ -23,3 +23,4 @@ GSA主要分为`G2S`、`S2S`以及`Transport`
 #### Machine model
 machine model由许多硬件所构成，常见的有以下几种。
 ![[Pasted image 20211121164822.png]]
+相同的硬件的`device id`不能是相同的。例如`gamePlay`可以是1和2，
