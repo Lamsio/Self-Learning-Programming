@@ -36,4 +36,7 @@ noteAcceptorStatus contains
 4. disconnected, illegalActivity
 5. firmwareFault, mechanicalFault, opticalFault, componentFault, nvMemoryFault
 
+其他device也大同小异，因此不一一列举，感兴趣的可以查看![[3monitor.pptx]]
 
+
+如果`egmEnabled = false`或者`hostEnabled = false`
