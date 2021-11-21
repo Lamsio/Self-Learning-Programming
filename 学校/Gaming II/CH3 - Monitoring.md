@@ -19,3 +19,21 @@ cabinetStatus contains
 1. Service lamp on/off
 2. backup battery low
 3. EGM restart/power up
+
+#### NoteAcceptor
+常见事件:
+1. stacker door open
+2. stacker remove
+3. stacker full
+4. stacker jammed and fault
+
+我们可以通过`getNoteAcceptorStatus`获取到具体状态
+
+noteAcceptorStatus contains
+1. doorOpen, stackerRemoved
+2. stackerNearlyFull, stackerFull 
+3. stackerJam, stackerFault, acceptorJam, acceptorFault
+4. disconnected, illegalActivity
+5. firmwareFault, mechanicalFault, opticalFault, componentFault, nvMemoryFault
+
+
