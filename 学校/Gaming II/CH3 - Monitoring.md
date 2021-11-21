@@ -15,6 +15,7 @@ cabinetStatus contains
 
 当门打开时，会将`egmEnabled`设置为`False`，当关闭时则设置回`True`
 
+
 ###### 四种不会影响egmEnabled的事件
 1. Service lamp on/off
 2. backup battery low
@@ -39,4 +40,9 @@ noteAcceptorStatus contains
 其他device也大同小异，因此不一一列举，感兴趣的可以查看![[3monitor.pptx]]
 
 
-如果`egmEnabled = false`或者`hostEnabled = false`
+如果`egmEnabled = false`或者`hostEnabled = false`，则设备是`disabled`状态
+
+当处于`disabled`状态时
+1. NA 不接收 notes
+2. PT 不打印任何 ticket
+3. CB 不开启任何游戏并停止所有事务以及禁止任何货币进入。
