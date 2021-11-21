@@ -66,7 +66,7 @@ Player tracking
 </progressiveStatus>
 ```
 #### Profiles
-配置选项
+配置选项，必须永久保存
 
 指令格式: [class]Profile
 
@@ -77,4 +77,8 @@ Player tracking
 … />
 
 ```
+
+#### Meters
+统计各项数据的值，必须永久保存
+
 
