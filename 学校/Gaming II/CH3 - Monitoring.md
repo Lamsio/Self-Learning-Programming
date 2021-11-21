@@ -53,3 +53,21 @@ noteAcceptorStatus contains
 正常情况下可能的Locking：
 1. handpay
 2. 远端要求locking (set cabinet.egmstate = hostlocked)
+
+主机可以通过`setCabinetLockout`将cabinet上锁
+
+```xml
+<cabinet deviceId="1" sessionType="G2S_request" ... >
+     <setCabinetLockOut lockOut="true"/> 
+</cabinet>
+```
+
+```xml
+<cabinet deviceId="1" sessionType="G2S_response" ... >
+     <cabinetStatus 
+          egmEnabled="true"  hostEnabled="true" hostLocked="true" 
+          enableGamePlay="true" enableMoneyIn="true"
+          egmState="G2S_hostLocked" deviceClass="G2S_cabinet" deviceId="1" … 
+     />
+</cabinet>
+```
