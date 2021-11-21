@@ -15,4 +15,7 @@ Server-trigger jackpot
 1. Jackpot hit may not relate to game outcome at EGM
 
 
-#### SAS
+#### G2S
+相比SAS，G2S更加高效地解决各种各样的问题
+
+GSA主要分为`G2S`、`S2S`以及`Transport`
