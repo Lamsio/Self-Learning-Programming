@@ -46,3 +46,9 @@ noteAcceptorStatus contains
 1. NA 不接收 notes
 2. PT 不打印任何 ticket
 3. CB 不开启任何游戏并停止所有事务以及禁止任何货币进入。
+
+#### Locking
+在当前游戏周期完成后，EGM不得启动任何新游戏，接受任何金钱或分发任何金钱(包括转账和代金券)。
+
+正常情况下可能的Locking：
+1. handpay
