@@ -25,4 +25,29 @@ machine model由许多硬件所构成，常见的有以下几种。
 ![[Pasted image 20211121164822.png]]
 相同的硬件的`device id`不能是相同的。例如`gamePlay`可以是1和2。
 
-#### Common 
+#### Common G2S Classes
+Overall control:
+1. cabinet : physical housing and overall control
+
+Game play and Progressives:
+1. gamePlay: control and monitor of game play
+2. progressive: traditional progressive jackpot. Jackpot hit is triggered by the EGM
+3. mystery: mystery jackpot. Jackpot hit is triggered by jackpot server
+4. bonus: awards determined solely by a bonus host
+
+System services for each connected host
+1. communications: monitors and controls communication traffic between the EGM and the host
+2. meters: discovery and subscription of meters
+3. eventHandler: discovery, subscription and distribution of events
+
+Money movement:
+1. noteAcceptor, noteDispenser, coinAcceptor, hopper: currency handling
+2. voucher: ticket-in ticket-out. Issue and redeem vouchers
+3. handpay: large wins and other payouts that cannot be handled by the EGM
+
+Player tracking
+1. idReader: player and employee identification reader devices
+2. player: tracks player actions and provides incentives in the form of points
+
+
+
