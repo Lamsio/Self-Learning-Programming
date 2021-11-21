@@ -115,3 +115,14 @@ Player tracking
 ...
 
 Similar commands to get transaction log.
+
+#### Session type
+Three types: `request`、`response` and `notification`
+
+一个`class element`有且仅有一个指令子元素
+
+```xml
+<communications deviceId="1" sessionType="G2S_request" ... >
+     <keepAlive /> 
+</communications>
+```
