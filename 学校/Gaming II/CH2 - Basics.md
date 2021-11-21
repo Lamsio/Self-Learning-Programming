@@ -49,5 +49,19 @@ Player tracking
 1. idReader: player and employee identification reader devices
 2. player: tracks player actions and provides incentives in the form of points
 
+#### Status
+当设备的状态发生改变时...
 
+指令格式: [class]Status
 
+```xml
+#Cabinet门开了，因此disable
+<cabinetStatus egmEnabled = "false" cabinetDoorOpen = "true" … />
+
+#Progressive的奖励制度查询
+<progressiveStatus hostEnabled = "true" … >
+    <levelStatus levelId="1" progValueAmt="10000000" … />
+    <levelStatus levelId="2" progValueAmt="25000000" … />
+    <levelStatus levelId="3" progValueAmt="88000000" … />
+</progressiveStatus>
+``
