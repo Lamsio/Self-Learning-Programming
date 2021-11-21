@@ -64,4 +64,17 @@ Player tracking
     <levelStatus levelId="2" progValueAmt="25000000" … />
     <levelStatus levelId="3" progValueAmt="88000000" … />
 </progressiveStatus>
-``
+```
+#### Profiles
+配置选项
+
+指令格式: [class]Profile
+
+```xml
+# 限制Credit meter为HKD5000,赢得2000以上时需要handpay
+<cabinetProfile currencyId="HKD" machineId= "IPM321" … 
+   largeWinLimit="200000000" maxCreditMeter= "500000000”
+… />
+
+```
+
