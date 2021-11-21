@@ -9,3 +9,8 @@ cabinetStatus contains
 2. (Host controlled) hostEnabled, hostLocked, enableGamePlay, enableMoneyIn 
 3. (Door status and lamp) cabinetDoorOpen, logicDoorOpen, auxDoorOpen, serviceLampOn
 4. (extension g2sA) generalFault, reelTilt, videoDisplayFault, nvStorageFault, generalMemoryFault
+
+
+当特定事件发生时，状态会改变，例如`door open`
+
+当门打开时，会将`egmEnabled`设置为`False`
