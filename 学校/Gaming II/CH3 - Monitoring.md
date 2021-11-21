@@ -52,3 +52,4 @@ noteAcceptorStatus contains
 
 正常情况下可能的Locking：
 1. handpay
+2. 远端要求locking (set cabinet.egmstate = hostlocked)
