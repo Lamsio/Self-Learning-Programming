@@ -81,4 +81,26 @@ Player tracking
 #### Meters
 统计各项数据的值，必须永久保存
 
+```xml
+# 有23元coin-in 8元的credit meter
+<meterInfo …> 
+   <deviceMeters deviceClass="G2S_cabinet" deviceId="1">
+       <simpleMeter meterName="G2S_wageredCashableAmt" meterValue="2300000"/>
+       <simpleMeter meterName="G2S_playerCashableAmt" meterValue="800000"/>          
+        ... 
+     </deviceMeters>
+</meterInfo>
 
+```
+
+#### Transaction Log
+事务日志，记录每一笔操作的具体情况。必须永久保存
+```xml 
+<recallLogList>
+    <recallLog gameDateTime="..."  playResult="G2S_gameWon" 
+           finalWager="500000" finalWin="1000000" /> 
+    <recallLog gameDateTime="..."  playResult="G2S_gameLost" 
+           finalWager="200000" finalWin="0" /> 
+    …
+</recallLogList>
+```
