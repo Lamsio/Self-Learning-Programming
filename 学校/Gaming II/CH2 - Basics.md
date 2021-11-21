@@ -10,4 +10,9 @@
 #### Jackpot system
 Tranditional progressive
 1. Jackpot triggered by EGM
-2. Within 
+
+Server-trigger jackpot
+1. Jackpot hit may not relate to game outcome at EGM
+
+
+#### SAS
