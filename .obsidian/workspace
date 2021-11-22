@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学校/Computer Security/RC4加密算法（流密码 对称加密）.md",
+            "file": "学校/Gaming II/CH2 - Basics.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/Computer Security/RC4加密算法（流密码 对称加密）.md",
+                "file": "学校/Gaming II/CH2 - Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "学校/Gaming II/CH2 - Basics.md",
+    "学校/Gaming II/CH3 - Monitoring.md",
     "学校/Computer Security/RC4加密算法（流密码 对称加密）.md",
     "学校/Computer Security/RSA加密算法（非对称加密）.md",
     "学校/Computer Security/取模运算.md",
@@ -95,8 +97,6 @@
     "学校/IP Routing/3.3 TCPIP Suite Error and Control Messages.md",
     "自学/Java/多线程/线程池.md",
     "自学/Java/IO流/序列化.md",
-    "自学/Java/IO流/Filter 模式.md",
-    "Pasted image 20211022163921.png",
-    "日常用语/点餐/Restaurant English.md"
+    "自学/Java/IO流/Filter 模式.md"
   ]
 }
