@@ -197,4 +197,26 @@ EGM会返回`<supportedEvents>`报告结果。
 `Persisted`的`<eventHandler>`的`sessionType`是G2S_request，而`non-persisted`则是G2S_notification.
 
 
-####
+###### eventReport
+`<eventReport>`标签有三种子元素，分别是`<deviceList>`,`<transactionList>`以及`<meterList>`
+
+```xml
+# 
+<eventReport ... transactionId="888">
+
+	<deviceList>
+
+		<statusInfo deviceClass="G2S_noteAcceptor" deviceId="1">
+
+			<noteAcceptorStatus configurationId="..."
+
+			noteValueInEscrow="0"/>
+
+		</statusInfo>
+
+	</deviceList>
+
+	...
+
+</eventReport>
+```
