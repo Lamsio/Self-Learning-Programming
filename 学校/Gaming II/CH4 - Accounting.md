@@ -99,6 +99,11 @@ Performance:
 | secWageredAmt | Amount wagered on secondary games, such as double-up features. |
 | secWonAmt | Amount won from secondary games. |
 
+#### Preparing accounting report
+- Coin-in = wagerAmt at end - wagerAmt at start
+- Coin-out = egmPaidGameWonAmt at end – egmPaidGameWonAmt at start
+- Slot win = 
+
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
