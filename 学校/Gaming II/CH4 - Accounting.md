@@ -106,7 +106,9 @@ Performance:
 - Actual P.B% = Coin-out / Coin-in
 - Theo P.B% = (TheoPaybackAmt at end - TheoPaybackAmt at start) / Coin-in
 - Play count = (won at end - won at start) + (lose at end - lose at start)
-- Actual hit freq = 
+- Actual hit freq = (won at end - won at start) / actual play count
+
+
 
 #### Glossary
 ```text
