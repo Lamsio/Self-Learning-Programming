@@ -111,6 +111,9 @@ Performance:
 ## Meters
 EGM 需要将所有meter数据保存在永久性存储体中，大多数的meter是累加的(e.g: G2S_logicDoorOpenCnt, G2S_wageredCashableAmt)，少部分的meter，例如credit meter是可增可减的。
 
+G2S将meter分为十组，每个G2S Class可以有1种以上的meter。
+![[Pasted image 20211122194900.png]]
+
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
