@@ -84,41 +84,43 @@ noteAcceptorStatus contains
 事件报告标签是`<eventReport>`，其子元素分别是`<deviceList>`和`<meterList>`，前者说明设备的状态改变，后者说明设备的数据改变。
 
 ```xml 
-
 <eventHandler deviceId="1" sessionType="G2S_request" ... >
 
-<eventReport deviceClass="G2S_cabinet" deviceId="1"
+	<eventReport deviceClass="G2S_cabinet" deviceId="1"
 
-eventCode="G2S_CBE307" eventText="Cabinet Door Open">
-<deviceList>
+	eventCode="G2S_CBE307" eventText="Cabinet Door Open">
+		<deviceList>
 
-<statusInfo deviceClass="G2S_cabinet" deviceId="1">
+			<statusInfo deviceClass="G2S_cabinet" deviceId="1">
 
-<cabinetStatus egmEnabled="false"
+				<cabinetStatus egmEnabled="false"
 
-cabinetDoorDateTime="..." ... />
+				cabinetDoorDateTime="..." ... />
 
-</statusInfo>
+			</statusInfo>
 
-</deviceList>
+		</deviceList>
 
-<meterList>
+		<meterList>
 
-<meterInfo ...>
+			<meterInfo ...>
 
-<deviceMeters deviceClass="G2S_cabinet" deviceId="1">
+				<deviceMeters deviceClass="G2S_cabinet" deviceId="1">
 
-<simpleMeter meterName="G2S_cabinetDoorOpenCnt"
+				<simpleMeter meterName="G2S_cabinetDoorOpenCnt"
 
-meterValue="12"/>
+				meterValue="12"/>
 
-</deviceMeters>
+				</deviceMeters>
 
-</meterInfo>
+			</meterInfo>
 
-</meterList>
+		</meterList>
 
-</eventReport>
+	</eventReport>
 
 </eventHandler>
 ```
+
+`<getSupportEvent>`标签允许主机确定EGM中设备支持的事件
+
