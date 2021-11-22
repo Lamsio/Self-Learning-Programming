@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学校/Gaming II/CH4 - Accounting.md",
+            "file": "学校/Gaming II/CH2 - Basics.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/Gaming II/CH4 - Accounting.md",
+                "file": "学校/Gaming II/CH2 - Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,14 +88,14 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "学校/Gaming II/CH2 - Basics.md",
+    "学校/Gaming II/CH3 - Monitoring.md",
     "学校/Gaming II/CH4 - Accounting.md",
     "自学/Java/网络编程/TCP.md",
     "自学/Java/线程的问题/线程饥饿.md",
     "自学/Java/IO流/Filter 模式.md",
     "自学/Java/IO流/序列化.md",
     "自学/Java/IO流/File 类.md",
-    "学校/Gaming II/CH3 - Monitoring.md",
-    "学校/Gaming II/CH2 - Basics.md",
     "学校/Computer Security/RC4加密算法（流密码 对称加密）.md",
     "学校/Computer Security/RSA加密算法（非对称加密）.md"
   ]
