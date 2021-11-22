@@ -1,4 +1,4 @@
-#### Slot reporting
+## Slot reporting
 Monitoring & Control system(MCS) 会生成一大堆slot operation，包括:
 1. Accounting reports for slot revenues
 2. Performance reports for popularity
@@ -108,7 +108,8 @@ Performance:
 - Play count = (won at end - won at start) + (lose at end - lose at start)
 - Actual hit freq = (won at end - won at start) / actual play count
 
-
+## Meters
+EGM 需要将所有meter数据保存在永久性存储体中，大多数的meter是累加的(e.g: G2S_logicDoorOpenCnt, G2S_wageredCashableAmt)，少部分的meter，例如credit meter是可增可减的。
 
 #### Glossary
 ```text
