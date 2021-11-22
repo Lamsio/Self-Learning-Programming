@@ -83,6 +83,8 @@ gamePlay也是一个class，因此同样能够进行`setGamePlayState`以及`get
 2. Game Denomination
 3. Wager category
 
+Performance:
+
 | Meter names | Description | 
 | ---- | ---- | 
 | wagerAmt | Total amount wagered | 
@@ -92,6 +94,11 @@ gamePlay也是一个class，因此同样能够进行`setGamePlayState`以及`get
 | lostCnt | Number of primary games lost by the player | 
 | tiedCnt | Number of primary games where there were no credits won or lost |
 | failedCnt | Number of primary games where no outcome could be determined as the game failed to complete |
+| theoPaybackAmt | Theoretical payback amount. Incremented by the amount wagered times the payback percentage of the wager category played. |
+| avgPackbackPct | theoPaybackAmt / wagerAmt |
+| secWageredAmt | Amount wagered on secondary games, such as double-up features. |
+| secWonAmt | Amount won from secondary games. |
+
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
