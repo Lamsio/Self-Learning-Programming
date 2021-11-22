@@ -79,4 +79,46 @@ noteAcceptorStatus contains
 3. Manage delivery of events(管理事件交付)
 4. Manage collection of associated data(管理相关数据的集合)
 
-每台Host都有其独立
+每台Host都有其独立的event handler device (deviceId = hostId)
+
+事件报告标签是`<eventReport>`，其子元素分别是`<deviceList>`和`<meterList>`，前者说明设备的状态改变，后者说明设备的数据改变。
+
+```xml 
+
+<eventHandler deviceId="1" sessionType="G2S_request" ... >
+
+<eventReport deviceClass="G2S_cabinet" deviceId="1"
+
+eventCode="G2S_CBE307" eventText="Cabinet Door Open">
+<deviceList>
+
+<statusInfo deviceClass="G2S_cabinet" deviceId="1">
+
+<cabinetStatus egmEnabled="false"
+
+cabinetDoorDateTime="..." ... />
+
+</statusInfo>
+
+</deviceList>
+
+<meterList>
+
+<meterInfo ...>
+
+<deviceMeters deviceClass="G2S_cabinet" deviceId="1">
+
+<simpleMeter meterName="G2S_cabinetDoorOpenCnt"
+
+meterValue="12"/>
+
+</deviceMeters>
+
+</meterInfo>
+
+</meterList>
+
+</eventReport>
+
+</eventHandler>
+```
