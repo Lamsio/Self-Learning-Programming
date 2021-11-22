@@ -192,4 +192,6 @@ EGM会返回`<supportedEvents>`报告结果。
 ```
 
 ###### Persisted & non-persisted
-持久与非持久指的是
+持久与非持久指的是请求的处理过程的差异，如果设置为`persisted`则类似于TCP的原理，host会一直等待EGM，直至其返回ACK。而非持久则类似于UDP的原理，发送一次后，不管有没有收到都不再追究。
+
+`Persisted`的`<eventHandler>`的`sessionType`是G2S_request，而`
