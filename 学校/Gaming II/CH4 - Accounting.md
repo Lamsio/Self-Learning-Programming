@@ -37,7 +37,7 @@ MCS会从slot machine的meter report处收集财政数据并从事件中计算�
 此外，我们还能将`中奖总次数/所有次数`得到中奖概率(Hit frequency)
 
 #### Actual payback percentage
-由于每场游戏的概率都是独立的，因此在同样进行十场游戏后，
+由于每场游戏的概率都是独立的，因此在同样进行十场游戏后，实际的payback percentage可能是10%也可能是400%，因此，需要在长时间的游戏中，结果才能越发趋近于理论payback percentage。
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
