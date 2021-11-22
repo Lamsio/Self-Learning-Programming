@@ -113,6 +113,12 @@ EGM 需要将所有meter数据保存在永久性存储体中，大多数的meter
 
 G2S将meter分为十组，每个G2S Class可以有1种以上的meter。
 
+#### credit meter
+credit meter展示了用户所拥有的三种credit的总和，这三种credit分别是:
+1. cashable credit
+2. non-cashable credit
+3. promotional
+
 
 #### Glossary
 ```text
