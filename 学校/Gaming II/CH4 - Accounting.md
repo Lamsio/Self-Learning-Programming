@@ -83,7 +83,15 @@ gamePlay也是一个class，因此同样能够进行`setGamePlayState`以及`get
 2. Game Denomination
 3. Wager category
 
-| 表头 | 表头 | | ---- | ---- | | 单元格 | 单元格 | | 单元格 | 单元格 |
+| Meter names | Description | 
+| ---- | ---- | 
+| wagerAmt | Total amount wagered | 
+| egmPaidGameWonAmt,handPaidGameWonAmt | Base paytable win from game play paid by EGM / handpay. Does not include win from bonuses or progressives. |
+| egmPaidProgWonAmt,handPaidProgWonAmt | Progressive win resulting from game play, paid by EGM / handpay. Does not include base paytable win. | 
+| wonCnt | Number of primary games won by the player |
+| lostCnt | Number of primary games lost by the player | 
+| tiedCnt | Number of primary games where there were no credits won or lost |
+| failedCnt | Number of primary games where no outcome could be determined as the game failed to complete |
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
