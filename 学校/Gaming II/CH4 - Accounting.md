@@ -119,7 +119,9 @@ credit meter展示了用户所拥有的三种credit的总和，这三种credit�
 2. non-cashable credit
 3. promotional
 
+使用顺序是: non-cashable -> promotional -> cashable
 
+所有赢得的credit都是cashable credit
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
