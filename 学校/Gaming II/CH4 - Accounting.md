@@ -12,4 +12,6 @@ MCS会从slot machine的meter report处收集财政数据并从事件中计算�
 
 
 #### Performance report
-对比老虎机的
+对比老虎机的受欢迎程度，根据利用率和投币率分析老虎机的流行变化趋势。
+
+对比实际与理论业绩，判断EGM是否像PAR表所描述的那样运行?
