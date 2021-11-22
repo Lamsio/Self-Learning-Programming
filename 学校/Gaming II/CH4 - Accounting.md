@@ -47,7 +47,18 @@ Confidence interval(可信区间)允许使用者判断游戏的实际Payback%是
 
 越大的V.I意味着:
 1. 短期内波动较大
-2. 
+
+#### gamePlay
+gamePlay也是一个class，因此同样能够进行`setGamePlayState`以及`getGamePlayStatus`操作。
+
+```xml
+# host 向 EGM 发送
+<gamePlay deviceId="1" sessionType="G2S_request" … >
+
+	<getGamePlayStatus />
+
+</gamePlay>
+```
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
