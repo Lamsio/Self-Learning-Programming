@@ -32,11 +32,16 @@ MCS会从slot machine的meter report处收集财政数据并从事件中计算�
 ![[Pasted image 20211122181744.png]]
 这个表格中，额外说明了各组合命中的次数以及所要赔付给顾客的金额。
 
-我们可以用`总赔付/总
+我们可以用`总赔付/总轮回次数`计算出`RTP`
+
+此外，我们还能将`中奖总次数/所有次数`得到中奖概率(Hit frequency)
+
+#### Actual payback percentage
+由于每场游戏的概率都是独立的，因此在同样进行十场游戏后，
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
 Hit frequency: 一个玩家为了赢得奖品而参加的游戏的平均次数
 Return to Play(RTP): 平均返还给赌客的总赌注百分比，也被称为theoretical payback percentage。
-
+Actual payback percentage: 实际情况的RTP。
 ```
