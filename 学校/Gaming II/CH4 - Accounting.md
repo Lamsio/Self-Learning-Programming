@@ -102,7 +102,11 @@ Performance:
 #### Preparing accounting report
 - Coin-in = wagerAmt at end - wagerAmt at start
 - Coin-out = egmPaidGameWonAmt at end – egmPaidGameWonAmt at start
-- Slot win = 
+- Slot win = Coin-in - Coin-out
+- Actual P.B% = Coin-out / Coin-in
+- Theo P.B% = (TheoPaybackAmt at end - TheoPaybackAmt at start) / Coin-in
+- Play count = (won at end - won at start) + (lose at end - lose at start)
+- Actual hit freq = 
 
 #### Glossary
 ```text
