@@ -71,3 +71,6 @@ noteAcceptorStatus contains
      />
 </cabinet>
 ```
+
+#### Events
+`eventHandler`
