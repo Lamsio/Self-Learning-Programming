@@ -52,13 +52,28 @@ Confidence interval(可信区间)允许使用者判断游戏的实际Payback%是
 gamePlay也是一个class，因此同样能够进行`setGamePlayState`以及`getGamePlayStatus`操作。
 
 ```xml
-# host 向 EGM 发送
+# host 向 EGM 发送getGamePlayStatus请求
 <gamePlay deviceId="1" sessionType="G2S_request" … >
 
 	<getGamePlayStatus />
 
 </gamePlay>
 ```
+
+```xml
+# EGM 向 host 返回所需的数据
+<gamePlay deviceId="1" sessionType="G2S_response" … >
+
+	<gamePlayStatus egmEnabled="true" hostEnabled=" true"
+
+	themeId="RBG_JackOrBetter" paytableId="RBG_94"
+
+	generalTilt="false" />
+
+</gamePlay>
+```
+
+主机能发送`setActiveDenom`请求去设置game combo
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
