@@ -21,6 +21,12 @@ MCS会从slot machine的meter report处收集财政数据并从事件中计算�
 2. Monthly slot win = monthly increment in coin-in - monthly increment in coin-out.
 ####  Pay table
 ![[Pasted image 20211122181319.png]]
+
+这个Pay table展示了不同组合所对应的奖赏。
+
+![[Pasted image 20211122181608.png]]
+
+这张表格说明了各个reel
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
