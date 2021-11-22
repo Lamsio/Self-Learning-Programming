@@ -41,6 +41,13 @@ MCS会从slot machine的meter report处收集财政数据并从事件中计算�
 
 #### Volatility index
 PAR Sheet 通常情况下会提供V.I值，该值代表该游戏的波动值，值越大意味着需要更多的时间才能使实际payback percentage趋近于理论payback percentage。
+
+#### Confidence interval
+Confidence interval(可信区间)允许使用者判断游戏的实际Payback%是否正常。
+
+越大的V.I意味着:
+1. 短期内波动较大
+2. 
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
