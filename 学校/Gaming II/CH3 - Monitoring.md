@@ -73,4 +73,10 @@ noteAcceptorStatus contains
 ```
 
 #### Events
-`eventHandler`
+`eventHandler`作为根标签用于管理EGM中的所有时间，包括:
+1. Event discovery(事件发现)
+2. Manage event subscription lists(管理事件订阅列表)
+3. Manage delivery of events(管理事件交付)
+4. Manage collection of associated data(管理相关数据的集合)
+
+每台Host都有其独立
