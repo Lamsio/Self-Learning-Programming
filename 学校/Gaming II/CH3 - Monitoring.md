@@ -124,3 +124,37 @@ noteAcceptorStatus contains
 
 `<getSupportEvent>`标签允许主机确定EGM中设备支持的事件
 
+1. deviceClass(for all classes, G2S_all)
+2. deviceId(for all device, -1)
+
+EGM会返回`<supportedEvents>`报告结果。
+
+```xml
+# HOST 发送给 EGM
+<eventHandler deviceId="1" sessionType="G2S_request" ... >
+
+	<getSupportedEvents deviceClass="G2S_cabinet" deviceId="-1" />
+</eventHandler>
+```
+
+```xml
+# EGM 返回给 HOST
+<eventHandler deviceId="1" sessionType="G2S_response" .... >
+
+	<supportedEvents>
+		<supportedEvent deviceClass="G2S_cabinet" deviceId="1"
+
+		eventCode="G2S_CBE001"
+
+		eventText="EGM Disabled Cabinet"/>
+
+		<supportedEvent … />
+
+		<!-- more events supported by the device -->
+
+	</supportedEvents>
+
+</eventHandler>
+```
+
+此外，主机还能使用`<set>
