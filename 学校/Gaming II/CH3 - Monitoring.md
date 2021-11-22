@@ -157,4 +157,39 @@ EGM会返回`<supportedEvents>`报告结果。
 </eventHandler>
 ```
 
-此外，主机还能使用`<set>
+此外，主机还能使用`<setEventSub>`、`<getEventSub>`以及`<clearEventSub>`分别去设置，获取以及清除事件
+
+```xml
+# HOST 发送事件订阅请求给 EGM
+<eventHandler deviceId="1" sessionType="G2S_request" ... >
+
+	<setEventSub>
+
+		<eventHostSubscription
+
+		deviceClass="G2S_cabinet" deviceId="-1" eventCode="-1"
+
+		sendDeviceStatus="true" sendTransaction="true"
+
+		sendClassMeters="false" sendDeviceMeters="true"
+
+		sendUpdatableMeters="false" eventPersist="false" />
+		<eventHostSubscription deviceClass="G2S_noteAcceptor"
+		deviceId="-1"
+
+		eventCode="-1" sendDeviceStatus="true" />
+
+	</setEventSub>
+
+</eventHandler>
+```
+
+```xml
+# EGM 处理后向 HOST 返回请求结果
+<eventHandler deviceId="1" sessionType="G2S_response" .... >
+	<setEventSubAck/>
+</eventHandler>
+```
+
+###### Persisted & non-persisted
+持久与非持久指的是
