@@ -26,7 +26,13 @@ MCS会从slot machine的meter report处收集财政数据并从事件中计算�
 
 ![[Pasted image 20211122181608.png]]
 
-这张表格说明了各个reel
+这张表格说明了各个reel有多少个stop. 从这张图得知总共有20\*20\*20种组合。
+
+#### Pay combo table
+![[Pasted image 20211122181744.png]]
+这个表格中，额外说明了各组合命中的次数以及所要赔付给顾客的金额。
+
+我们可以用`总赔付/总
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
