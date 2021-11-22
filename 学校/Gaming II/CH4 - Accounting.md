@@ -79,7 +79,11 @@ gamePlay也是一个class，因此同样能够进行`setGamePlayState`以及`get
 - 当EGM处于空闲状态时，它只接受活跃状态下的更改(参见实验室)
 
 ###### gamePlay device meters
+1. Performance
+2. Game Denomination
+3. Wager category
 
+| 表头 | 表头 | | ---- | ---- | | 单元格 | 单元格 | | 单元格 | 单元格 |
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
