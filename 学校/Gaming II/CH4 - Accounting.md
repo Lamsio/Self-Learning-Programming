@@ -77,6 +77,8 @@ gamePlay也是一个class，因此同样能够进行`setGamePlayState`以及`get
 - 从预设的游戏厂商预设的表单中选取
 - 如果gamePlay没有任何active denom则无法开始游戏
 - 当EGM处于空闲状态时，它只接受活跃状态下的更改(参见实验室)
+
+#### 
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
