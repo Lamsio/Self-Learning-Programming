@@ -200,7 +200,7 @@ EGM会返回`<supportedEvents>`报告结果。
 ###### eventReport
 `<eventReport>`标签有三种子元素，分别是`<deviceList>`,`<transactionList>`以及`<meterList>`，这三种子元素只能有0~1个
 
-这三种子元素的子元素分别是`<statusInfo>`，`<transactionInfo>`和`<>``
+这三种子元素的子元素分别是`<statusInfo>`，`<transactionInfo>`和`<meterInfo>`
 ```xml
 # deviceList例子
 <eventReport ... transactionId="888">
