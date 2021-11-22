@@ -19,9 +19,12 @@ MCS会从slot machine的meter report处收集财政数据并从事件中计算�
 #### Two ways to calculate slot win
 1. Monthly slot win = total wager - total payoff
 2. Monthly slot win = monthly increment in coin-in - monthly increment in coin-out.
-
+####  Pay table
+![[Pasted image 20211122181319.png]]
 #### Glossary
 ```text
 Pay table: 一张表，展示中奖组合以及对应的奖项
-Hit frequency: 
+Hit frequency: 一个玩家为了赢得奖品而参加的游戏的平均次数
+Return to Play(RTP): 平均返还给赌客的总赌注百分比，也被称为theoretical payback percentage。
+
 ```
