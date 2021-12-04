@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学校/Digital/3.1 Fourier Transform.md",
-            "mode": "source"
+            "file": "学校/Digital/3.2 Frequency Filtering.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/Digital/3.1 Fourier Transform.md",
+                "file": "学校/Digital/3.2 Frequency Filtering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "学校/Digital/3.2 Frequency Filtering.md",
     "学校/Digital/3.1 Fourier Transform.md",
     "学校/Digital/2.7 Binary image.md",
     "学校/Digital/2.6 Edge detection.md",
@@ -96,7 +97,6 @@
     "学校/Gaming II/CH2 - Basics.md",
     "学校/Computer Security/RC4加密算法（流密码 对称加密）.md",
     "自学/区块链/P2P交易原理.md",
-    "自学/区块链/区块链原理.md",
-    "学校/Computer Security/Lec 3.md"
+    "自学/区块链/区块链原理.md"
   ]
 }
