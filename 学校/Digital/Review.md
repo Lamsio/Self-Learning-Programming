@@ -48,3 +48,6 @@ drawback:
 
 
 Fourier transform
+why?
+1. Transforming the time/spatial domain into the frequency domain. because some problems are difficult to solve in the time/spatial domain, but easier to be solved in frequency domain.
+2. 
