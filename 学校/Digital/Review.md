@@ -31,4 +31,10 @@ opening is to remove some foreground pixels from the foreground regions and pres
 opening is less destructive the shape of the foreground pixels than erosion.
 
 closing is the compound operation of the Dilation followed by erosion.
-closing is to enlar
+closing is to enlarge the boundaries of the foreground regions and shrink background holes in such regions
+closing is less destructive the shape of the foreground pixels than dilation.
+
+CC analysis:
+1. recursive tracking
+2. row-by-row
+3. parallel growing
