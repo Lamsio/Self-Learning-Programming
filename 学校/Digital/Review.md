@@ -27,3 +27,8 @@ using the otsu's method
 Dilation expands the edge of image
 
 opening is the compound operation of the Erosion followed by dilation.
+opening is to remove some foreground pixels from the foreground regions and preserve the foreground region that can completely contain the structuring element
+opening is less destructive the shape of the foreground pixels than erosion.
+
+closing is the compound operation of the Dilation followed by erosion.
+closing is to enlar
