@@ -20,3 +20,10 @@ the process of Marr-hildreth
 drawbacks:
 1. sensitive to noise and poor anti noise ability
 
+2.7
+how to get the best thresholding value???
+using the otsu's method
+
+Dilation expands the edge of image
+
+opening is the compound operation of the Erosion followed by dilation.
