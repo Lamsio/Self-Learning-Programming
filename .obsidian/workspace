@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学校/Digital/2.7 Binary image.md",
+            "file": "学校/Digital/3.1 Fourier Transform.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/Digital/2.7 Binary image.md",
+                "file": "学校/Digital/3.1 Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "学校/Digital/3.1 Fourier Transform.md",
+    "学校/Digital/3.2 Frequency Filtering.md",
+    "学校/Digital/3.3 Image compression.md",
     "学校/Digital/2.7 Binary image.md",
     "学校/Digital/2.6 Edge detection.md",
     "学校/Digital/2.5 Spatial Filtering.md",
     "学校/Digital/2.4 Point operation.md",
     "学校/Digital/2.1 Digitalization.md",
     "学校/Digital/4.1 Video compression.md",
-    "学校/Digital/3.3 Image compression.md",
-    "学校/Digital/3.2 Frequency Filtering.md",
-    "学校/Digital/3.1 Fourier Transform.md",
     "学校/Gaming II/CH4 - Accounting.md"
   ]
 }
