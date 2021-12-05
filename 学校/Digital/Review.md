@@ -38,3 +38,8 @@ CC analysis:
 1. recursive tracking
 2. row-by-row
 3. parallel growing
+
+The steps of recursive tracking:
+1. scan the binary image from top to bottom, left to right until encountering a 1(0)
+2. change that pixel's label to the next unused label.
+3. 
