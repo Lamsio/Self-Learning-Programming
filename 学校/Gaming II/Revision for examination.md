@@ -78,3 +78,5 @@ Response:
 The EOD meter report must be acknowledged! 
 
 Repeat resending until it receives meterInfoAck.
+
+###### Audit meter subscription
