@@ -88,4 +88,4 @@ make subscription and collect meter reports.
 ![[Pasted image 20211207180321.png]]
 
 ###### The formulas of each parameter in Jackpot calculation
-ATV = reset
+ATV = reset + (wager per game) \* contrib / p 
