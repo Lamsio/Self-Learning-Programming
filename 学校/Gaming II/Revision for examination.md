@@ -17,3 +17,7 @@
 The principle of Presisted and non-presisted just like the relationship between TCP and UDP. For presisted event, if host receives the request, it must respond acknowlage with eventAck after processing the event. if the EGM do not receive any ACK for a long time, it will resend the request untill it gets the ACK.
 
 The session_type of persistent events is "G2S_request", while the session_type of non-persistent events is "G2S_notification".
+
+#### CH4
+1. Accounting report p.67-68. Show steps
+2. confident interval = RTP +- VI / sqrt(play count)
