@@ -103,4 +103,5 @@ Identifies the voucher by attribute validationId.
 
 Host replies with authorizeVoucher to indicate whether the voucher is valid.
 
-If the EGMs can not receive
+If the EGMs can not receive authorizeVoucher within the specified time, it rejects the voucher.
+
