@@ -13,4 +13,5 @@
 4. close the auxiliary door(CBE306)
 
 
-#### 
+###### Presisted events
+The principle of Presisted and non-presisted just like the relationship between TCP and UDP. For presisted event, if host receives the request, it must respond acknowlage with eventAck after processing the event. if the EGM do not receive any ACK for a long time, it will resend the request untill it gets the ACK.
