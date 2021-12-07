@@ -84,4 +84,8 @@ make subscription and collect meter reports.
 ![[Pasted image 20211207171139.png]]
 
 #### CH5
+###### Traditional progressive V.S Mystery progressive
+![[Pasted image 20211207180321.png]]
+
 ###### The formulas of each parameter in Jackpot calculation
+ATV = reset
