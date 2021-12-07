@@ -112,3 +112,6 @@ If the EGMs can not receive authorizeVoucher within the specified time, it rejec
 4. Voucher can not be redeemed at this location
 5. Redemption in process at another location.
 
+###### how to protect validation ID to prevent counterfeit tickets?
+1. All validation ID is issued by host
+2. 
