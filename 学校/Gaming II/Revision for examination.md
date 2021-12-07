@@ -105,3 +105,10 @@ Host replies with authorizeVoucher to indicate whether the voucher is valid.
 
 If the EGMs can not receive authorizeVoucher within the specified time, it rejects the voucher.
 
+###### Some situations that the voucher redemption failed
+1. Voucher already redeemed
+2. Voucher expired
+3. Voucher doest exist
+4. Voucher can not be redeemed at this location
+5. Redemption in process at another location.
+
