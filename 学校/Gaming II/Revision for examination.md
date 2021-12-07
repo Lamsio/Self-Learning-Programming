@@ -45,6 +45,6 @@ EOD Subscription: EGM reports meter once per day
 Use command pair meterInfo / meterInfoAck(host must ack).
 
 The host set the subscription with setMeterSub / meterSubList.
-
 ![[Pasted image 20211207164338.png]]
+
 
