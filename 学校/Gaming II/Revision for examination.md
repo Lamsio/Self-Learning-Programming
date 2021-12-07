@@ -32,4 +32,7 @@ The session_type of persistent events is "G2S_request", while the session_type o
 2. Coin-out = egmPaidGameWonAmt at end - egmPaidGameWonAmt at start
 3. Slot win = Coin-in - Coin-out
 4. Actual Payback% = Coin-out / Coin-in
-5. 
+5. Theo Payback% = (theoPaybackAmt at end - theoPaybackAmt at start) / Coin-in
+6. Play count = (wonCnt at end - wonCnt at start) + (lostCnt at end - lostCnt at start)
+7. Autual hit freq = ??
+
