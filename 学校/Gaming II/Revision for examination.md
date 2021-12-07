@@ -75,4 +75,6 @@ Response:
 </meters>
 ```
 
-The EOD meter report must be 
+The EOD meter report must be acknowledged! 
+
+Repeat resending until it receives meterInfoAck.
