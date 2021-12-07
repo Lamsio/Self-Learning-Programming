@@ -47,4 +47,32 @@ Use command pair meterInfo / meterInfoAck(host must ack).
 The host set the subscription with setMeterSub / meterSubList.
 ![[Pasted image 20211207164338.png]]
 
+Request meter:
+1. meters
+2. setMeterSub
+3. getDeviceMeters
+```xml
+<meters deviceId="1" sessionType="G2S_request" … >
+     <setMeterSub meterSubType="G2S_onEOD" eodBase="1800000" 
+          g2s1:onNoteDrop="true" g2s1:onDoorOpen="true">
+           <getDeviceMeters deviceClass="G2S_gamePlay"  deviceId="-1" />
+    </setMeterSub>
+</meters>
+```
+
+Response:
+1. meters
+2. meterSubList
+3. getD
+```xml
+<meters deviceId="1" sessionType="G2S_response" … >
+     <meterSubList meterSubType="G2S_onEOD" eodBase="1800000" 
+          g2s1:onNoteDrop="true" g2s1:onDoorOpen="true">
+           <getDeviceMeters deviceClass="G2S_gamePlay"  deviceId="1" />
+           <getDeviceMeters deviceClass="G2S_gamePlay"  deviceId="2" />
+           <getDeviceMeters deviceClass="G2S_gamePlay"  deviceId=”3" />
+     </meterSubList>
+</meters>
+```
+
 
