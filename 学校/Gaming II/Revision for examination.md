@@ -36,3 +36,5 @@ The session_type of persistent events is "G2S_request", while the session_type o
 6. Play count = (wonCnt at end - wonCnt at start) + (lostCnt at end - lostCnt at start)
 7. Autual hit freq = ??
 
+###### 
+
