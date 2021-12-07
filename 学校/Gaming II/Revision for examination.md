@@ -26,3 +26,10 @@ The session_type of persistent events is "G2S_request", while the session_type o
 5. EOD meter subscription. Limitation. P 103-107
 6. Audit meter subscription. Write commands to make subscription and collect meter reports.
 7. Meter balance.
+
+###### Preparing accounting reports
+1. Coin-in = wagerAmt at end - wagerAmt at start
+2. Coin-out = egmPaidGameWonAmt at end - egmPaidGameWonAmt at start
+3. Slot win = Coin-in - Coin-out
+4. Actual Payback% = Coin-out / Coin-in
+5. 
