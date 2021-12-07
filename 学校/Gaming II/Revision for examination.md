@@ -5,3 +5,10 @@
 
 #### G2S events of the stacker
 ![[Pasted image 20211207143402.png]]
+
+###### Process of removing stacker
+1. open the auxiliary door
+2. put out the stacker
+3. insert a empty stacker into the EGM
+4. close the auxiliary door
+
