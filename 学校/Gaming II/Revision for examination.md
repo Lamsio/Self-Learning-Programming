@@ -82,3 +82,6 @@ Repeat resending until it receives meterInfoAck.
 ###### Audit meter subscription
 make subscription and collect meter reports.
 ![[Pasted image 20211207171139.png]]
+
+#### CH5
+###### The formulas of each parameter in Jackpot calculation
