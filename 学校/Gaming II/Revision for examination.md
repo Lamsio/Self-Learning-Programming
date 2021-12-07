@@ -37,5 +37,5 @@ The session_type of persistent events is "G2S_request", while the session_type o
 7. Autual hit freq = ??
 
 ###### Confidence interval
-The confidence interval allows us to criti
+The confidence interval allows us to criticize whether the actual payback% is normal.
 
