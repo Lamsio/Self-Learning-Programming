@@ -23,4 +23,6 @@ The session_type of persistent events is "G2S_request", while the session_type o
 2. confident interval = RTP +- VI / sqrt(play count)
 3. Winner and loser report. P5
 4. Which EGMs are outside the confident interval?
-5. EOD meter subscription
+5. EOD meter subscription. Limitation. P 103-107
+6. Audit meter subscription. Write commands to make subscription and collect meter reports.
+7. Meter balance.
