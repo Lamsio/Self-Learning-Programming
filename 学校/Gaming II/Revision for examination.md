@@ -7,8 +7,10 @@
 ![[Pasted image 20211207143402.png]]
 
 ###### Process of removing stacker
-1. open the auxiliary door
-2. put out the stacker
-3. insert a empty stacker into the EGM
-4. close the auxiliary door
+1. open the auxiliary door(CBE305)
+2. put out the stacker(NAE103)
+3. insert a empty stacker into the EGM(NAE104)
+4. close the auxiliary door(CBE306)
 
+
+#### 
