@@ -93,3 +93,8 @@ RTP = reset\*p / (wager per game) + contrib
 
 refers to P15
 
+#### CH7
+###### The process of voucher redemption
+![[Pasted image 20211207184843.png]]
+
+EGMs send a voucher redemption request to 
