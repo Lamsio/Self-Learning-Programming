@@ -63,7 +63,7 @@ Request meter:
 Response:
 1. meters
 2. meterSubList
-3. getD
+3. getDeviceMeters
 ```xml
 <meters deviceId="1" sessionType="G2S_response" … >
      <meterSubList meterSubType="G2S_onEOD" eodBase="1800000" 
@@ -75,4 +75,4 @@ Response:
 </meters>
 ```
 
-
+The EOD meter report must be 
