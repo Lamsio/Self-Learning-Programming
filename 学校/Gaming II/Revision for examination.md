@@ -70,7 +70,7 @@ Response:
           g2s1:onNoteDrop="true" g2s1:onDoorOpen="true">
            <getDeviceMeters deviceClass="G2S_gamePlay"  deviceId="1" />
            <getDeviceMeters deviceClass="G2S_gamePlay"  deviceId="2" />
-           <getDeviceMeters deviceClass="G2S_gamePlay"  deviceId=”3" />
+           <getDeviceMeters deviceClass="G2S_gamePlay"  deviceId="3" />
      </meterSubList>
 </meters>
 ```
