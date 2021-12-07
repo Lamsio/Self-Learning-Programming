@@ -97,4 +97,10 @@ refers to P15
 ###### The process of voucher redemption
 ![[Pasted image 20211207184843.png]]
 
-EGMs send a voucher redemption request to 
+EGMs send a voucher redemption request to the host with redeemVoucher.
+
+Identifies the voucher by attribute validationId.
+
+Host replies with authorizeVoucher to indicate whether the voucher is valid.
+
+If the EGMs can not receive
