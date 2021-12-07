@@ -21,3 +21,6 @@ The session_type of persistent events is "G2S_request", while the session_type o
 #### CH4
 1. Accounting report p.67-68. Show steps
 2. confident interval = RTP +- VI / sqrt(play count)
+3. Winner and loser report. P5
+4. Which EGMs are outside the confident interval?
+5. EOD meter subscription
