@@ -42,4 +42,7 @@ The confidence interval allows us to criticize whether the actual payback% is no
 ###### EOD Subscription
 EOD Subscription: EGM reports meter once per day
 
-Use command pair meterInfo / meterInfoAck(host must ack)
+Use command pair meterInfo / meterInfoAck(host must ack).
+
+The host set the subscription with setMeterSub / meterSubList.
+
