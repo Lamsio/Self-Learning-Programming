@@ -4,4 +4,6 @@
 3. HW1. Q3
 
 #### G2S events of the stacker
-1. NAE103
+1. NAE103 : The stacker is removed. set the attributes stackerRemoved = true.
+2. NAE104 : The stacker is inserted into the EGM. set the stackerRemoved = false.
+3. 
