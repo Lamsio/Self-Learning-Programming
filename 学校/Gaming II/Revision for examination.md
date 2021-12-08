@@ -41,6 +41,10 @@ The session_type of persistent events is "G2S_request", while the session_type o
 ###### Confidence interval
 The confidence interval allows us to criticize whether the actual payback% is normal.
 
+Large V.I means:
+1. large fluctuation in short term.
+2. more handle pulls to converge.
+
 ###### EOD Subscription
 EOD Subscription: EGM reports meter once per day
 
