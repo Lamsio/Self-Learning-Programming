@@ -99,6 +99,9 @@ The community bonus refers to the combination of multiple EGMs into a bonus grou
 ATV = reset + (wager per game) \* contrib / p
 RTP = reset\*p / (wager per game) + contrib
 
+P = probability of hitting the progressive
+reset value = the value of a jackpot level following a hit
+contribution percentage = 
 refers to P15
 
 #### CH7
