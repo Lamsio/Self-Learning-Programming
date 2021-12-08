@@ -14,6 +14,8 @@
 
 
 ###### Presisted events
+After assigning event ID, system will detect if the event is presisted. If the event is presisted, it will be added into event log
+
 The principle of Presisted and non-presisted just like the relationship between TCP and UDP. For presisted event, if host receives the request, it must respond acknowlage with eventAck after processing the event. if the EGM do not receive any ACK for a long time, it will resend the request untill it gets the ACK.
 
 The session_type of persistent events is "G2S_request", while the session_type of non-persistent events is "G2S_notification".
