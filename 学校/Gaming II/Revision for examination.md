@@ -90,6 +90,8 @@ make subscription and collect meter reports.
 ![[Pasted image 20211207171139.png]]
 
 #### CH5
+
+The community bonus refers to the combination of multiple EGMs into a bonus group. Each time the game is played, a certain percentage will be drawn from the wager and added into the bonus contribution pool. When somebody triggers the bonus event, all the EGMs in the bonus group will enter the bonus mode. During the bonusing, no wager will be required to play in this mode, and the wager will be deducted from the bonus contribution pool. The bonus mode will continue until the bonus contribution pool is empty.
 ###### Traditional progressive V.S Mystery progressive
 ![[Pasted image 20211207180321.png]]
 
