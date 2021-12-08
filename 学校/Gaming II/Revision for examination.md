@@ -14,7 +14,7 @@
 
 
 ###### Presisted events
-After assigning event ID, system will detect if the event is presisted. If the event is presisted, it will be added into event log
+After assigning event ID, system will detect if the event is presisted. If the event is presisted, the event details will be added into event log, and gather associated data. Then, it will be sent to comms for delivery, 
 
 The principle of Presisted and non-presisted just like the relationship between TCP and UDP. For presisted event, if host receives the request, it must respond acknowlage with eventAck after processing the event. if the EGM do not receive any ACK for a long time, it will resend the request untill it gets the ACK.
 
