@@ -101,7 +101,11 @@ RTP = reset\*p / (wager per game) + contrib
 
 P = probability of hitting the progressive
 reset value = the value of a jackpot level following a hit
-contribution percentage = 
+contribution percentage
+
+pull/hit = 1/p
+hit turnover = (wager per game) \* (pull per hit)
+
 refers to P15
 
 #### CH7
