@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "学校/Gaming II/Revision for examination.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -91,12 +91,12 @@
     "学校/Gaming II/Revision for examination.md",
     "学校/Gaming II/CH4 - Accounting.md",
     "学校/Gaming II/CH2 - Basics.md",
-    "学校/Gaming II/CH3 - Monitoring.md",
-    "自学/Java/网络编程/TCP.md",
-    "自学/Java/线程的问题/线程饥饿.md",
-    "自学/Java/IO流/Filter 模式.md",
-    "自学/Java/IO流/序列化.md",
-    "自学/Java/IO流/File 类.md",
-    "学校/Computer Security/RC4加密算法（流密码 对称加密）.md"
+    "学校/Digital/3.3 Image compression.md",
+    "学校/Digital/3.2 Frequency Filtering.md",
+    "学校/Digital/3.1 Fourier Transform.md",
+    "学校/Digital/2.7 Binary image.md",
+    "学校/Digital/2.6 Edge detection.md",
+    "学校/Digital/2.5 Spatial Filtering.md",
+    "学校/Digital/2.4 Point operation.md"
   ]
 }
