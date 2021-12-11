@@ -6,8 +6,11 @@
 ###### Summary
 Each block of x plaintext bits is encoded independently using same key.
 
-If the plaintext blocks are same, the ciphertext block are also same.
+Typical applications:
+1. Secure transmission of single values(e.g. encryption key)
 
+Problem:
+If the plaintext blocks are same, the ciphertext block are also same.
 #### Cipher Block Chaining(CBC)
 ![[Pasted image 20211030192918.png]]
 
@@ -27,3 +30,5 @@ Input to encryption algorithm is XOR of next plaintext and previous ciphertext.
 Typical applications:
 1. General-purpose block-oriented transmission
 2. authentication
+
+IV must be known by sender and receiver, but secret from attacker
