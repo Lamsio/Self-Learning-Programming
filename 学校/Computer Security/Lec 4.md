@@ -38,3 +38,8 @@ Converts block cipher into stream cipher
 
 The preceding ciphertext used as input to cipher to produce pseudo-random output.
 
+XOR output to produce ciphertext
+
+Typical applications:
+1. General-purpose stream-oriented transmission;
+2. authentication
