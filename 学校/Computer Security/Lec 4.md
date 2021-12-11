@@ -51,3 +51,9 @@ Similar to CFB, except input to encryption is **Preceding encryption output**.
 
 Typical applications:
 1. stream-oriented transmission over noisy channels.(e.g. satellite communications)
+
+Advantage compared to CFB:
+1. bit errors do not propagate
+
+Disadvantage:
+1. more vulnerable to message stream 
