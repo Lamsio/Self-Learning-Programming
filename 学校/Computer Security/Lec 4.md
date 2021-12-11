@@ -32,3 +32,6 @@ Typical applications:
 2. authentication
 
 IV must be known by sender and receiver, but secret from attacker
+
+#### CFB
+Converts block cipher into stream cipher
