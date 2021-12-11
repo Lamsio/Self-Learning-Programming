@@ -3,7 +3,7 @@
 块传输的一种方式，将明文分割成指定大小的块并且用相同的key进行加密
 
 但如果明文块相同，密文块也会重复。
-
+###### Summary
 Each block of x plaintext bits is encoded independently using same key.
 
 If the plaintext blocks are same, the ciphertext block are also same.
@@ -22,4 +22,8 @@ IV也必须被保护起来，防止被任何未经授权的人士篡改。
 但由于每个数据块的加密都依赖前一个密文，因此加密无法并行。
 
 ###### Summary
-Input to encryption algorithm is XOR of next plaintext and previous ciphertext
+Input to encryption algorithm is XOR of next plaintext and previous ciphertext.
+
+Typical applications:
+1. General-purpose block-oriented transmission
+2. authentication
