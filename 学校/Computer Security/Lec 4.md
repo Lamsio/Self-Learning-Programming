@@ -47,4 +47,7 @@ Typical applications:
 ### OFB
 Converts block cipher into stream cipher
 
-Similar to CFB, except input to encryption is **Preceding encryption output**
+Similar to CFB, except input to encryption is **Preceding encryption output**.
+
+Typical applications:
+1. stream-oriented transmission over noisy channels.(e.g. satellite communications)
