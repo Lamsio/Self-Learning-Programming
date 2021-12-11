@@ -56,4 +56,7 @@ Advantage compared to CFB:
 1. bit errors do not propagate
 
 Disadvantage:
-1. more vulnerable to message stream 
+1. more vulnerable to message stream modification attack
+
+#### CTR
+Convert 
