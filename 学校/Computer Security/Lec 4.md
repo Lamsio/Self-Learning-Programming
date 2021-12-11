@@ -43,3 +43,7 @@ XOR output to produce ciphertext
 Typical applications:
 1. General-purpose stream-oriented transmission;
 2. authentication
+
+### OFB
+Converts block cipher into stream cipher
+
