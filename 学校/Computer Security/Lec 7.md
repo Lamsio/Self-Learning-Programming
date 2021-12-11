@@ -18,5 +18,8 @@ Private key is kept by owner
 Brute Force Attacks
 1. use large key to avoid.
 2. Public-key algorithms less efficient with larger keys
-3. Public-key algorithms is used to 
+3. Public-key algorithms is used for key management and signatures.
 ```
+
+The private key can not be computed with public key.
+
