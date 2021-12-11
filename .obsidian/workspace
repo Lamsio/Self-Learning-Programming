@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学校/Gaming II/Revision for examination.md",
-            "mode": "preview"
+            "file": "学校/Computer Security/Lec 3.md",
+            "mode": "source"
           }
         }
       }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302
+    "width": 302,
+    "collapsed": true
   },
   "right": {
     "id": "b21de08abe3a97fe",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/Gaming II/Revision for examination.md",
+                "file": "学校/Computer Security/Lec 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +89,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "学校/Computer Security/Lec 3.md",
     "学校/Gaming II/Revision for examination.md",
     "学校/Gaming II/CH4 - Accounting.md",
     "学校/Gaming II/CH2 - Basics.md",
@@ -96,7 +98,6 @@
     "学校/Digital/3.1 Fourier Transform.md",
     "学校/Digital/2.7 Binary image.md",
     "学校/Digital/2.6 Edge detection.md",
-    "学校/Digital/2.5 Spatial Filtering.md",
-    "学校/Digital/2.4 Point operation.md"
+    "学校/Digital/2.5 Spatial Filtering.md"
   ]
 }
