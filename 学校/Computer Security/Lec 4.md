@@ -4,6 +4,8 @@
 
 但如果明文块相同，密文块也会重复。
 
+Each block of x plaintext bits is encoded independently using same key.
+
 #### Cipher Block Chaining(CBC)
 ![[Pasted image 20211030192918.png]]
 
