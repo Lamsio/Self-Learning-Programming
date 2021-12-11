@@ -35,3 +35,6 @@ IV must be known by sender and receiver, but secret from attacker
 
 #### CFB
 Converts block cipher into stream cipher
+
+The preceding ciphertext used as input to cipher to produce pseudo-random output.
+
