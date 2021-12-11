@@ -56,5 +56,6 @@ Avalanche effect:
 small changes in key or plaintext produces large changes in ciphertext
 ```
 
-####
-
+#### DES Algorithm design
+1. S-Boxes provide non-linearity, increased confusion
+2. Permutation chosen to increase diffusion
