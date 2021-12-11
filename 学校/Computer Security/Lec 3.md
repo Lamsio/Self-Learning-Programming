@@ -31,4 +31,15 @@ Block size: 64/128 bits, larger size leads to more diffusion.
 Key size: e.g 128 bits: larger size leads to more confusion.
 ```
 
-#### Data Encryption Standard
+#### Data Encryption Standard(DES)
+```text
+Symmetric block cipher:
+- 56-bit key, 64-bit input block, 64-bit output block
+
+Simplified DES:
+- Input(plaintext) block: 8-bits
+- Output(ciphertext) block: 8-bits
+- Key: 10-bits
+- Rounds 
+```
+
