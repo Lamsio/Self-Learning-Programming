@@ -45,4 +45,4 @@ Simplified DES:
 Encryption: initial permutation, round function, switch halves.
 
 ```
-
+![[Pasted image 20211211160013.png]]
