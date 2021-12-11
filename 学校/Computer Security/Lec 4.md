@@ -59,4 +59,10 @@ Disadvantage:
 1. more vulnerable to message stream modification attack
 
 #### CTR
-Convert 
+Converts block cipher into stream cipher
+
+Typical applications:
+1. General-purpose block-oriented transmission
+2. useful for high speed requirements
+3. simple and secure
+
