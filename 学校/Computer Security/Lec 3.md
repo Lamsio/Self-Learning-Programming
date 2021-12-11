@@ -46,3 +46,13 @@ Encryption: initial permutation, round function, switch halves.
 
 ```
 ![[Pasted image 20211211160013.png]]
+
+#### DES Design issues and attacks
+```text
+Advantage:
+1. Avalanche effect
+
+Avalanche effect:
+small changes in key or plaintext produces large changes in ciphertext
+```
+
