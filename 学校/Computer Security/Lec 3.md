@@ -40,6 +40,9 @@ Simplified DES:
 - Input(plaintext) block: 8-bits
 - Output(ciphertext) block: 8-bits
 - Key: 10-bits
-- Rounds 
+- Rounds: 2
+
+Encryption: initial permutation, round function, switch halves.
+
 ```
 
