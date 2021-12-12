@@ -62,3 +62,12 @@ Comparison to Block stream
 P是质数且正整数A无法被P整除
 ![[Pasted image 20211212222233.png]]
 
+P是质数且A是正整数
+![[Pasted image 20211212222302.png]]
+
+#### Euler's Totient Function
+求与n互质且小于n的正整数个数。
+
+p是质数，则φ(p) = p - 1
+
+若A B互质，则
