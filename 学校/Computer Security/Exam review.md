@@ -20,3 +20,9 @@
 #### Playfair
 Plaintext: yuanxiaochen
 key: lovechina
+![[Pasted image 20211212214217.png]]
+
+#### Vigenere
+Plaintext: internettechnologies
+Key: sirindhorn
+
