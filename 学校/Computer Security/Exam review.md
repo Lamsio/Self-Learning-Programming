@@ -73,3 +73,9 @@ p是质数，则φ(p) = p - 1
 若A B互质，且n = AB. φ(n) = φ(A) \* φ(B)
 
 若A B是不同的质数，且n = AB. φ(n) = (p-1) x (q-1)
+
+## CH7
+#### Calculation
+1. Elgamal scheme
+2. Elgamal cryptosystem
+3. diffie-hellman key exchange algorithm
