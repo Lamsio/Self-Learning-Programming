@@ -30,3 +30,6 @@ Key: sirindhorn
 
 ## CH 3
 #### Feistel Example
+![[Pasted image 20211212215220.png]]
+
+#### 
