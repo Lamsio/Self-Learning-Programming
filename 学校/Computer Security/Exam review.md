@@ -44,3 +44,9 @@ Symmetric block cipher
 
 Notice: small change in key or plaintext produces large change in ciphertext.
 
+## CH 5
+#### Stream cipher
+Encrypt one byte at a time by XOR with pseudo-random byte.
+
+
+
