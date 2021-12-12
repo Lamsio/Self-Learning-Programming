@@ -39,3 +39,8 @@ Symmetric block cipher
 - 64-bit output block
 
 ![[Pasted image 20211212215455.png]]
+![[Pasted image 20211212215551.png]]
+![[Pasted image 20211212215701.png]]
+
+Notice: small change in key or plaintext produces large change in ciphertext.
+
