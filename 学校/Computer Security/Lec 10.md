@@ -21,3 +21,8 @@ Certificate serial number
 Issuer Name
 Period of validity
 Subject Name
+Subject's public key info
+Issuer Unique identifier
+Subject Unique identifier
+Extension
+Signature
