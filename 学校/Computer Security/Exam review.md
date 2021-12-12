@@ -58,5 +58,7 @@ Comparison to Block stream
 2. Block ciphers can use re-use keys
 
 ## CH 6
-
+#### Fermat's Theorem
+P是质数且正整数A无法被P整除
+![[Pasted image 20211212222233.png]]
 
