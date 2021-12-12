@@ -15,3 +15,8 @@
 4. Euler and Fermat (CH 6)
 5. HMAC (CH 9)
 6. X.509 (CH 10)
+
+## Ch 2
+#### Playfair
+Plaintext: yuanxiaochen
+key: lovechina
