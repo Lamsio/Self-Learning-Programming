@@ -15,3 +15,9 @@ Certificate format includes:
 
 ![[Pasted image 20211212163921.png]]
 
+Version
+Certificate serial number
+(Signature algorithm identifier)
+Issuer Name
+Period of validity
+Subject Name
