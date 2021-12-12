@@ -15,14 +15,7 @@ Certificate format includes:
 
 ![[Pasted image 20211212163921.png]]
 
-Version
-Certificate serial number
-(Signature algorithm identifier)
-Issuer Name
-Period of validity
-Subject Name
-Subject's public key info
-Issuer Unique identifier
-Subject Unique identifier
-Extension
-Signature
+###### Reasons to revoke a certificate before it expires
+1. User's private key is compromised
+2. User is no longer certified by this CA
+3. CA's certificate is compromised
