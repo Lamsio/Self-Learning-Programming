@@ -16,4 +16,6 @@ Improvement over WEP:
 ###### WPA V.S WPA2
 1. The mandatory use of AES algorithms
 2. The introduction of CCMP
-3. The biggest hole in the WPA armor - the attack vector through the Wi-Fi network in order t
+
+###### The primary security vulnerability to the actual WPA2 system
+- Requires the attacker to already have access
