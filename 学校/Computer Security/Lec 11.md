@@ -12,3 +12,8 @@ Improvement over WEP:
 2. An initialization-vector sequencing mechanism that includes hashing, as opposed to WEP's plain text transmission.
 3. A per-packet key-mixing function to increase cryptographic strength
 4. A re-keying mechanism to provide key generation every 10000 packets
+
+###### WPA V.S WPA2
+1. The mandatory use of AES algorithms
+2. The introduction of CCMP
+3. The biggest hole in the WPA armor - the attack vector through the Wi-Fi network in order t
