@@ -8,4 +8,10 @@ Common applications:
 3. Document signing
 
 Certificate format includes:
-1. 
+1. Version of X.509 certificate
+2. Signature algorithm
+3. period of validity
+4. Signature
+
+![[Pasted image 20211212163921.png]]
+
