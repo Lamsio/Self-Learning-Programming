@@ -6,4 +6,9 @@
 
 WEP - Early security standard version, WEP passwords can be cracked in minutes.
 
-#####
+###### WPA
+Improvement over WEP:
+1. A cryptographic message integrity check to protect packets.
+2. An initialization-vector sequencing mechanism that includes hashing, as opposed to WEP's plain text transmission.
+3. A per-packet key-mixing function to increase cryptographic strength
+4. A re-keying mechanism to provide key generation every 10000 packets
