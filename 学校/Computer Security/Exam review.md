@@ -13,4 +13,5 @@
 2. Five mode (CH 4)
 3. Stream cipher (CH 5)
 4. Euler and Fermat (CH 6)
-5. 
+5. HMAC (CH 9)
+6. X.509 (CH 10)
