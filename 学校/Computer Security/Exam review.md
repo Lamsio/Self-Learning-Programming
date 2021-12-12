@@ -16,7 +16,7 @@
 5. HMAC (CH 9)
 6. X.509 (CH 10)
 
-## Ch 2
+## CH 2
 #### Playfair
 Plaintext: yuanxiaochen
 key: lovechina
@@ -26,3 +26,7 @@ key: lovechina
 Plaintext: internettechnologies
 Key: sirindhorn
 
+![[Pasted image 20211212214354.png]]
+
+## CH 3
+#### Feistel Example
