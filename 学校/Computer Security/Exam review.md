@@ -57,5 +57,6 @@ Comparison to Block stream
 1. Stream cipher easy to implement, and faster
 2. Block ciphers can use re-use keys
 
+## CH 6
 
 
