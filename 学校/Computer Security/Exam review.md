@@ -48,5 +48,14 @@ Notice: small change in key or plaintext produces large change in ciphertext.
 #### Stream cipher
 Encrypt one byte at a time by XOR with pseudo-random byte.
 
+Important consideration:
+- Encryption sequence should have large period
+- Keystream should approximate true random number stream
+- Key must withstand brute force attack
+
+Comparison to Block stream
+1. Stream cipher easy to implement, and faster
+2. Block ciphers can use re-use keys
+
 
 
