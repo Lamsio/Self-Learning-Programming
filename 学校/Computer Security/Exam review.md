@@ -32,4 +32,10 @@ Key: sirindhorn
 #### Feistel Example
 ![[Pasted image 20211212215220.png]]
 
-#### 
+#### DES
+Symmetric block cipher
+- 56-bit key
+- 64-bit input block
+- 64-bit output block
+
+![[Pasted image 20211212215455.png]]
