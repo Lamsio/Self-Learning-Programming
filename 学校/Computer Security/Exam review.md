@@ -5,7 +5,8 @@
 4. RC4
 5. RSA
 6. Elgamal Scheme
-7. Diffie-Hellman
+7. Elgamal Cryptosystem
+8. Diffie-Hellman
 
 #### Knowledge
 1. Feistel Example (CH 3)
