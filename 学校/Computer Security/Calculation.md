@@ -39,4 +39,10 @@ k = S[t]
 n = pq
 f(n) = (p-1) x (q-1);
 e: 1 <= e <= f(n)
-d: e x ? mod 8
+d: e x ? mod n
+
+Pu(e,n)
+Pr(d,n)
+
+C = M^e mod n
+M' = M^d mod n
