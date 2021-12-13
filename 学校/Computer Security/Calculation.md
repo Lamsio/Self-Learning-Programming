@@ -29,3 +29,14 @@ j = (j + S[i] + T[i]) mod 8
 swap(S[i], S[j]);
 
 STEP 3
+i = i+1 mod 8
+j = j + S[i] mod 8
+swap(S[i], S[j]);
+t = (S[i]+S[j]) mod 8
+k = S[t]
+
+#### RSA
+n = pq
+f(n) = (p-1) x (q-1);
+e: 1 <= e <= f(n)
+d: e x ? mod 8
