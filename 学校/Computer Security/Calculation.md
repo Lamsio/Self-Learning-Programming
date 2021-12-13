@@ -48,4 +48,7 @@ C = M^e mod n
 M' = M^d mod n
 
 #### Elgamal scheme
-prime, root, random k, 
+prime, root, random k, message m, generator g, private key.
+1. g^a mod p
+2. Y = g^k mod p
+3. O = ()
