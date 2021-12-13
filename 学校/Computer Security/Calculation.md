@@ -62,4 +62,6 @@ S1: root^k mod p
 S2: K^-1(m-XaS1) mod p
 
 V1 = a^m mod p
-V2 = Publickey^S1\*S1^
+V2 = Publickey^S1\*S1^S2 mod p
+
+#### 
