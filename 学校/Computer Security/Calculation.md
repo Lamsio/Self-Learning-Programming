@@ -46,3 +46,6 @@ Pr(d,n)
 
 C = M^e mod n
 M' = M^d mod n
+
+#### Elgamal scheme
+prime, root, random k, 
