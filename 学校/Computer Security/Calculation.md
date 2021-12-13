@@ -55,4 +55,11 @@ prime, root, random k, message m, generator g, private key.
 4. M' = ((y^-a)O) mod p
 
 #### Elgamal scheme
-prime, root, random k, message m, private
+prime, root, random k, message m, private key Xa
+
+public key: root^Xa mod p
+S1: root^k mod p
+S2: K^-1(m-XaS1) mod p
+
+V1 = a^m mod p
+V2 = Publickey^S1\*S1^
