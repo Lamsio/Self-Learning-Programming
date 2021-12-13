@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学校/Computer Security/Lec 10.md",
+            "file": "学校/Computer Security/Lec 11.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/Computer Security/Lec 10.md",
+                "file": "学校/Computer Security/Lec 11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "学校/Computer Security/Lec 11.md",
     "学校/Computer Security/Lec 10.md",
     "学校/Computer Security/Exam review.md",
     "学校/Computer Security/EEA.md",
@@ -96,7 +97,6 @@
     "学校/Computer Security/Lec 4.md",
     "学校/Computer Security/Lec 3.md",
     "学校/Computer Security/Lec 5.md",
-    "学校/Computer Security/Lec 2.md",
-    "学校/Computer Security/Lec 1.md"
+    "学校/Computer Security/Lec 2.md"
   ]
 }
