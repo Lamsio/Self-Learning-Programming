@@ -107,3 +107,11 @@ n = pq
 f(n) = p-1 x q-1
 1<= e <= f(n)
 d: e x ? mod f(n) = 1
+pu(e,n)
+pr(d,n)
+
+C = M^e mod n
+M' = C^d mod n
+
+#### ELGamal cryptosystem
+prime, root(generator),
