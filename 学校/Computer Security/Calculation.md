@@ -114,4 +114,11 @@ C = M^e mod n
 M' = C^d mod n
 
 #### ELGamal cryptosystem
-prime, root(generator),
+prime, root(generator), private key, random k, m
+
+public key: g^a mod p
+
+y = g^k mod p
+o = (m(g^a)^k) mod p
+
+M'
