@@ -134,4 +134,9 @@ V1 = a^m mod p
 V2 = Ya^S1 x S1^S2 mod p
 
 #### Schnorr 
-primes p and q(<p and relativ)
+primes p and q(<p and relatively prime)
+a (a^q = 1 mod p)
+private key: 0<s<q (random)
+r 0<r<q (random)
+
+public key: v = a^-s mod p
