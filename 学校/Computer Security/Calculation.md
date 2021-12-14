@@ -98,4 +98,12 @@ STEP 3
 i,j = 0
 i = i+1 mod 8
 j = (j + S[i]) mod 8
-swap(S[i], S[])
+swap(S[i], S[j]);
+t = (S[i]+S[j]) mod 8;
+k = S[t];
+
+#### RSA
+n = pq
+f(n) = p-1 x q-1
+1<= e <= f(n)
+d: e x ? mod f(n) = 1
