@@ -121,4 +121,16 @@ public key: g^a mod p
 y = g^k mod p
 o = (m(g^a)^k) mod p
 
-M'
+M' = ((y^-a)o) mod p
+
+#### ELGamal scheme
+prime, root, private, m, k
+
+public key: g^a mod p
+s1 = g^k mod p
+s2 = k^-1(m-XaS1) mod p
+
+V1 = a^m mod p
+V2 = Ya^S1 x S1^S2 mod p
+
+#### 
