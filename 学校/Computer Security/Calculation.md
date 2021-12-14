@@ -84,4 +84,18 @@ Encryption
 9. 2-7
 10. -IP
 
-####
+#### RC4
+STEP 1
+S= [0,1,2,3,4,5,6,7]
+T = [KEY REPEATED];
+
+STEP 2
+i,j = 0
+j = (j + S[i]+T[i]) mod 8;
+swap(S[i], S[j]);
+
+STEP 3
+i,j = 0
+i = i+1 mod 8
+j = (j + S[i]) mod 8
+swap(S[i], S[])
