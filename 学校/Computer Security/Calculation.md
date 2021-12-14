@@ -140,3 +140,6 @@ private key: 0<s<q (random)
 r 0<r<q (random)
 
 public key: v = a^-s mod p
+e = H(M || x)
+y = (r+se) mod q, pair(e,y)
+
