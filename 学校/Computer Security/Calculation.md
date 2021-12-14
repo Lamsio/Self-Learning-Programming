@@ -143,3 +143,9 @@ public key: v = a^-s mod p
 e = H(M || x)
 y = (r+se) mod q, pair(e,y)
 
+#### Diffie-hellman
+Xa,Xb, a(primitive root of q)
+Ya = a^Xa mod q
+Yb = a^Xb mod q
+Kb = Ya^Xb mod q
+Ka = Yb^Xa mod q
