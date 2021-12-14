@@ -133,4 +133,5 @@ s2 = k^-1(m-XaS1) mod p
 V1 = a^m mod p
 V2 = Ya^S1 x S1^S2 mod p
 
-#### 
+#### Schnorr 
+primes p and q(<p and relativ)
