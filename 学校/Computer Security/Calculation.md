@@ -64,4 +64,24 @@ S2: K^-1(m-XaS1) mod p
 V1 = a^m mod p
 V2 = Publickey^S1\*S1^S2 mod p
 
-#### 
+#### S-DES
+Key generation:
+1. P10
+2. LF-1
+3. P8
+4. LF-2
+5. P-8
+
+Encryption
+1. IP
+2. EP
+3. + KEY1
+4. S0 S1
+5. P4
+6. +LEFT
+7. + RIGHT
+8. EXCHANGE
+9. 2-7
+10. -IP
+
+####

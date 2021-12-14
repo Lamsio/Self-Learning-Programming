@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学校/Computer Security/Calculation.md",
-            "mode": "preview"
+            "file": "学校/Computer Security/Exam review.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/Computer Security/Calculation.md",
+                "file": "学校/Computer Security/Exam review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,8 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
-    "学校/Computer Security/Calculation.md",
     "学校/Computer Security/Exam review.md",
+    "学校/Computer Security/Calculation.md",
     "学校/Computer Security/Lec 11.md",
     "学校/Computer Security/Lec 10.md",
     "学校/Computer Security/Lec 4.md",
