@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/设计模式/设计模式简介.md",
+            "file": "自学/设计模式/创造型设计模式.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/设计模式/设计模式简介.md",
+                "file": "自学/设计模式/创造型设计模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/设计模式/创造型设计模式.md",
     "自学/设计模式/设计模式简介.md",
     "自学/Java/多线程/ReadwriteLock.md",
     "学校/Gaming II/Revision for examination.md",
@@ -96,7 +97,6 @@
     "学校/Gaming II/CH3 - Monitoring.md",
     "自学/Java/网络编程/TCP.md",
     "自学/Java/线程的问题/线程饥饿.md",
-    "自学/Java/IO流/Filter 模式.md",
-    "自学/Java/IO流/序列化.md"
+    "自学/Java/IO流/Filter 模式.md"
   ]
 }
