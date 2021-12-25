@@ -7,8 +7,11 @@
         "id": "73b19cf5dc6662d6",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "自学/前端开发/Vue/Vue组件化开发/组件.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "自学/前端开发/Vue/Vue组件化开发/组件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +88,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/前端开发/Vue/Vue组件化开发/组件.md",
     "自学/前端开发/Vue/未命名.md",
     "自学/前端开发/Vue/生命周期.md",
     "自学/设计模式/创造型设计模式.md",
@@ -92,7 +97,6 @@
     "学校/Gaming II/Revision for examination.md",
     "学校/Gaming II/CH4 - Accounting.md",
     "学校/Gaming II/CH2 - Basics.md",
-    "学校/Gaming II/CH3 - Monitoring.md",
-    "自学/Java/网络编程/TCP.md"
+    "学校/Gaming II/CH3 - Monitoring.md"
   ]
 }
