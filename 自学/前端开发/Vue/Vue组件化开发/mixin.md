@@ -21,3 +21,19 @@ export const mixin = {
 }
 ```
 
+在抽取相同项后，我们可以在两个组件中导入这个`mixin.js`。
+
+```html
+import {mixin} from '../mixin'
+
+export default {
+	name: 'School',
+	data(){
+		return {
+			name: 'MPI',
+			address: 'Macau'
+		}
+	},
+	mixins: [mixin] //将混合项放入数组即可。
+}
+```
