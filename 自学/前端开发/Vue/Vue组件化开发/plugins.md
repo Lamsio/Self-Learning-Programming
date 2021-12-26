@@ -18,7 +18,19 @@ export default {
 			//...
 		});
 
-		//定义
+		//定义混入mixin
+		Vue.mixin({
+			data(){
+				glo_position_x = 0;
+				glo_position_y = 0;
+			}
+		});
+
+		//为Vue原型添加方法(vm/vc都能使用)
+		Vue.prototype.hello = ()=>{alert('你好啊')}
 	}
 }
 ```
+
+#### 使用插件
+使用者只需要在`main.js`中使用`Vue.use(plugin_name)`就能够
