@@ -7,7 +7,7 @@
 // plugins.js
 // 为了美观，建议不要直接定义在main.js中
 export default {
-	install(Vue){
+	install(Vue,x,y,z){//后面可以跟一大堆参数
 		//定义全局过滤器
 		Vue.filter('fill',function(value){
 			return value*10;
@@ -32,5 +32,6 @@ export default {
 }
 ```
 
+
 #### 使用插件
-使用者只需要在`main.js`中使用`Vue.use(plugin_name)`就能够
+使用者只需要在`main.js`中使用`Vue.use(plugin_name,[参数])`就能够调用插件
