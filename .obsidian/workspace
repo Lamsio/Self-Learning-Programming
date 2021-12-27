@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/前端开发/Vue/VueX/VueX.md",
+            "file": "自学/前端开发/Vue/VueX/VueX工作原理.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/前端开发/Vue/VueX/VueX.md",
+                "file": "自学/前端开发/Vue/VueX/VueX工作原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
-    "自学/前端开发/Vue/VueX/VueX.md",
+    "自学/前端开发/Vue/VueX/VueX工作原理.md",
     "学校/Gaming II/CH4 - Accounting.md",
     "自学/前端开发/Vue/Slot插槽/默认插槽.md",
     "自学/前端开发/Vue/Ajax/跨域与代理.md",
