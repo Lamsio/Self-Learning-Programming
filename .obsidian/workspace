@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/前端开发/Vue/动画与过度/动画与过渡.md",
+            "file": "自学/前端开发/Vue/动画与过度/第三方动画集成.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/前端开发/Vue/动画与过度/动画与过渡.md",
+                "file": "自学/前端开发/Vue/动画与过度/第三方动画集成.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/前端开发/Vue/动画与过度/第三方动画集成.md",
+    "学校/Gaming II/Revision for examination.md",
+    "学校/Gaming II/CH4 - Accounting.md",
+    "学校/Gaming II/CH3 - Monitoring.md",
+    "学校/Gaming II/CH2 - Basics.md",
     "自学/前端开发/Vue/动画与过度/动画与过渡.md",
     "自学/前端开发/Vue/生命周期.md",
     "自学/安卓开发 Java/组件/进度条 ProgressBar.md",
     "自学/安卓开发 Java/组件/星星评分 RatingBar.md",
-    "自学/安卓开发 Java/组件/拖动条 SeekBar.md",
-    "自学/安卓开发 Java/布局/ConstraintLayout.md",
-    "日常用语/点餐/Restaurant English.md",
-    "学校/Gaming II/CH2 - Basics.md",
-    "学校/Gaming II/CH3 - Monitoring.md",
-    "自学/IP routing.md"
+    "自学/安卓开发 Java/组件/拖动条 SeekBar.md"
   ]
 }
