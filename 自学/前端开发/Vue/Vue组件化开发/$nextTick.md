@@ -11,4 +11,12 @@ methods: {
 }
 ```
 
-上面这段代码的意思是
+上面这段代码的意思是，当我们点击本文时，触发`clickText`方法，`isEdit`变量是用于判断是否进入编辑模式的，如果为`true`则隐藏`p`标签显示`input`标签，下面有一段
+
+```js
+	  this.$nextTick(function () {  
+	      this.$refs.inputTitle[index].focus()  
+      })  
+```
+
+这段代码的执行涉及到了先后顺序，在`$nextTick()`函数中的代码将会被延后到页面渲染
