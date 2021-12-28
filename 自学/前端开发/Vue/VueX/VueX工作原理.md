@@ -11,11 +11,8 @@
 #### 组成介绍
 VueX本质上由三个部分组成，分别是**Actions**,**Mutations**和**State**.
 
-###### Actions
-负责管理接收到的行为
+1. Actions - 负责管理接收到的行为
+2. Mutations - 负责处理公共数据
+3. State - 负责存储公共数据
 
-###### Mutations
-负责处理公共数据
-
-###### State
-负责存储公共数据
+执行流程是，当Vue组件想更改公共数据时，会调用`this.$store.dispatch([动作名],[数据])`，该请求会告知**Actions**，**Actions**会将请求转给**Mutations**进行处理
