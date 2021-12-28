@@ -47,3 +47,18 @@ export default new Vuex.Store({
 })
 ```
 
+#### Actions
+在Actions下我们可以写处理请求的方法
+```js
+// 用于响应组件内的动作  
+const actions = {  
+    plus(context,value){  
+        context.commit('PLUS',value)  
+    }  
+} 
+```
+如上代码所示，`plus(context,value)`中可以接收两个参数，第一个是上下文对象，第二个是传递的值。
+
+在上下文对象中包含了以下几个重要方法:
+1. commit - 将请求转给Mutations处理
+2. 
