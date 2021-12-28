@@ -39,4 +39,4 @@ export default new VueRouter({
 </template>
 ```
 
-当运行时，`router-link`标签会被渲染成`a`标签，其中的`to`属性指明了要切换的组件的`path`，而`router-view`标签则是用于显示该组件。如果你想点击标签后高亮，你可以为`router-link`标签添加`active-class`属性，
+当运行时，`router-link`标签会被渲染成`a`标签，其中的`to`属性指明了要切换的组件的`path`，而`router-view`标签则是用于显示该组件。如果你想点击标签后高亮，你可以为`router-link`标签添加`active-class`属性，该标签用于决定被选择时的样式。
