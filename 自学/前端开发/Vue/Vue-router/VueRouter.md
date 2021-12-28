@@ -25,7 +25,7 @@ export default new VueRouter({
 });
 ```
 
-#### router-link
+#### router-link & router-view
 当我们配置完基本的设定后，我们就可以设置切换了。
 
 ```js
@@ -40,3 +40,6 @@ export default new VueRouter({
 ```
 
 当运行时，`router-link`标签会被渲染成`a`标签，其中的`to`属性指明了要切换的组件的`path`，而`router-view`标签则是用于显示该组件。如果你想点击标签后高亮，你可以为`router-link`标签添加`active-class`属性，该标签用于决定被选择时的样式。
+
+#### 路由组件与一般组件
+需要通过VueRouter调用的组件被称为路由组件，而一般组件则是不依赖路由就能展示的组件。按照官方的要求，路由组件建议放置在`src->pages`文件夹下，而一般组件就放在`src->components`文件夹下。
