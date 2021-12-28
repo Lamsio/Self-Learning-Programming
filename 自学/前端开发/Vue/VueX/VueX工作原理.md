@@ -110,3 +110,7 @@ export default new Vuex.Store({
 如果我们想使用这个getter，同理，可以在Vue组件中调用`this.$store.getters.doubleNumber()`
 
 ###### mapState
+当我们想在模板里调用`state`数据，就必须要`this.$store.state.xxx`，如果大量这类模板变量放置在模板中，会显得模板十分不美观。因此我们可能需要mapState去做代码优化。
+
+*笔者感觉这玩意儿不常用，因此仅放教学视频的链接，不再过多赘述*
+[尚硅谷Vue2.0+Vue3.0全套教程丨vuejs从入门到精通_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Zy4y1K7SH?p=112)
