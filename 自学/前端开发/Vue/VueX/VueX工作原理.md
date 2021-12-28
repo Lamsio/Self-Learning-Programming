@@ -69,6 +69,7 @@ const actions = {
 
 ###### Getters
 ```js
+//Vuex的index.js
 //引入VueX  
 import Vuex from "vuex";  
 import Vue from "vue";  
@@ -107,3 +108,5 @@ export default new Vuex.Store({
 上述代码中，我添加了新的getters并在导出处也添加了getters，他的作用类似于Vue中的computed
 
 如果我们想使用这个getter，同理，可以在Vue组件中调用`this.$store.getters.doubleNumber()`
+
+###### mapState
