@@ -68,3 +68,40 @@ const actions = {
 6. rootState - 
 
 ###### Getters
+```js
+//引入VueX  
+import Vuex from "vuex";  
+import Vue from "vue";  
+  
+Vue.use(Vuex);  
+// 用于响应组件内的动作  
+const actions = {  
+    plus(context,value){  
+        context.commit('PLUS',value);  
+    }  
+}  
+// 用于操作数据  
+const mutations = {  
+    PLUS(state,value){  
+        state.sum += value;  
+	}  
+}  
+// 用于响应组件内的动作  
+const state = {  
+    sum : 0,  
+}  
+  
+const getters = {  
+    doubleNumber(value){  
+        return value*2;  
+	}  
+}  
+export default new Vuex.Store({  
+    actions,  
+	mutations,  
+    state,  
+    getters  //别忘了添加getters在导出口
+})
+```
+
+上述代码中，我添加了新的getters并在导出处也添加了getters，他的作用类似于Vue中的computed
