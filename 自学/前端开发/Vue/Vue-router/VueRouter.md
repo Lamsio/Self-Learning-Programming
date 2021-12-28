@@ -24,3 +24,7 @@ export default new VueRouter({
 	]  
 });
 ```
+
+#### router-link
+当我们配置完基本的设定后，我们就可以设置切换了。
+
