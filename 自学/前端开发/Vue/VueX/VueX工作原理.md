@@ -92,9 +92,9 @@ const state = {
 }  
   
 const getters = {  
-    doubleNumber(value){  
-        return value*2;  
-	}  
+	doubleNumber(state){  
+	    return state.sum*2;  
+	}
 }  
 export default new Vuex.Store({  
     actions,  
