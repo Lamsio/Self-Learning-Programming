@@ -15,4 +15,34 @@ VueX本质上由三个部分组成，分别是**Actions**,**Mutations**和**Stat
 2. Mutations - 负责处理公共数据
 3. State - 负责存储公共数据
 
-执行流程是，当Vue组件想更改公共数据时，会调用`this.$store.dispatch([动作名],[数据])`，该请求会告知**Actions**，**Actions**会将请求转给**Mutations**进行处理
+执行流程是，当Vue组件想更改公共数据时，会调用`this.$store.dispatch([动作名],[数据])`，该请求会告知**Actions**，**Actions**会调用`commit([动作名],[数据])`方法将请求转给**Mutations**进行处理，**Mutations**在接收到请求后会处理指定数据并将最终值存储在**State**中
+
+```js
+//引入VueX  
+import Vuex from "vuex";  
+import Vue from "vue";  
+  
+Vue.use(Vuex);  
+// 用于响应组件内的动作  
+const actions = {  
+    plus(context,value){  
+        context.commit('PLUS',value)  
+    }  
+}  
+// 用于操作数据  
+const mutations = {  
+    PLUS(state,value){  
+        state.sum += value;  
+	}  
+}  
+// 用于响应组件内的动作  
+const state = {  
+    sum : 0,  
+}  
+  
+export default new Vuex.Store({  
+    actions,  
+	mutations,  
+	state  
+})
+```
