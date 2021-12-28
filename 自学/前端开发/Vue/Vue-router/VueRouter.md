@@ -28,3 +28,13 @@ export default new VueRouter({
 #### router-link
 当我们配置完基本的设定后，我们就可以设置切换了。
 
+```js
+//App.vue
+<template>  
+    <div id="app">  
+	 <router-link to="/about">关于</router-link>  
+	 <router-link to="/home">主页</router-link>  
+	 <router-view></router-view> 
+	</div>
+</template>
+```
