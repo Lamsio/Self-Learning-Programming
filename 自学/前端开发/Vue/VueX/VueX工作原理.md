@@ -61,4 +61,10 @@ const actions = {
 
 在上下文对象中包含了以下几个重要方法:
 1. commit - 将请求转给Mutations处理
-2. 
+2. dispatch - 将请求转交给其他Actions处理
+3. state - 从state获取数据
+4. getters - 将数据进行加工，类似于Vue中的computed
+5. rootGetters - 
+6. rootState - 
+
+###### Getters
