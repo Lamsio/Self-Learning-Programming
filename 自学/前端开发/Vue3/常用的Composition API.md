@@ -11,6 +11,7 @@
 export default {  
   name: 'App',  
   // 仅测试setup，不考虑响应式  
+  // Vue3的写法
   setup(){  
      let name="Tommy"  
      let age = 18  
@@ -24,6 +25,12 @@ export default {
 		  age,  
 		  hello  
 	 }  
-  }  
+  },
+  // Vue2的写法
+  data(){
+	return {
+		numb: 100
+	}
+  }
 }
 ```
