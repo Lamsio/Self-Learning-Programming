@@ -7,6 +7,7 @@
 	2. 如果重名，setup优先
 	3. setup不能是一个async函数，因为返回值不再是return的对象，而是promise，模板看不到return对象中的属性值
 
+
 ```js
 export default {  
   name: 'App',  
