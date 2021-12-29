@@ -19,3 +19,22 @@
 具体流程可以参考: [组件 | Element](https://element.eleme.cn/#/zh-CN/component/quickstart)
 
 注意，其中的`.babeirc`已经变为了`babel.config.js`
+
+```js
+//以下是最新的babel.config.js配置
+module.exports = {  
+  presets: [  
+    '@vue/cli-plugin-babel/preset',  
+	["@babel/preset-env", { "modules": false }],  
+  ],  
+  "plugins": [  
+    [  
+      "component",  
+	 {  
+        "libraryName": "element-ui",  
+		"styleLibraryName": "theme-chalk"  
+	 }  
+    ]  
+  ]  
+}
+```
