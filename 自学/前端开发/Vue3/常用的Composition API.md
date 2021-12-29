@@ -48,10 +48,10 @@ export default {
   // Vue3的写法
   setup(){  
      let name= ref("Tommy")  
-     let age = 18  
+     let age = ref(18)  
   
 	 function hello() {  
-		  age = 20;
+		  age.value = 20;
 	      alert(`我是${name},我今年${age}岁`);
 	 }  
   
@@ -63,4 +63,7 @@ export default {
   },
 }
 ```
+
+此外，在函数中若要修改值，也必须是`[属性名].value`才能修改。
+
 
