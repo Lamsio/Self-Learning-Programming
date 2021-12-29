@@ -93,3 +93,21 @@ export default {
 ```
 
 基于这种方式，我们可以用`data.[数据名]`实现数据调用
+
+#### Computed
+在Vue2中我们是通过以下方法实现`computed`的
+```js
+import Main from './components/Main.vue'  
+  
+export default {  
+  name: 'App',  
+  components: {  
+    Main  
+  },  
+  computed: {  
+      
+  }  
+}
+```
+
+但在Vue3中，我们需要在`setup()`下调用`computed()`实现计算属性。
