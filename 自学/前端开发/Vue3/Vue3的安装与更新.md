@@ -23,3 +23,19 @@ npm run serve
 	- 真正的按需编译，不再等待整个应用编译完成
 
 - 传统构建与vite构建对比
+![[Pasted image 20211229191431.png]]
+
+```shell
+## 查看@vue/cli版本,确保版本在4.5.0以上
+vue --version
+
+## 安装/升级你的@vue/cli
+npm install -g @vue/cli
+
+## 创建项目
+vue create vue_project
+
+## 启动
+cd vue_project
+npm run serve
+```
