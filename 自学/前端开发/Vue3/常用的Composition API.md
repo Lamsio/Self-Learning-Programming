@@ -17,7 +17,8 @@ export default {
      let age = 18  
   
 	 function hello() {  
-	      alert(`我是${name},我今年${age}岁`)  
+		  age = 20;
+	      alert(`我是${name},我今年${age}岁`);
 	 }  
   
      return {  
@@ -36,3 +37,30 @@ export default {
 ```
 
 #### Ref
+如果我们运行上述代码会发现一个很奇怪的事情，当我们点击按钮触发`hello()`时，输出的年龄依旧是18，在Vue3中我们需要手动地将属性套用`ref`类型，也就是说每个属性都得改成`ref(属性)`
+
+我们更改上述代码得到以下代码：
+```js
+import {ref} from "vue";
+export default {  
+  name: 'App',  
+  // 仅测试setup，不考虑响应式  
+  // Vue3的写法
+  setup(){  
+     let name= ref("Tommy")  
+     let age = 18  
+  
+	 function hello() {  
+		  age = 20;
+	      alert(`我是${name},我今年${age}岁`);
+	 }  
+  
+     return {  
+	      name,  
+		  age,  
+		  hello  
+	 }  
+  },
+}
+```
+
