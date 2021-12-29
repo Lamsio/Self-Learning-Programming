@@ -14,3 +14,6 @@
 
 以ElementUI为例，当我们在`main.js`中使用`Vue.use()`进行引用时，会将ElementUI中所有组件都引入进来，但实际上我们并不需要用到那么多组件，因此我们需要优化一下引入的组件。
 
+我们可以借助 [babel-plugin-component](https://github.com/QingWei-Li/babel-plugin-component)，实现按需引入。
+
+具体流程可以参考: [组件 | Element](https://element.eleme.cn/#/zh-CN/component/quickstart)
