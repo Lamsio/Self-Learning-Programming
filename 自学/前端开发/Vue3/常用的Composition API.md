@@ -111,3 +111,33 @@ export default {
 ```
 
 但在Vue3中，我们需要在`setup()`下调用`computed()`实现计算属性。
+```js
+import {computed, ref} from "vue";  
+export default {  
+  name: 'App',  
+  // 仅测试setup，不考虑响应式  
+  setup(){  
+     let data=ref("");  
+  let fulldata = computed(()=>{  
+      return data.value+"才是数据";  
+  })  
+     return {  
+       data,  
+	   fulldata  
+     }  
+  },  
+}
+```
+
+还有个特点是，在Vue3中，计算属性不再是只读，还可以主动更改值。
+
+```js
+let fulldata = computed({
+	get(){
+		return data.value+"才是数据";
+	},
+	set(value){
+		
+	}
+})
+```
