@@ -9,3 +9,7 @@
 2. [NutUI - 移动端 Vue2、Vue3、小程序 组件库 (jd.com)](https://nutui.jd.com/#/)
 3. [iView - A high quality UI Toolkit based on Vue.js (iviewui.com)](https://www.iviewui.com/)
 
+#### 引入优化
+由于上述几个常用的VueUI库，在官网内都有详细使用说明，因此不在此笔记内细说了。
+
+以ElementUI为例，当我们在`main.js`中使用`Vue.use()`进行引用时，
