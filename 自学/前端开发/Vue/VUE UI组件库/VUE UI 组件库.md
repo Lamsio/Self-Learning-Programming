@@ -17,3 +17,5 @@
 我们可以借助 [babel-plugin-component](https://github.com/QingWei-Li/babel-plugin-component)，实现按需引入。
 
 具体流程可以参考: [组件 | Element](https://element.eleme.cn/#/zh-CN/component/quickstart)
+
+注意，其中的`.babeirc`已经变为了`babel.config.js`
