@@ -7,12 +7,8 @@
         "id": "73b19cf5dc6662d6",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "自学/前端开发/Vue3/Vue3的安装与更新.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/前端开发/Vue3/Vue3的安装与更新.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +84,15 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/前端开发/Vue3/Vue3开发者工具.md",
+    "自学/前端开发/Vue3/分析工程差别.md",
     "自学/前端开发/Vue3/Vue3的安装与更新.md",
-    "自学/前端开发/Vue3/Vue3.md",
     "自学/前端开发/Vue3/Vue3的改变.md",
     "自学/前端开发/Vue/VUE UI组件库/VUE UI 组件库.md",
     "自学/前端开发/Vue/打包与构建.md",
     "自学/前端开发/Vue/Vue-router/路由守卫.md",
     "自学/前端开发/Vue/Vue-router/路由组件的生命周期.md",
     "自学/前端开发/Vue/Vue-router/路由组件缓存.md",
-    "自学/前端开发/Vue/Vue-router/router-link的replace属性.md",
-    "自学/前端开发/Vue/Vue-router/嵌套路由.md"
+    "自学/前端开发/Vue/Vue-router/router-link的replace属性.md"
   ]
 }
