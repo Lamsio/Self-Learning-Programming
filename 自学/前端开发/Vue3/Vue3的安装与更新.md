@@ -26,16 +26,15 @@ npm run serve
 ![[Pasted image 20211229191431.png]]
 
 ```shell
-## 查看@vue/cli版本,确保版本在4.5.0以上
-vue --version
+## 创建工程
+npm init vite-app <project-name>
 
-## 安装/升级你的@vue/cli
-npm install -g @vue/cli
+## 进入工程目录
+cd <project-name>
 
-## 创建项目
-vue create vue_project
+## 安装依赖
+npm install
 
-## 启动
-cd vue_project
-npm run serve
+## 运行
+npm run dev
 ```
