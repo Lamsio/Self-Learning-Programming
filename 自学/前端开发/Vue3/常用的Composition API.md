@@ -66,4 +66,29 @@ export default {
 
 此外，在函数中若要修改值，也必须是`[属性名].value`才能修改。
 
+#### Reactive
+Ref用于将常规数据类型（String，number...）响应化，而Reactive则是用于将对象、数组类型响应化。
 
+一种模拟Vue2 data的写法
+```js
+export default {  
+  name: 'App',  
+  // 仅测试setup，不考虑响应式  
+  setup(){  
+    let data = reactive({  
+        name: 'LKK',  
+		age: 18  
+  })  
+    function hello() {  
+      data.name = 'ZHQ';  
+	  data.age = 17;  
+  }  
+    return {  
+      data,  
+	  hello  
+	 }  
+  },  
+}
+```
+
+基于这种方式，我们可以用`data.[数据名]`
