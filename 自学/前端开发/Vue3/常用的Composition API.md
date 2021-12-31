@@ -137,7 +137,7 @@ let fulldata = computed({
 		return data.value+"才是数据";
 	},
 	set(value){
-		
+		data.value = value;
 	}
 })
 ```
