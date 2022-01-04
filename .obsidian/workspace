@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/前端开发/Nodejs/6. 同步与异步.md",
+            "file": "自学/学校/Gaming Technology II/CH1 - XML.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/前端开发/Nodejs/6. 同步与异步.md",
+                "file": "自学/学校/Gaming Technology II/CH1 - XML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "b7ac7fbe3dc0f6b8",
   "lastOpenFiles": [
+    "自学/学校/Gaming Technology II/CH1 - XML.md",
+    "自学/学校/IP routing/4.2 Introduction to classless routinig.md",
+    "自学/学校/Pasted image 20211011123034.png.md",
+    "自学/学校/RC4.md",
+    "自学/安卓开发 Java/布局/LinearLayout.md",
+    "自学/前端开发/Nodejs/1. Nodejs介绍.md",
     "自学/前端开发/Nodejs/6. 同步与异步.md",
     "自学/前端开发/ES6/Promise/1. Promise介绍.md",
     "自学/前端开发/ES6/Promise/2. Promise状态.md",
-    "自学/前端开发/ES6/Promise/3. Promise自定义.md",
-    "自学/前端开发/ES6/Promise/4. Promise Async与Await.md",
-    "自学/前端开发/Nodejs/5. Buffer缓冲区.md",
-    "自学/前端开发/Nodejs/4. 模块化简介.md",
-    "自学/前端开发/Nodejs/3. 进程与线程.md",
-    "自学/前端开发/Nodejs/2. CMD小黑窗.md",
-    "自学/前端开发/Nodejs/1. Nodejs介绍.md"
+    "自学/前端开发/ES6/Promise/3. Promise自定义.md"
   ]
 }
