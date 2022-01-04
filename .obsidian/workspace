@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/前端开发/Nodejs/1. Nodejs介绍.md",
+            "file": "自学/前端开发/Nodejs/4. 模块化简介.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/前端开发/Nodejs/1. Nodejs介绍.md",
+                "file": "自学/前端开发/Nodejs/4. 模块化简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "b7ac7fbe3dc0f6b8",
   "lastOpenFiles": [
+    "自学/前端开发/Nodejs/4. 模块化简介.md",
     "自学/前端开发/Nodejs/1. Nodejs介绍.md",
     "自学/前端开发/Nodejs/6. 同步与异步.md",
     "自学/前端开发/Nodejs/5. Buffer缓冲区.md",
-    "自学/前端开发/Nodejs/4. 模块化简介.md",
     "自学/前端开发/Nodejs/2. CMD小黑窗.md",
     "自学/前端开发/Nodejs/3. 进程与线程.md",
     "自学/前端开发/Nodejs/8. Express框架.md",
