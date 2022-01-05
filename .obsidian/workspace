@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/前端开发/Nodejs/11. Controller.md",
+            "file": "自学/前端开发/MongoDB/1. 数据库简介.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/前端开发/Nodejs/11. Controller.md",
+                "file": "自学/前端开发/MongoDB/1. 数据库简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "5e6f0d4b4e3f6a65",
   "lastOpenFiles": [
+    "自学/前端开发/MongoDB/1. 数据库简介.md",
     "自学/前端开发/Nodejs/11. Controller.md",
     "自学/前端开发/Nodejs/8. Express框架.md",
     "自学/前端开发/Nodejs/1. Nodejs介绍.md",
@@ -97,7 +98,6 @@
     "自学/前端开发/Nodejs/4. 模块化简介.md",
     "自学/前端开发/Nodejs/10. RESTful 接口规范.md",
     "自学/前端开发/Nodejs/9. Express 路由路径匹配机制.md",
-    "自学/前端开发/ES6/Promise/5. Util.promisify小案例.md",
-    "自学/前端开发/ES6/Promise/4. Promise Async与Await.md"
+    "自学/前端开发/ES6/Promise/5. Util.promisify小案例.md"
   ]
 }
