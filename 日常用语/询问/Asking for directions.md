@@ -1,0 +1,3 @@
+Excuse me, would you mind telling me ....
+
+E.g Excuse me, would you mind telling me how I can get to the train station?
