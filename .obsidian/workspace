@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/前端开发/ES6/ES/2. ES6进阶 - Proxy & Reflect.md",
+            "file": "日常用语/询问/Asking for directions.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/前端开发/ES6/ES/2. ES6进阶 - Proxy & Reflect.md",
+                "file": "日常用语/询问/Asking for directions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "5e6f0d4b4e3f6a65",
   "lastOpenFiles": [
-    "自学/前端开发/ES6/ES/2. ES6进阶 - Proxy & Reflect.md",
     "日常用语/询问/Asking for directions.md",
+    "日常用语/点餐/Restaurant English.md",
+    "自学/前端开发/ES6/ES/2. ES6进阶 - Proxy & Reflect.md",
     "自学/前端开发/ES6/ES/1. ES6 新特性.md",
     "自学/前端开发/Vue3/Vue3的改变.md",
     "自学/前端开发/Vue3/Reactive V.S Ref.md",
     "自学/前端开发/Vue3/响应式原理.md",
     "自学/前端开发/Vue3/分析工程差别.md",
     "自学/前端开发/MongoDB/1. 数据库简介.md",
-    "自学/前端开发/Nodejs/11. Controller.md",
-    "自学/前端开发/Nodejs/8. Express框架.md"
+    "自学/前端开发/Nodejs/11. Controller.md"
   ]
 }

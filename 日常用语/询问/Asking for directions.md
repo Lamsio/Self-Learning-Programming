@@ -7,3 +7,5 @@ What about this one? 这个呢?
 直走: Go forward, Go straight
 左转: Turn left, make a left 
 E.g: It's on your left. 在你左手边 The bus station is on your left.
+
+沿着这条路走: Go up this road,
