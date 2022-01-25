@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "学校/Intern/未命名.md",
-            "mode": "source"
+            "mode": "source",
+            "source": true
           }
         }
       }
