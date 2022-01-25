@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/前端开发/网络/HTTP2.0.md",
+            "file": "自学/前端开发/网络/HTTP.md",
             "mode": "preview",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/前端开发/网络/HTTP2.0.md",
+                "file": "自学/前端开发/网络/HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/前端开发/网络/HTTP.md",
     "自学/前端开发/网络/HTTP2.0.md",
     "学校/Intern/未命名.md",
     "学校/Computer Security/Exam review.md",
@@ -97,7 +98,6 @@
     "学校/Computer Security/Lec 11.md",
     "学校/Computer Security/Lec 10.md",
     "学校/Computer Security/Lec 4.md",
-    "学校/Computer Security/问题.md",
-    "学校/Computer Security/RSA加密算法（非对称加密）.md"
+    "学校/Computer Security/问题.md"
   ]
 }
