@@ -34,5 +34,14 @@ Store owners of late 1800s faced problems
 Data-processing system:
 - Receives input data
 - Performs one or more calculations
-- Produces output 
+- Produces output data
+
+Punched cards:
+- Stored input data and intermediate results
+- Stored output
+- Stored programs on most complicated systems
+
+#### Commercial computers
+
+
 
