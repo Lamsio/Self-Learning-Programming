@@ -75,4 +75,8 @@ Social effects:
 - More durable
 - allows quicker access to particular passages
 
+#### Search engines
+1. Crawler-based
+2. Human-assisted
+3. Hybrid systems
 
