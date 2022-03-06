@@ -70,7 +70,7 @@ An action is good if benefits someone, otherwise it is bad.
 An action is right(or wrong) if it increases(or decrease) someone's happiness.
 
 #### Act Utilitarianism
-Utilitarianism: Focus on consequences
+Utilitarianism: Morality of an action has nothing to do with intent
 
 - Add up change in happiness of all affected things
 - sum>0, the action is good
