@@ -70,5 +70,6 @@ Social effects:
 - Networks strive to be first to deliver news
 - Impact of incorrect information
 
-
+## Information storage and retrieval
+#### Advantages of codex over
 
