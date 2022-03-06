@@ -63,8 +63,12 @@ Integrated Circuit:
 - More reliable
 - Less expensive
 
-
-
+## Networking
+#### Television
+Social effects:
+- Worldwide audiences
+- Networks strive to be first to deliver news
+- Impact of incorrect information
 
 
 
