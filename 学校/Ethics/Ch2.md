@@ -76,6 +76,11 @@ Utilitarianism: Morality of an action has nothing to do with intent
 - sum>0, the action is good
 - sum<0, the action is wrong
 
+#### Case against Act Utilitarianism
+- Too much works
+- Ignores our innate sense of duty
+- Consequences of an action cannot be predicted
+
 #### Rule Utilitarianism
 - Act utilitarianism applies Principle of Utility to individual actions
 - Rule utilitarianism applies Principle of Utility to moral rules
