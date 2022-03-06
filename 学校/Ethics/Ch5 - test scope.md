@@ -17,4 +17,6 @@ Information collection, exchange, combination, and distribution easier than ever
 - Individual responsibility
 - Freedom to be yourself
 
-#### We may have more 
+#### We may have more privacy than in the past
+- Most youngers do not live with extended family
+- Automobile allows us to travel alone
