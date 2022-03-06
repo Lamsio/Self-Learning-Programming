@@ -19,3 +19,8 @@ Technologies can solve old problems, but generates new problems.
 #### Control over new technologies
 - Intellectual property laws
 - Tax structure
+
+#### Computing
+1. Tablet
+2. Abacus
+3. Mathematical tables
