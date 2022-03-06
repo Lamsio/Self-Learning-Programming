@@ -30,3 +30,9 @@ Store owners of late 1800s faced problems
 1. Keeping accurate sales records for department store
 2. Preventing embezzlement
 
+###### Tabulators -> Data-processing systems
+Data-processing system:
+- Receives input data
+- Performs one or more calculations
+- Produces output 
+
