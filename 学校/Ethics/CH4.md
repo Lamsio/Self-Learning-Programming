@@ -27,6 +27,9 @@ Protect Action owners' intellectual properties.
 1. Encrypt digital content
 2. Digital marking so that the device can recognize the content is copy-protected
 
+#### BitTorrent
+Download much faster than 
+
 #### Consequences of Proprietary software
 Excessive protection of intellectual property rights will affect the enthusiasm of latecomers.
 
