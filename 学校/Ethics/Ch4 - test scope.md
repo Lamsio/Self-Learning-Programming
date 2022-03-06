@@ -9,3 +9,7 @@ Confidential piece of Intellectual property that gives company a huge competitiv
 Trademark: identifies goods
 Service mark: identifies services
 
+Company advertise to protect their trademarks
+Company also protects trademark by contacting people who misuse them.
+
+#### Patent
