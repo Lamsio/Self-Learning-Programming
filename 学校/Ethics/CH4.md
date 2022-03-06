@@ -33,7 +33,7 @@ Napster:
 2. establishing a connection between the sending & receiving computer
 3. transfer the file
 
-
+the supernode records the resource on nearby computer
 
 #### BitTorrent
 Download much faster than upload
