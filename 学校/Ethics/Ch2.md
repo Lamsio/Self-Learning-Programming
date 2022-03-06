@@ -54,6 +54,7 @@ Act only from moral rules that you can at the same time will to be universal mor
 ###### 2nd Formulation
 Act so that you treat both yourself and other people as ends in themselves and never only as a means to an end
 
+You should regard others as your purpose, not as a means to achieve it
 ###### Case for Kantianism
 - Rational
 - Produces universal moral guidelines
