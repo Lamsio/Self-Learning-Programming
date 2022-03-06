@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学校/Ethics/test scope.md",
+            "file": "学校/Ethics/Ch4 - test scope.md",
             "mode": "source",
             "source": true
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302
+    "width": 302,
+    "collapsed": true
   },
   "right": {
     "id": "b21de08abe3a97fe",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/Ethics/test scope.md",
+                "file": "学校/Ethics/Ch4 - test scope.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +90,15 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
-    "学校/Ethics/test scope.md",
-    "学校/Ethics/CH4.md",
+    "学校/Ethics/Ch4 - test scope.md",
+    "学校/Ethics/Ch4.md",
+    "学校/Ethics/Ch1 - test scope.md",
     "自学/Java/JVM/1. 介绍.md",
     "Pasted image 20220306011431.png",
     "自学/Windows/1. DOS命令.md",
     "自学/Python/Web后端框架/Flask/1. 路由.md",
     "自学/IP routing.md",
     "自学/前端开发/网络/HTTPS.md",
-    "自学/前端开发/网络/HTTP.md",
-    "自学/前端开发/网络/HTTP2.0.md"
+    "自学/前端开发/网络/HTTP.md"
   ]
 }
