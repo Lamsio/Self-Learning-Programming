@@ -56,6 +56,10 @@ Open source means that there are no more constraints. Users can operate the soft
 3. Poor mechanism for stimulating innovation
 
 #### Copyleft & Permissive
+If you use anything about copyleft in your project, your project must also abide by the constraints of copyleft.
+
+
+
 Copyleft: Other developers can modify the source code of the product, But they must also disclose what they modify.
 
 Permissive: Changes are allowed, but all operations must comply with the open source license.
