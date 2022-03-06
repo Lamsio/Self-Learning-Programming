@@ -24,3 +24,9 @@ Technologies can solve old problems, but generates new problems.
 1. Tablet
 2. Abacus
 3. Mathematical tables
+
+###### Cash register
+Store owners of late 1800s faced problems
+1. Keeping accurate sales records for department store
+2. Preventing embezzlement
+
