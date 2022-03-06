@@ -80,3 +80,6 @@ Social effects:
 2. Human-assisted
 3. Hybrid systems
 
+## Information technology issue
+definition: the device that used to create, store, modify, transmitting data, voice and /or image
+
