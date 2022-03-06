@@ -71,5 +71,8 @@ Social effects:
 - Impact of incorrect information
 
 ## Information storage and retrieval
-#### Advantages of codex over
+#### Advantages of codex over scroll
+- More durable
+- allows quicker access to particular passages
+
 
