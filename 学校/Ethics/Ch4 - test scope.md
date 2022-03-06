@@ -13,3 +13,8 @@ Company advertise to protect their trademarks
 Company also protects trademark by contacting people who misuse them.
 
 #### Patent
+A public documentation that provides detailed description of invention
+
+Provide inventor with exclusive right to the invention, so that latecomer can not make, use, sell it for 20 years
+
+#### Copyright
