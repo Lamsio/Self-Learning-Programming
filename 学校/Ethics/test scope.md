@@ -44,7 +44,13 @@ Punched cards:
 #### Histroy of Commercial computers
 1. ENIAC (1946)
 2. UNIVAC (1951)
-3. 
 
+###### Time-sharing system
+Divide computer time among multiple users
+
+###### Transistor
+Replace vacuum tube
+
+Semiconductor
 
 
