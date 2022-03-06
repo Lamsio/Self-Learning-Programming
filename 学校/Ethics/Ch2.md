@@ -76,6 +76,11 @@ Utilitarianism: Morality of an action has nothing to do with intent
 - sum>0, the action is good
 - sum<0, the action is wrong
 
+#### Case for Act Utilitarianism
+1. Comprehensive
+2. Focus on happiness
+3. Down-to-Earth
+
 #### Case against Act Utilitarianism
 - Too much works
 - Ignores our innate sense of duty
