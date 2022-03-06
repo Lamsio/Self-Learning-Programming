@@ -33,6 +33,8 @@ Napster:
 2. establishing a connection between the sending & receiving computer
 3. transfer the file
 
+
+
 #### BitTorrent
 Download much faster than upload
 - File broken into pieces
