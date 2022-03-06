@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学校/Ethics/Ch2.md",
+            "file": "学校/Ethics/Ch3.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/Ethics/Ch2.md",
+                "file": "学校/Ethics/Ch3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "学校/Ethics/Ch3.md",
     "学校/Ethics/Ch2.md",
     "学校/Ethics/Ch2.md",
     "自学/Java/JVM/1. 介绍.md",
@@ -97,7 +98,6 @@
     "自学/Python/Web后端框架/Flask/1. 路由.md",
     "自学/IP routing.md",
     "自学/前端开发/网络/HTTPS.md",
-    "自学/前端开发/网络/HTTP.md",
-    "自学/前端开发/网络/HTTP2.0.md"
+    "自学/前端开发/网络/HTTP.md"
   ]
 }
