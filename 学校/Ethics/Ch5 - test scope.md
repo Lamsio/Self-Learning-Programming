@@ -6,3 +6,9 @@ Information collection, exchange, combination, and distribution easier than ever
 - Access
 	- Physical proximity to a person
 	- Knowledge about a person
+
+#### Harms of Privacy
+- Cover for illegal or immoral activities.
+- Hidden dysfunctional families
+- Ignored people on society's fringes
+
