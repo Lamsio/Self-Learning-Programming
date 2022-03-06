@@ -81,7 +81,7 @@ Utilitarianism: Morality of an action has nothing to do with intent
 2. Focus on happiness
 3. Down-to-Earth
 
-#### Case against Act Utilitarianism
+###### Case against Act Utilitarianism
 - Too much works
 - Ignores our innate sense of duty
 - Consequences of an action cannot be predicted
@@ -89,6 +89,10 @@ Utilitarianism: Morality of an action has nothing to do with intent
 #### Rule Utilitarianism
 - Act utilitarianism applies Principle of Utility to individual actions
 - Rule utilitarianism applies Principle of Utility to moral rules
+
+###### Case for Rule Utilitarianism
+1. Avoids the problem of moral luck
+2. Avoids the problem of egocentrism
 
 ###### Case against Utilitarianism
 1. All consequences must be measured on a single scale
