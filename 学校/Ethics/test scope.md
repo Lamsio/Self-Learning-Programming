@@ -15,3 +15,7 @@ Catalysts:
 - Psychological changes (e.g., cell phones)
 
 Technologies can solve old problems, but generates new problems.
+
+#### Control over new technologies
+- Intellectual property laws
+- Tax structure
