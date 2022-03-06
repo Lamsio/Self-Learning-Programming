@@ -12,3 +12,9 @@ Information collection, exchange, combination, and distribution easier than ever
 - Hidden dysfunctional families
 - Ignored people on society's fringes
 
+#### Benefits of Privacy
+- Individual growth
+- Individual responsibility
+- Freedom to be yourself
+
+#### We may have more 
