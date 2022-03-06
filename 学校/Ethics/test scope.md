@@ -51,6 +51,20 @@ Divide computer time among multiple users
 ###### Transistor
 Replace vacuum tube
 
-Semiconductor
+Semiconductor:
+- Faster
+- Cheaper
+- More reliable
+- More energy-efficient
+
+Integrated Circuit:
+- Smaller
+- Faster
+- More reliable
+- Less expensive
+
+
+
+
 
 
