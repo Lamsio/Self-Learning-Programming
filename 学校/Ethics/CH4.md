@@ -27,8 +27,16 @@ Protect Action owners' intellectual properties.
 1. Encrypt digital content
 2. Digital marking so that the device can recognize the content is copy-protected
 
+#### Napster & FastTrack
+Napster:
+1. send a request to central server.
+2. establishing a connection between the sending & receiving computer
+3. transfer the file
+
 #### BitTorrent
-Download much faster than 
+Download much faster than upload
+- File broken into pieces
+- Different pieces download from different computers.
 
 #### Consequences of Proprietary software
 Excessive protection of intellectual property rights will affect the enthusiasm of latecomers.
