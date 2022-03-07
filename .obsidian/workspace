@@ -9,7 +9,11 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< HEAD
             "file": "学校/Ethics/Ch4 - test scope.md",
+=======
+            "file": "学校/Ethics/Ch5 - test scope.md",
+>>>>>>> refs/remotes/origin/main
             "mode": "source",
             "source": true
           }
@@ -69,7 +73,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "学校/Ethics/Ch4 - test scope.md",
+=======
+                "file": "学校/Ethics/Ch5 - test scope.md",
+>>>>>>> refs/remotes/origin/main
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +97,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "学校/Ethics/Ch4 - test scope.md",
     "学校/Ethics/Ch3.md",
     "学校/Ethics/Ch1 - test scope.md",
@@ -99,5 +108,17 @@
     "自学/Java/JVM/1. 介绍.md",
     "Pasted image 20220306011431.png",
     "自学/Windows/1. DOS命令.md"
+=======
+    "学校/Ethics/Ch5 - test scope.md",
+    "学校/Ethics/Ch4 - test scope.md",
+    "学校/Ethics/Ch1 - test scope.md",
+    "学校/Ethics/Ch2.md",
+    "conflict-files-obsidian-git.md",
+    "学校/Ethics/Ch4.md",
+    "学校/Ethics/Ch3.md",
+    "未命名.md",
+    "自学/Java/JVM/1. 介绍.md",
+    "Pasted image 20220306011431.png"
+>>>>>>> refs/remotes/origin/main
   ]
 }
