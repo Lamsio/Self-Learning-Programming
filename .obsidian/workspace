@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学校/Computer Security/Lec 3.md",
+            "file": "自学/游戏开发/Unity3d/6. 三维数学 - 四元数.md",
             "mode": "preview",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校/Computer Security/Lec 3.md",
+                "file": "自学/游戏开发/Unity3d/6. 三维数学 - 四元数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/游戏开发/Unity3d/6. 三维数学 - 四元数.md",
+    "自学/游戏开发/Unity3d/5. 三维数学 - Vector3.md",
     "学校/Computer Security/Lec 3.md",
     "学校/Computer Security/Lec 2.md",
     "学校/Computer Security/Lec 1.md",
@@ -96,8 +98,6 @@
     "学校/Computer Security/Lec 11.md",
     "学校/Computer Security/Exam review.md",
     "学校/Computer Security/Calculation.md",
-    "学校/Computer Security/问题.md",
-    "学校/Computer Security/取模运算.md",
-    "学校/Computer Security/几种加密模式.md"
+    "学校/Computer Security/问题.md"
   ]
 }
