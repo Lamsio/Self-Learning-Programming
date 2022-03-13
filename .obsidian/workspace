@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/人工智能导论/局部搜索.md",
+            "file": "自学/人工智能导论/3. 推理.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/人工智能导论/局部搜索.md",
+                "file": "自学/人工智能导论/3. 推理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +89,8 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
-    "自学/人工智能导论/局部搜索.md",
     "自学/人工智能导论/3. 推理.md",
+    "自学/人工智能导论/局部搜索.md",
     "自学/人工智能导论/2. 本体论与知识工程.md",
     "自学/人工智能导论/1. 经典表示方法.md",
     "学校/Ethics/Ch5 - test scope.md",
