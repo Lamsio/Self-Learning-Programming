@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/人工智能导论/3. 推理.md",
+            "file": "自学/编程问题/哈希表.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/人工智能导论/3. 推理.md",
+                "file": "自学/编程问题/哈希表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/编程问题/哈希表.md",
     "自学/人工智能导论/3. 推理.md",
     "自学/人工智能导论/局部搜索.md",
     "自学/人工智能导论/2. 本体论与知识工程.md",
@@ -97,7 +98,6 @@
     "学校/Ethics/Ch4 - test scope.md",
     "学校/Ethics/Ch1 - test scope.md",
     "学校/Ethics/Ch2.md",
-    "conflict-files-obsidian-git.md",
-    "学校/Ethics/Ch4.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
