@@ -16,3 +16,6 @@
 ![[Pasted image 20220529152312.png]]
 ![[Pasted image 20220529152427.png]]
 ![[Pasted image 20220529152459.png]]
+![[Pasted image 20220529152616.png]]
+当局域网A的用户打算发信息给局域网B的用户时。
+Mac
