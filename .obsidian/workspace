@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/网络工程/Cisco/思科路由器.md",
+            "file": "自学/网络工程/Cisco/静态路由与动态路由.md",
             "mode": "source",
             "source": true
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302
+    "width": 302,
+    "collapsed": true
   },
   "right": {
     "id": "b21de08abe3a97fe",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/网络工程/Cisco/思科路由器.md",
+                "file": "自学/网络工程/Cisco/静态路由与动态路由.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +90,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/网络工程/Cisco/静态路由与动态路由.md",
     "自学/网络工程/Cisco/思科路由器.md",
     "自学/网络工程/Cisco/TCPIP.md",
     "自学/Linux/Nginx/2. 目录结构与Nginx多进程模型.md",
@@ -97,7 +99,6 @@
     "自学/游戏开发/Unity3d/5. 三维数学 - Vector3.md",
     "日常用语/30句日常用语.md",
     "日常用语/compare.md",
-    "自学/编程问题/哈希表.md",
-    "conflict-files-obsidian-git.md"
+    "自学/编程问题/哈希表.md"
   ]
 }
