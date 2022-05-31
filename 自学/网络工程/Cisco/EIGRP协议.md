@@ -60,4 +60,5 @@ Diffusing Update Algorithm 用于计算最佳无环路经和备用路径
 
 #### 配置
 `Router(config)# router eigrp autonomous-system`
-autonomous-system参数称为自治系统bian'hao
+autonomous-system参数称为自治系统编号
+
