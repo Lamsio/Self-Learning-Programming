@@ -61,4 +61,13 @@ Diffusing Update Algorithm 用于计算最佳无环路经和备用路径
 #### 配置
 `Router(config)# router eigrp autonomous-system`
 autonomous-system参数称为自治系统编号
+当我们配置邻居时，确保autonomous-system编号是相同的
 
+Router1
+IP : 192.168.12.1 255.255.255.0
+Autonomous-system : 100
+`network 192.168.12.0`
+
+Router2
+IP : 192.168.12.2 255.255.255.0
+Autonomous-system : 100
