@@ -57,6 +57,7 @@ Diffusing Update Algorithm 用于计算最佳无环路经和备用路径
 
 ![[Pasted image 20220531154307.png]]
 
+当多个路由器的Metric相同时，就能达到负载均衡的效果，路由器会随意选择一个作为下一跳路由器，这被称为**等价负载均衡**
 
 #### 配置
 `Router(config)# router eigrp autonomous-system`
@@ -86,4 +87,5 @@ show ip protocols
 show ip eigrp traffic
 ```
 
-###### 不均衡
+###### 不等价负载均衡
+该功能改变了原有的规则（原本规则是qu
