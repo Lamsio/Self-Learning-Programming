@@ -88,4 +88,5 @@ show ip eigrp traffic
 ```
 
 ###### 不等价负载均衡
-该功能改变了原有的规则（原本规则是qu
+该功能改变了原有的规则（原本规则是取Metric最优的作为下一跳路由），为了避免负载压力过大，允许设置稍差的Metric路由放入路由表中进行负载均衡。
+`Router(router-config)# variance 2`
