@@ -71,3 +71,17 @@ Autonomous-system : 100
 Router2
 IP : 192.168.12.2 255.255.255.0
 Autonomous-system : 100
+`network 192.168.12.0`
+
+###### 常用指令
+```
+show ip eigrp neighbors - 显示周围邻居
+
+show ip eigrp topology - 显示拓扑表
+
+show ip route eigrp
+
+show ip protocols
+
+show ip eigrp traffic
+```
