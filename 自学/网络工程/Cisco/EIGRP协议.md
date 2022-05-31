@@ -56,3 +56,8 @@ Diffusing Update Algorithm 用于计算最佳无环路经和备用路径
 - AD : 通告距离，其他路由器通告给自己到达目的地的距离
 
 ![[Pasted image 20220531154307.png]]
+
+
+#### 配置
+`Router(config)# router eigrp autonomous-system`
+autonomous-system参数称为自治系统bian'hao
