@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302,
-    "collapsed": true
+    "width": 188
   },
   "right": {
     "id": "b21de08abe3a97fe",
@@ -92,8 +91,8 @@
   "lastOpenFiles": [
     "自学/网络工程/Cisco/EIGRP协议.md",
     "自学/网络工程/Cisco/静态路由与动态路由.md",
-    "自学/网络工程/Cisco/思科路由器.md",
     "自学/网络工程/Cisco/TCPIP.md",
+    "自学/网络工程/Cisco/思科路由器.md",
     "自学/Linux/Nginx/2. 目录结构与Nginx多进程模型.md",
     "自学/人工智能导论/1. 经典表示方法.md",
     "自学/人工智能导论/2. 本体论与知识工程.md",
