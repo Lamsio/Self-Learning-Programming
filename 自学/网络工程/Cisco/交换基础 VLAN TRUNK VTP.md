@@ -31,3 +31,4 @@
 ![[Pasted image 20220601162419.png]]
 ![[Pasted image 20220601195916.png]]
 Static: 手动分配交换机固定端口作为VLAN
+Dynamic: 根据接入设备的MAC地址，动态将端口分配给VLAN
