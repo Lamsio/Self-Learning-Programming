@@ -54,3 +54,5 @@ DR BDR在收到变更通知后，会利用组播地址224.0.0.5通知其他下�
 #### OSPF配置
 `Router(config)#router ospf [process-id]` 开启OSPF进程
 `Router(config)#network address wildcard-mask area area-id` 宣告特定的网络到OSPF区域
+![[Pasted image 20220601153829.png]]
+![[Pasted image 20220601153807.png]]
