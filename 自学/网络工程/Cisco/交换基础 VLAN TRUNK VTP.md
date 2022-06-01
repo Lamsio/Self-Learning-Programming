@@ -26,3 +26,6 @@
 
 #### MAC地址
 ![[Pasted image 20220601160124.png]]
+
+#### VLAN
+![[Pasted image 20220601162419.png]]
