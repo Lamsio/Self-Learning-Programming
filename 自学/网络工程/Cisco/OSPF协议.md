@@ -12,3 +12,6 @@ COST = 参考宽带(10^8) / 接口带宽(b/s)
 ![[Pasted image 20220601132152.png]]
 
 #### OSPF报文
+![[Pasted image 20220601132906.png]]
+
+#### OSPF区域
