@@ -34,4 +34,6 @@ Static: 手动分配交换机固定端口作为VLAN
 Dynamic: 根据接入设备的MAC地址，动态将端口分配给VLAN
 
 #### Trunk
-一条链路，需要承载多个VLAN信息时，需要用Trunk实现，一般jian
+一条链路，需要承载多个VLAN信息时，需要用Trunk实现，一般见于交换机之间或交换机和路由器之间
+
+###### ISL
