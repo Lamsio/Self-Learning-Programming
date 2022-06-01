@@ -48,3 +48,9 @@ LSA泛洪：即区域内某路由器线路瘫痪会波动到整个区域所有�
 在MA环境下，当下属路由的拓扑发生变更时，下属路由会向224.0.0.6发送通知，DR和BDR监听该地址
 
 DR BDR在收到变更通知后，会利用组播地址224.0.0.5通知其他下属路由，所有下属路由监听224.0.0.5这一组播地址
+
+![[Pasted image 20220601145706.png]]
+
+#### OSPF配置
+`Router(config)#router ospf [process-id]` 开启OSPF进程
+`Router(config)#network address wildcard-mask area area-id` 宣告特定的网络到OSPF区域
