@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/网络工程/Cisco/交换基础 VLAN TRUNK VTP.md",
-            "mode": "source",
+            "file": "自学/网络工程/Cisco/EIGRP协议.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/网络工程/Cisco/交换基础 VLAN TRUNK VTP.md",
+                "file": "自学/网络工程/Cisco/EIGRP协议.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/网络工程/Cisco/EIGRP协议.md",
+    "自学/网络工程/Cisco/静态路由与动态路由.md",
     "自学/网络工程/Cisco/交换基础 VLAN TRUNK VTP.md",
     "自学/网络工程/Cisco/OSPF协议.md",
-    "自学/网络工程/Cisco/静态路由与动态路由.md",
-    "自学/网络工程/Cisco/EIGRP协议.md",
     "自学/网络工程/Cisco/TCPIP.md",
     "自学/网络工程/Cisco/思科路由器.md",
     "自学/Linux/Nginx/2. 目录结构与Nginx多进程模型.md",
