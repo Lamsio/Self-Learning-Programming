@@ -32,9 +32,13 @@ ACL的判定分为进站和出站两种，对应的是in和out，如果端口设
 
 
 #### ACL标准设置
-`access-list [ACL标识] [允许/拒绝] [源地址]`
-例如: `access-list 1 (permit)`
+`Router(config)#access-list [ACL标识] [允许/拒绝] [源地址]`
+例如: `access-list 1 permit 192.168.1.0 0.0.0.255`
 注意，语句是分顺序的！语句1比语句10优先级更高，如果没有匹配上任何语句则丢弃。
+
+`no access-list [ACL标识]`用于删除整个ACL列表
+
+
 
 ###### ACL标识
 ![[Pasted image 20220603204904.png]]
