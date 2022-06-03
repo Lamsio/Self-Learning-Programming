@@ -38,6 +38,8 @@ ACL的判定分为进站和出站两种，对应的是in和out，如果端口设
 
 `no access-list [ACL标识]`用于删除整个ACL列表
 
+配置完ACL表后，还要将表应用在接口上。需要`interface f 0/0`进入要配置的接口然后输入
+`Router(config-if)#ip access-group [ACL标识] {in|out}`
 
 
 ###### ACL标识
