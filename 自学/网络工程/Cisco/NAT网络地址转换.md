@@ -56,3 +56,6 @@ C类: 192.168.0.0 - 192.168.255.255
 
 建立动态转换: `Router(config)#ip nat inside source list [access-list-number] interface [interfaceName] overload`
 ![[Pasted image 20220604135535.png]]
+
+#### 这和静态、动态路由有何区别？
+静态路由和动态路由的配置是为了实现内网间通信的，而NAT则是为了与外网通信所要配置的
