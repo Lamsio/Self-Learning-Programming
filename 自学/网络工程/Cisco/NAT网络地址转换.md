@@ -48,3 +48,9 @@ C类: 192.168.0.0 - 192.168.255.255
 定义ACL允许内网地址转换: `Router(config)#access-list [access-list-number] permit [source]`
 
 建立动态转换: `Router(config)#ip nat inside source list [access-list-number] [pool]`
+
+![[Pasted image 20220604135017.png]]
+
+###### PAT转换
+定义ACL允许内网地址转换: `Router(config)#access-list [access-list-number] permit [source]`
+
