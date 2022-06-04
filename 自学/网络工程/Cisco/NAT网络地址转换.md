@@ -40,3 +40,8 @@ C类: 192.168.0.0 - 192.168.255.255
 查看配置: `Router#show ip nat translations`
 
 ![[Pasted image 20220604134138.png]]
+
+
+###### 动态NAT
+定义一个公网IP池: `Router(config)#ip nat pool [name] [起始IP段] [结束IP段]`
+
