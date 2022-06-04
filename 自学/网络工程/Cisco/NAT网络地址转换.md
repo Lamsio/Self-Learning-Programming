@@ -35,4 +35,8 @@ C类: 192.168.0.0 - 192.168.255.255
 `Router(config)#ip nat inside source static [内网IP] [外网IP]`
 
 在与内网连接的接口配置：`Router(config-if)#ip nat inside`
-在与外网连接的接口配置：``
+在与外网连接的接口配置：`Router(config-if)#ip nat outside`
+
+查看配置: `Router#show ip nat translations`
+
+![[Pasted image 20220604134138.png]]
