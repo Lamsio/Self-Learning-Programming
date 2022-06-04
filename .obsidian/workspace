@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/网络工程/Cisco/ACL访问控制列表.md",
+            "file": "自学/网络工程/Cisco/NAT网络地址转换.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/网络工程/Cisco/ACL访问控制列表.md",
+                "file": "自学/网络工程/Cisco/NAT网络地址转换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/网络工程/Cisco/NAT网络地址转换.md",
     "自学/网络工程/Cisco/ACL访问控制列表.md",
     "自学/网络工程/Cisco/生成树.md",
     "自学/网络工程/Cisco/OSPF协议.md",
@@ -97,7 +98,6 @@
     "自学/网络工程/Cisco/交换基础 VLAN TRUNK VTP.md",
     "自学/网络工程/Cisco/TCPIP.md",
     "自学/网络工程/Cisco/思科路由器.md",
-    "自学/Linux/Nginx/2. 目录结构与Nginx多进程模型.md",
-    "自学/人工智能导论/1. 经典表示方法.md"
+    "自学/Linux/Nginx/2. 目录结构与Nginx多进程模型.md"
   ]
 }
