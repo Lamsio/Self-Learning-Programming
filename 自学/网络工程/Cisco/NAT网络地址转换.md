@@ -45,3 +45,6 @@ C类: 192.168.0.0 - 192.168.255.255
 ###### 动态NAT
 定义一个公网IP池: `Router(config)#ip nat pool [name] [起始IP段] [结束IP段]`
 
+定义ACL允许内网地址转换: `Router(config)#access-list [access-list-number] permit [source]`
+
+建立动态转换: `Router(config)#ip nat inside source list [access-list-number] [pool]`
