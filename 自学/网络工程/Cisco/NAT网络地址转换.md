@@ -31,4 +31,8 @@ C类: 192.168.0.0 - 192.168.255.255
 3. 端口复用
 
 ###### 静态NAT
+建立静态转换：
 `Router(config)#ip nat inside source static [内网IP] [外网IP]`
+
+在与内网连接的接口配置：`Router(config-if)#ip nat inside`
+在与外网连接的接口配置：``
