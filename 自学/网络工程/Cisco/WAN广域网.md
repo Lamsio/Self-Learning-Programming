@@ -30,5 +30,8 @@
 #### WAN物理层
 ![[Pasted image 20220605175407.png]]
 
+#### WAN常见封装协议
+![[Pasted image 20220605180228.png]]
+
 #### HDLC
 ![[Pasted image 20220605175632.png]]
