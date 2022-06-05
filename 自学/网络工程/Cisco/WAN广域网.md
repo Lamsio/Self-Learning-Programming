@@ -29,3 +29,6 @@
 
 #### WAN物理层
 ![[Pasted image 20220605175407.png]]
+
+#### HDLC
+![[Pasted image 20220605175632.png]]
