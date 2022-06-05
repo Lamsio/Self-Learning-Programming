@@ -40,4 +40,4 @@
 
 #### PPP
 ![[Pasted image 20220605223159.png]]
-PPP是应用在点对点的广域网链路上
+PPP是应用在点对点的广域网链路上，也就是数据链路层，所谓数据链路层即俩路由器传输之间的线路上，在RouterA->RouterB之间的线路封装了PPP，在RouterB->RouterC之间也能封装别的，例如HDLC
