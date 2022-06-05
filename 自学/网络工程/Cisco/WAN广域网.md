@@ -35,3 +35,7 @@
 
 #### HDLC
 ![[Pasted image 20220605175632.png]]
+传统ISO HDLC只支持单协议环境
+而Cisco HDLC支持多协议
+
+#### PPP
