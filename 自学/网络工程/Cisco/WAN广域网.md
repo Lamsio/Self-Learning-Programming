@@ -39,3 +39,5 @@
 而Cisco HDLC支持多协议
 
 #### PPP
+![[Pasted image 20220605223159.png]]
+PPP是应用在点对点的广域网链路上
