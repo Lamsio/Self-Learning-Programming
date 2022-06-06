@@ -9,7 +9,7 @@
         "state": {
           "type": "pdf",
           "state": {
-            "file": "自学/Linux/Nginx/Nginx_day03.pdf"
+            "file": "自学/Linux/Nginx/Nginx_day04.pdf"
           }
         }
       }
@@ -67,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/Linux/Nginx/Nginx_day03.pdf",
+                "file": "自学/Linux/Nginx/Nginx_day04.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
-    "自学/Linux/Nginx/Nginx_day03.pdf",
     "自学/Linux/Nginx/Nginx_day04.pdf",
+    "自学/Linux/Nginx/Nginx_day05.pdf",
+    "自学/Linux/Nginx/Nginx_day03.pdf",
+    "自学/Linux/Nginx/7. 资源防盗链.md",
+    "自学/Linux/Nginx/8. Rewrite功能.md",
     "自学/Linux/Nginx/Nginx_day02.pdf",
     "自学/Linux/Nginx/Nginx_day01.pdf",
     "自学/Linux/Nginx/3. 虚拟主机与域名解析.md",
     "自学/Linux/Nginx/1. 安装.md",
-    "自学/网络工程/Cisco/WAN广域网.md",
-    "自学/网络工程/Cisco/生成树.md",
-    "自学/网络工程/Cisco/NAT网络地址转换.md",
-    "自学/网络工程/Cisco/静态路由与动态路由.md"
+    "自学/网络工程/Cisco/WAN广域网.md"
   ]
 }
