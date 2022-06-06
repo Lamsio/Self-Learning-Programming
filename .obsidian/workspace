@@ -9,7 +9,7 @@
         "state": {
           "type": "pdf",
           "state": {
-            "file": "自学/Linux/Nginx/Nginx_day04.pdf"
+            "file": "自学/Linux/Nginx/Nginx_day02.pdf"
           }
         }
       }
@@ -67,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/Linux/Nginx/Nginx_day04.pdf",
+                "file": "自学/Linux/Nginx/Nginx_day02.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/Linux/Nginx/Nginx_day02.pdf",
+    "自学/Linux/Nginx/4. GZIP压缩.md",
+    "自学/Linux/Nginx/Nginx_day05.pdf",
     "自学/Linux/Nginx/Nginx_day04.pdf",
     "自学/Linux/Nginx/Nginx_day03.pdf",
-    "自学/Linux/Nginx/Nginx_day02.pdf",
     "自学/Linux/Shell编程/1. 变量.md",
     "自学/Linux/Shell编程/2. 运算符.md",
     "自学/Linux/Shell编程/4. Switch...case.md",
     "自学/Linux/Shell编程/3. IF.md",
-    "自学/Linux/Nginx/8. Rewrite功能.md",
-    "自学/Linux/Nginx/7. 资源防盗链.md",
-    "自学/Linux/Nginx/6. 跨域问题.md"
+    "自学/Linux/Nginx/8. Rewrite功能.md"
   ]
 }
