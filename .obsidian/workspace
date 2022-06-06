@@ -88,14 +88,14 @@
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
     "自学/Linux/Nginx/Nginx_day04.pdf",
-    "自学/Linux/Nginx/Nginx_day05.pdf",
     "自学/Linux/Nginx/Nginx_day03.pdf",
-    "自学/Linux/Nginx/7. 资源防盗链.md",
-    "自学/Linux/Nginx/8. Rewrite功能.md",
     "自学/Linux/Nginx/Nginx_day02.pdf",
-    "自学/Linux/Nginx/Nginx_day01.pdf",
-    "自学/Linux/Nginx/3. 虚拟主机与域名解析.md",
-    "自学/Linux/Nginx/1. 安装.md",
-    "自学/网络工程/Cisco/WAN广域网.md"
+    "自学/Linux/Shell编程/1. 变量.md",
+    "自学/Linux/Shell编程/2. 运算符.md",
+    "自学/Linux/Shell编程/4. Switch...case.md",
+    "自学/Linux/Shell编程/3. IF.md",
+    "自学/Linux/Nginx/8. Rewrite功能.md",
+    "自学/Linux/Nginx/7. 资源防盗链.md",
+    "自学/Linux/Nginx/6. 跨域问题.md"
   ]
 }
