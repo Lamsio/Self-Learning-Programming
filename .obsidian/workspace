@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/Java/JavaWEB/Tomcat/Tomcat基本使用.md",
+            "file": "自学/Java/JavaWEB/Servlet/Servlet.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/Java/JavaWEB/Tomcat/Tomcat基本使用.md",
+                "file": "自学/Java/JavaWEB/Servlet/Servlet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/Java/JavaWEB/Servlet/Servlet.md",
     "自学/Java/JavaWEB/Tomcat/Tomcat基本使用.md",
     "自学/Java/JavaWEB/MyBatis/2. MyBatis配置文件.md",
     "自学/Java/JavaWEB/MyBatis/1. 介绍.md",
@@ -97,7 +98,6 @@
     "自学/Linux/Nginx/Nginx_day02.pdf",
     "自学/Linux/Nginx/4. GZIP压缩.md",
     "自学/Linux/Nginx/Nginx_day05.pdf",
-    "自学/Linux/Nginx/Nginx_day04.pdf",
-    "自学/Linux/Nginx/Nginx_day03.pdf"
+    "自学/Linux/Nginx/Nginx_day04.pdf"
   ]
 }
