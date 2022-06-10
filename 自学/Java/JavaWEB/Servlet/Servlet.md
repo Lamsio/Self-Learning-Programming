@@ -26,7 +26,9 @@ UrlPattern支持几种匹配：
 
 ###### 目录匹配
 `@WebServlet(urlPatterns = "/*")`
+`/*`优先级高于`/`
 
 ###### 扩展名匹配
 `@WebServlet(urlPatterns = "*.hello")`
 任何以`.hello`结尾的，都会被匹配到
+不支持以`/`开头的路径，必须是末尾路径
