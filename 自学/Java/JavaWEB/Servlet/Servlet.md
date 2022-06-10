@@ -14,6 +14,8 @@ UrlPattern支持几种匹配：
 4. 扩展名匹配
 5. 任意匹配
 
+匹配顺序是按代码顺序从上往下的，如果匹配到`/sleep`就不会匹配`/*`，因此通常`/**
+
 ###### 多匹配
 `@WebServlet(urlPatterns = {"/demo2","/demo3"})`
 用花括号包裹可以包含多个匹配路径
@@ -24,3 +26,7 @@ UrlPattern支持几种匹配：
 
 ###### 目录匹配
 `@WebServlet(urlPatterns = "/*")`
+
+###### 扩展名匹配
+`@WebServlet(urlPatterns = "*.hello")`
+任何以`.hello`结尾的，都会被匹配到
