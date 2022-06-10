@@ -5,3 +5,22 @@
 
 #### 生命周期
 ![[Pasted image 20220610005814.png]]
+
+#### UrlPattern匹配规则
+UrlPattern支持几种匹配：
+1. 多匹配
+2. 精确匹配
+3. 目录匹配
+4. 扩展名匹配
+5. 任意匹配
+
+###### 多匹配
+`@WebServlet(urlPatterns = {"/demo2","/demo3"})`
+用花括号包裹可以包含多个匹配路径
+
+###### 精确匹配
+`@WebServlet(urlPatterns = {"/demo2","/demo3"})`
+指明匹配路径
+
+###### 目录匹配
+`@WebServlet(urlPatterns = "/*")`
