@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/Java/JavaWEB/Servlet/2. Request & Response.md",
+            "file": "自学/Java/JavaWEB/MyBatis/2. MyBatis配置文件.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/Java/JavaWEB/Servlet/2. Request & Response.md",
+                "file": "自学/Java/JavaWEB/MyBatis/2. MyBatis配置文件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +89,9 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/Java/JavaWEB/MyBatis/2. MyBatis配置文件.md",
     "自学/Java/JavaWEB/Servlet/2. Request & Response.md",
     "自学/Java/JavaWEB/Servlet/1. Servlet基本配置.md",
-    "自学/Java/JavaWEB/MyBatis/2. MyBatis配置文件.md",
     "自学/Java/JavaWEB/MyBatis/1. 介绍.md",
     "自学/Java/JavaWEB/JDBC/快速入门.md",
     "自学/网络工程/安全/DDoS技术鉴赏.md",
