@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/Java/JavaWEB/Spring/6. 注解开发.md",
+            "file": "自学/Java/JavaWEB/Spring/4. 依赖注入方式&自动装配.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/Java/JavaWEB/Spring/6. 注解开发.md",
+                "file": "自学/Java/JavaWEB/Spring/4. 依赖注入方式&自动装配.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,12 +89,12 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/Java/JavaWEB/Spring/4. 依赖注入方式&自动装配.md",
     "自学/Java/JavaWEB/Spring/6. 注解开发.md",
     "自学/Java/JavaWEB/Servlet/1. Servlet基本配置.md",
     "自学/Java/JavaWEB/Servlet/3. JSP.md",
     "自学/Java/JavaWEB/Servlet/2. Request & Response.md",
     "自学/Java/JavaWEB/Spring/5. 容器.md",
-    "自学/Java/JavaWEB/Spring/4. 依赖注入方式&自动装配.md",
     "自学/Java/JavaWEB/Spring/3. Bean配置.md",
     "自学/Java/JavaWEB/Spring/1. Spring简介.md",
     "自学/Java/JavaWEB/Spring/2. 核心概念.md",
