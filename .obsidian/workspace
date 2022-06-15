@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/Java/JavaWEB/SpringMVC/2. 设置请求路径.md",
+            "file": "自学/Java/JavaWEB/SpringMVC/2. 请求.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/Java/JavaWEB/SpringMVC/2. 设置请求路径.md",
+                "file": "自学/Java/JavaWEB/SpringMVC/2. 请求.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
-    "自学/Java/JavaWEB/SpringMVC/2. 设置请求路径.md",
+    "自学/Java/JavaWEB/SpringMVC/2. 请求.md",
     "自学/Java/JavaWEB/SpringMVC/1. SpringMVC 概述.md",
     "自学/Java/JavaWEB/Untitled.md",
     "自学/Java/JavaWEB/Spring/9. 事务.md",
