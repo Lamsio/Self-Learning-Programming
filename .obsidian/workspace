@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/Java/Maven/3. 依赖的依赖.md",
-            "mode": "preview",
+            "file": "自学/Java/Maven/4. 可选依赖.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/Java/Maven/3. 依赖的依赖.md",
+                "file": "自学/Java/Maven/4. 可选依赖.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/Java/Maven/4. 可选依赖.md",
     "自学/Java/Maven/3. 依赖的依赖.md",
     "自学/Java/JavaWEB/MyBatis/3. 依赖的依赖.md",
     "自学/Java/Maven/2. 分模块开发与设计.md",
@@ -97,7 +98,6 @@
     "自学/Java/JavaWEB/SpringMVC/6. 潜在的异常.md",
     "自学/Java/JavaWEB/SpringMVC/5. 前端交互的结果集.md",
     "自学/Java/JavaWEB/SpringMVC/2. 请求.md",
-    "自学/Java/JavaWEB/SpringMVC/4. RESTful风格案例.md",
-    "自学/Java/JavaWEB/SpringMVC/3. 响应.md"
+    "自学/Java/JavaWEB/SpringMVC/4. RESTful风格案例.md"
   ]
 }
