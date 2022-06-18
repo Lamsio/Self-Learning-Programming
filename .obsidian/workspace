@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/Java/JavaWEB/SpringBoot/3. 整合Mybatis.md",
+            "file": "自学/Java/JavaWEB/MyBatis/3. MyBatisPlus简介.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/Java/JavaWEB/SpringBoot/3. 整合Mybatis.md",
+                "file": "自学/Java/JavaWEB/MyBatis/3. MyBatisPlus简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/Java/JavaWEB/MyBatis/3. MyBatisPlus简介.md",
     "自学/Java/JavaWEB/SpringBoot/3. 整合Mybatis.md",
     "自学/Java/JavaWEB/SpringBoot/2. 配置文件.md",
     "自学/Java/JavaWEB/SpringBoot/1. 案例生成.md",
@@ -97,7 +98,6 @@
     "自学/Java/Maven/5. 属性.md",
     "自学/Java/Maven/4. 聚合与继承.md",
     "自学/Java/Maven/4. 可选依赖.md",
-    "自学/Java/Maven/3. 依赖的依赖.md",
-    "自学/Java/JavaWEB/MyBatis/3. 依赖的依赖.md"
+    "自学/Java/Maven/3. 依赖的依赖.md"
   ]
 }
