@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "REST",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
