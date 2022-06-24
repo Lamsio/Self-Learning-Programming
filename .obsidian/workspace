@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/Java/JavaWEB/SpringBoot/2. 配置文件.md",
+            "file": "自学/前端开发/Vue/Slot插槽/默认插槽.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/Java/JavaWEB/SpringBoot/2. 配置文件.md",
+                "file": "自学/前端开发/Vue/Slot插槽/默认插槽.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/前端开发/Vue/Slot插槽/默认插槽.md",
+    "自学/前端开发/Vue/Vue-router/路由守卫.md",
+    "自学/前端开发/Vue/动画与过度/动画与过渡.md",
+    "自学/前端开发/Vue/动画与过度/第三方动画集成.md",
     "自学/Java/JavaWEB/SpringBoot/2. 配置文件.md",
     "自学/Java/JavaWEB/SpringBoot/3. 整合Mybatis.md",
     "自学/Java/JavaWEB/MyBatis/4. 多条件查询.md",
     "自学/Java/JavaWEB/SpringMVC/7. 拦截器.md",
     "自学/Java/JavaWEB/MyBatis/3. MyBatisPlus简介.md",
-    "自学/Java/JavaWEB/SpringBoot/1. 案例生成.md",
-    "自学/Java/JavaWEB/Untitled.md",
-    "自学/Java/JavaWEB/SpringMVC/6. 潜在的异常.md",
-    "自学/Java/Maven/5. 属性.md",
-    "自学/Java/Maven/4. 聚合与继承.md"
+    "自学/Java/JavaWEB/SpringBoot/1. 案例生成.md"
   ]
 }
