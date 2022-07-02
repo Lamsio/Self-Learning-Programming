@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/Java/JavaWEB/SpringMVC/4. RESTful风格案例.md",
+            "file": "自学/Java/JavaWEB/MyBatis/4. 多条件查询.md",
             "mode": "preview",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/Java/JavaWEB/SpringMVC/4. RESTful风格案例.md",
+                "file": "自学/Java/JavaWEB/MyBatis/4. 多条件查询.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/Java/JavaWEB/MyBatis/4. 多条件查询.md",
+    "自学/Java/JavaWEB/MyBatis/3. MyBatisPlus简介.md",
+    "自学/Java/JavaWEB/MyBatis/2. MyBatis配置文件.md",
     "自学/Java/JavaWEB/SpringMVC/4. RESTful风格案例.md",
     "自学/Java/JavaWEB/SpringMVC/3. 响应.md",
     "自学/Java/JavaWEB/SpringMVC/1. SpringMVC 概述.md",
     "自学/Java/JavaWEB/SpringMVC/7. 拦截器.md",
     "自学/Java/JavaWEB/SpringMVC/6. 潜在的异常.md",
     "自学/Java/JavaWEB/SpringMVC/5. 前端交互的结果集.md",
-    "自学/Java/JavaWEB/Spring/4. 依赖注入方式&自动装配.md",
-    "自学/Java/JavaWEB/Spring/5. 容器.md",
-    "自学/Java/JavaWEB/Spring/6. 注解开发.md",
-    "自学/Java/JavaWEB/Spring/7. xml配置与注解对比.md"
+    "自学/Java/JavaWEB/Spring/4. 依赖注入方式&自动装配.md"
   ]
 }
