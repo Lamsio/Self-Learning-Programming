@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/大数据/2. Hadoop的上传、下载和直接修改.md",
-            "mode": "source",
+            "file": "自学/Java/GC回收机制.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/大数据/2. Hadoop的上传、下载和直接修改.md",
+                "file": "自学/Java/GC回收机制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/大数据/2. Hadoop的上传、下载和直接修改.md",
     "自学/大数据/入门常见问题.md",
     "自学/大数据/1. 安装.md",
     "自学/Java/JavaWEB/MyBatis/4. 多条件查询.md",
@@ -97,7 +98,6 @@
     "自学/Java/JavaWEB/SpringMVC/4. RESTful风格案例.md",
     "自学/Java/JavaWEB/SpringMVC/3. 响应.md",
     "自学/Java/JavaWEB/SpringMVC/1. SpringMVC 概述.md",
-    "自学/Java/JavaWEB/SpringMVC/7. 拦截器.md",
-    "自学/Java/JavaWEB/SpringMVC/6. 潜在的异常.md"
+    "自学/Java/JavaWEB/SpringMVC/7. 拦截器.md"
   ]
 }
