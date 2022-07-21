@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自学/Java/Main函数与代码块.md",
+            "file": "自学/Java/单例模式.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自学/Java/Main函数与代码块.md",
+                "file": "自学/Java/单例模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "73b19cf5dc6662d6",
   "lastOpenFiles": [
+    "自学/Java/JVM/1. 介绍.md",
+    "自学/Java/Main函数与代码块.md",
     "自学/Java/GC回收机制.md",
     "自学/大数据/2. Hadoop的上传、下载和直接修改.md",
     "自学/大数据/入门常见问题.md",
@@ -96,8 +98,6 @@
     "自学/Java/JavaWEB/MyBatis/4. 多条件查询.md",
     "自学/Java/JavaWEB/MyBatis/3. MyBatisPlus简介.md",
     "自学/Java/JavaWEB/MyBatis/2. MyBatis配置文件.md",
-    "自学/Java/JavaWEB/SpringMVC/4. RESTful风格案例.md",
-    "自学/Java/JavaWEB/SpringMVC/3. 响应.md",
-    "自学/Java/JavaWEB/SpringMVC/1. SpringMVC 概述.md"
+    "自学/Java/JavaWEB/SpringMVC/4. RESTful风格案例.md"
   ]
 }
